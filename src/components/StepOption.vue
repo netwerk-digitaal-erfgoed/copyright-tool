@@ -5,8 +5,7 @@
       :value="option.key"
       :name="questionKey"
       v-model="selected"
-    />
-    <strong>{{ option.text }}</strong><br/>
+    /> <strong>{{ option.text }}</strong><br/>
     {{ option.description }}
   </label>
 </template>

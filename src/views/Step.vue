@@ -1,8 +1,5 @@
 <template>
   <div class="container">
-    <div v-if="allSelected.length > 0">
-      {{ allSelected }}
-    </div>
     <div v-if="question">
       <StepQuestion
         :question="question.question"

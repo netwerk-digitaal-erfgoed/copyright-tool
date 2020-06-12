@@ -3,6 +3,16 @@
 body {
 	background-color: #54c5f0;
   font-family: 'Rubik', sans-serif;
+  line-height: 1.5;
+}
+
+h1, p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  line-height: 1;
 }
 
 .container {
@@ -14,6 +24,7 @@ body {
 
   .intro {
     max-width: 60vw;
+    margin-bottom: 2rem;
   }
 }
 
@@ -31,6 +42,7 @@ fieldset {
   margin-bottom: 4rem;
 
 	label {
+    flex: 1;
 		flex-grow: 1;
 		padding: 2rem;
 		border: 1px solid black;
