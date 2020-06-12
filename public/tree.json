@@ -1,0 +1,124 @@
+{
+	"tree": { 
+    "publicationdate": {
+      "question": "Is het werk beschermd?",
+      "description": "Er zijn een aantal hoofdregels om te bepalen of een werk nog steeds auteursrechtelijk beschermd is. Als de maker van het werk een persoon is, dan vervallen de auteursrechten 70 jaar na zijn of haar dood. Als een rechtspersoon de maker is, dan vervallen de rechten 70 jaar na datum van publicatie. Omdat deze informatie niet altijd voorhanden is, kan er ook een andere vuistregel worden toegepast: Is een werk meer dan 150 jaar geleden gepubliceerd, dan is het vrijwel zeker auteursrechtvrij. Het werk kan dan vrij worden gebruikt. Als het werk minder dan 150 jaar geleden is gepubliceerd, dan is nader onderzoek nodig door de volgende stappen te volgen.",
+      "options": [{
+        "key": "before150",
+        "text": "Publicatie > 150 jaar geleden",
+        "result": "publicdomain"
+      },
+      {
+        "key": "after150",
+        "text": "Publicatie < 150 jaar geleden",
+        "next": "work"
+      }]
+    },
+    "work": {
+      "question": "Wat voor een type werk is het?",
+      "description": "Auteursrechten zijn per soort werk verschillend geregeld. Om de juiste stappen in het beslismodel te doorlopen vragen wij u een keuze te maken tussen de volgende soorten werken.",
+      "options": [{
+        "key": "photo",
+        "text": "Foto",
+        "description": "Onder Fotowerken worden fotografische kunstwerken verstaan, maar ook amateurfotografie.",
+        "next": "maker"
+      },
+      {
+        "key": "art",
+        "text": "Kunstwerken",
+        "description": "Onder Kunstwerken wordt beeldende- en toegepaste kunst verstaan",
+        "next": "maker"
+      },
+      {
+        "key": "text",
+        "text": "Boeken/Tekstpublicaties",
+        "description": "Onder boeken en tekstpublicaties wordt verstaan: literatuurwerken, wetenschappelijke teksten, artistieke boeken, brochures, kranten, tijdschriften en ander geschreven werk.",
+        "next": "sale"
+      },
+     {
+        "key": "film",
+        "text": "Filmwerken",
+        "next": "maker"
+      }]
+    },
+    "sale": {
+      "question": "Is het werk nog in de handel?",
+      "description": "",
+      "options": [{
+        "key": "no",
+        "text": "Nee",
+        "result": "publicdomain"
+      },
+      {
+        "key": "yes",
+        "text": "Ja",
+        "next": "maker"
+      }]
+    },
+    "component": {
+      "question": "Bestaat het werk uit een of meer componenten?",
+      "description": "Toelichting",
+      "options": [{
+        "key": "one",
+        "text": "Een component",
+        "next": "maker"
+      },
+      {
+        "key": "more",
+        "text": "Meerdere componenten",
+        "result": "morecomponents"
+      }]
+    },
+    "maker": {
+      "question": "Zijn er bij de totstandkoming van het werk meerdere makers betrokken?",
+      "description": [
+        "Aan de totstandkoming van een werk leveren soms meerdere makers een bijdrage. Het meest uitgesproken voorbeeld hiervan is een film, waarbij het eindproduct het resultaat is van vele creatieve bijdragen. Juist vanwege die veelheid, komen de rechten (behalve van de filmmuziek) vaak bij de producent te liggen, zodat er één aanspreekpunt is als rechthebbende.",
+        "Andere typen werken kunnen ook meerdere makers hebben. Denk aan een kunstenaarsduo, waarbij ieder de helft van het auteursrecht op het gemaakte werk heeft. Of aan een boek, waarin naast de geschreven tekst van de auteur ook ander werk in voorkomt, bijvoorbeeld als illustratie.",
+        "Collectie beherende instellingen fotograferen de werken in hun collectie. Ook dan kan sprake van een stapeling van auteursrechten: Het auteursrecht op het gefotografeerde kunstwerk en het auteursrecht van de fotograaf. De vuistregel hierin is er bij een nauwkeurige reproductie van een 2D-werk geen nieuwe auteursrechten ontstaan. Dat is anders bij een 3D-werk, dan maakt de fotograaf namelijk eigen keuzes in hoek en belichting. Kijk in dit geval of er afspraken zijn gemaakt met de fotograaf."
+      ],
+      "options": [{
+        "key": "no",
+        "text": "Nee",
+        "next": "who"
+      },
+      {
+        "key": "yes",
+        "text": "Ja",
+        "result": "publicdomain"
+      }]
+    },
+    "who": {
+      "question": "Waar liggen de rechten?",
+      "description": "Om een regeling te kunnen treffen met de rechthebbende(n), is het nodig om te weten wie dat is/zijn. De maker(s) van een werk is vaak de rechthebbende, maar dat hoeft niet. Rechten kunnen na overlijden van de maker bij een of meer erfgenamen liggen of de rechten kunnen zijn overgedragen aan een stichting of een collectieve beheerorganisatie. In het geval van films is er een vermoeden van overdracht aan de producent (behalve de filmmuziek), omdat de exploitatie van het werk anders zeer lastig wordt.",
+      "options": [{
+        "key": "naturalperson",
+        "text": "Natuurlijk persoon",
+        "description": "Een natuurlijk persoon kan de maker van het werk zijn, of de erfgenamen wanneer de maker is overleden. Bij films is er een vermoeden van overdracht aan de producent.",
+        "result": "publicdomain"
+      },
+      {
+        "key": "otherorganisation",
+        "text": "Andere organisatie",
+        "description": "Een andere organisatie kan een stichting zijn die in het leven is geroepen om de belangen van een kunstenaar te behartigen. Het komt voor dat de auteursrechten van deze kunstenaar dan ook bij de stichting zijn ondergebracht.",
+        "result": "publicdomain"
+      },
+      {
+        "key": "ownorganisation",
+        "text": "Eigen organisatie",
+        "description": "Kunstenaar of hun erven kiezen er soms voor om de gehele eigen collectie onder te brengen bij een instelling, door schenking of legaat. Het komt voor dat hierbij ook de auteursrechten worden overgedragen. Dit kan worden geraadpleegd in het eigen archief van de instelling in een schenkings- of notariële akte.",
+        "result": "publicdomain"
+      },
+      {
+        "key": "collective",
+        "text": "Collectieve Beheerorganisatie",
+        "description": "Sommige rechthebbenden kiezen ervoor om hun rechten te laten beheren door een externe organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk.",
+        "result": "publicdomain"
+      },
+      {
+        "key": "unknown",
+        "text": "Onbekend of onvindbaar",
+        "result": "publicdomain"
+      }]
+    }
+  }
+}
