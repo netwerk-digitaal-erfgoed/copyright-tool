@@ -8,7 +8,9 @@ export default new Vuex.Store({
   state: {
     baseUrl: process.env.BASE_URL,
     allSelected: [],
-    treeCopyright: []
+    treeCopyright: [],
+    result: null,
+    theme: null
   },
 
   getters: {},
@@ -22,8 +24,14 @@ export default new Vuex.Store({
         state.allSelected[exists] = step;
       }
     },
+    removeStep(state) {
+      state.allSelected.splice(-1, 1);
+    },
     clearSelectedStep(state) {
       state.allSelected = [];
+    },
+    setResultText(state, result) {
+      state.result = result;
     },
     updateTree(state, data) {
       state.treeCopyright = data;
@@ -33,6 +41,12 @@ export default new Vuex.Store({
   actions: {
     updateSelectedSteps(context, step) {
       context.commit('updateSelectedSteps', step);
+    },
+    setResult(context, result) {
+      context.commit('setResultText', result);
+    },
+    removeStep(context) {
+      context.commit('removeStep');
     },
     clearSelectedSteps(context) {
       context.commit('clearSelectedStep');

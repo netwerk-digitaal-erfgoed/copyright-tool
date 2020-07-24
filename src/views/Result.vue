@@ -1,17 +1,53 @@
 <template>
-  <div class="container container-small">
-    <h1>Resultaat</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      fringilla bibendum feugiat. Pellentesque lobortis nibh augue, sit amet
-      molestie felis tincidunt et. Vestibulum nec eros mi. Praesent euismod elit
-      ligula, in ornare ante imperdiet non. Curabitur facilisis vehicula diam,
-      sit amet imperdiet urna efficitur quis. Etiam id pellentesque est.
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas.
-    </p>
-    <div class="buttons">
-      <router-link to="/step" tag="button">Start opnieuw</router-link>
+  <div
+    class="container columns-2"
+  >
+    <div>
+      <StepsProgress
+        current-theme="Resultaat"
+      />
+    </div>
+    <div class="column-result">
+      <div class="container container-small padding-top-null">
+        <h1>Resultaat</h1>
+        <p>
+          {{ result }}
+        </p>
+        <div class="buttons">
+          <button type="button" v-on:click="resetTree">
+            Start opnieuw
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
+
+<script>
+  import { mapState } from 'vuex';
+  import StepsProgress from '../components/StepsProgress.vue';
+
+  export default {
+    components: {
+      StepsProgress
+    },
+
+    computed: {
+      ...mapState(['result'])
+    },
+
+    created() {
+      if (!this.result) {
+        return this.$router.push({ path: '/step' });
+      }
+    },
+
+    methods: {
+      resetTree() {
+        this.$store.dispatch('setResult', null);
+        this.$store.dispatch('clearSelectedSteps');
+        return this.$router.push({ path: '/step' });
+      }
+    }
+  };
+</script>

@@ -1,123 +1,267 @@
 {
 	"tree": { 
     "publicationdate": {
-      "question": "Is het werk beschermd?",
-      "description": "Er zijn een aantal hoofdregels om te bepalen of een werk nog steeds auteursrechtelijk beschermd is. Als de maker van het werk een persoon is, dan vervallen de auteursrechten 70 jaar na zijn of haar dood. Als een rechtspersoon de maker is, dan vervallen de rechten 70 jaar na datum van publicatie. Omdat deze informatie niet altijd voorhanden is, kan er ook een andere vuistregel worden toegepast: Is een werk meer dan 150 jaar geleden gepubliceerd, dan is het vrijwel zeker auteursrechtvrij. Het werk kan dan vrij worden gebruikt. Als het werk minder dan 150 jaar geleden is gepubliceerd, dan is nader onderzoek nodig door de volgende stappen te volgen.",
+      "question": "Wanneer is het werk gepubliceerd?",
+      "description": "Om te bepalen of een werk nog auteursrechtelijk beschermd is, kijk je al eerste naar het moment dat het werk gepubliceerd is. ",
+      "theme": "Is het werk beschermd?",
       "options": [{
         "key": "before150",
-        "text": "Publicatie > 150 jaar geleden",
-        "result": "publicdomain"
+        "text": "Publicatie is meer dan 150 jaar geleden",
+        "result": "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein en kan vrij worden gebruikt."
       },
       {
         "key": "after150",
-        "text": "Publicatie < 150 jaar geleden",
+        "text": "Publicatie is minder of gelijk aan 150 jaar geleden",
+        "next": "maker"
+      },
+      {
+        "key": "never",
+        "text": "Het werk is nooit gepubliceerd",
+        "next": "demonstrated"
+      },
+      {
+        "key": "unknown",
+        "text": "Onbekend",
+        "next": "maker"
+      }]
+    },
+
+    "demonstrated": {
+      "question": "Heeft het werk een aantoonbare maker?",
+      "theme": "Is het werk beschermd?",
+      "options": [{
+        "key": "yes",
+        "text": "Ja",
+        "next": "maker"
+      },
+      {
+        "key": "no",
+        "text": "Nee",
+        "next": "notDemonstrated"
+      }]
+    },
+
+    "notDemonstrated": {
+      "question": "Wat is de datum van creatie?",
+      "theme": "Is het werk beschermd?",
+      "options": [{
+        "key": "notDemonstratedLess70",
+        "text": "Het moment van totstandkoming is minder dan 70 jaar geleden",
+        "next": "work"
+      },
+      {
+        "key": "notDemonstratedOver70",
+        "text": "Het moment van totstandkoming is meer dan 70 jaar geleden.",
+        "result": "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein en kan vrij worden gebruikt."
+      }]
+    },
+
+    "maker": {
+      "question": "Wie is de maker?",
+      "description": [
+        "Om te bepalen of een werk nog steeds auteursrechtelijk beschermd is, kijk je naar de maker van het werk.",
+        "Wanneer een persoon aangemerkt staat als de maker van het werk, dan vervallen de auteursrechten 70 jaar na zijn of haar dood.",
+        "Wanneer een organisatie  aangemerkt staat als de maker van het werk, zoals een bedrijf of een uitgeverij, dan vervallen de rechten 70 jaar na datum van publicatie.",
+        "Wanneer er meerdere makers bij de totstandkoming van een gemeenschappelijk werk betrokken zijn, is de langstlevende maker leidend. De auteursrechten vervallen 70 jaar na zijn of haar dood.",
+        "Wanneer een werk uit meerdere componenten bestaat, moet per component worden bekeken of het werk nog beschermd wordt door auteursrechten, en moeten er per component afspraken over gebruik worden gemaakt."
+      ],
+      "theme": "Is het werk beschermd?",
+      "options": [{
+        "key": "natural",
+        "text": "De maker is een natuurlijk persoon",
+        "description": [
+          "Het auteursrecht komt in de meeste gevallen toe aan een natuurlijk persoon, als maker van het werk. Diegene die het werk heeft gecreëerd, is auteursrechthebbende op het werk geworden."
+        ],
+        "next": "makerIsPerson"
+      },
+      {
+        "key": "legal",
+        "text": "De maker is een rechtspersoon",
+        "description": [
+          "Het auteursrecht op een werk kan toekomen aan een rechtspersoon, wanneer de rechtspersoon staat vermeld als maker van het werk. Hier wordt onder meer onder verstaan: openbare instelling, vereniging, stichting, vennootschap, uitgeverij, bedrijf. Ook wanneer een rechtspersoon het werk openbaar maakt alsof het van haar afkomstig is, en niet apart de naam van een natuurlijk persoon als maker te vermeldt, dan wordt de rechtspersoon gezien als de maker."
+        ],
+        "next": "makerIsOrganisation"
+      },
+      {
+        "key": "moreOneWork",
+        "text": "Het werk heeft meerdere makers en is een gemeenschappelijk werk.",
+        "description": [
+          "Het auteursrecht op een werk kan aan twee of meer personen toekomen. Dit is wanneer een nieuw en ondeelbaar werk tot stand is gekomen uit de creatieve bijdrage van meerdere personen. Wanneer de afzonderlijke bijdragen niet meer te scheiden zijn in het uiteindelijke werk wordt gesproken van een gemeenschappelijk werk. De makers hebben allemaal auteursrecht op het werk (en moeten allemaal toestemming geven voor gebruik), maar de auteursrechten vervallen 70 jaar na de dood van de langstlevende maker.", 
+"Voorbeelden hiervan zijn twee beeldende kunstenaars die samen een object maken of artiesten die samen een nummer componeren."
+        ],
+        "next": "makerIsMoreOneWork"
+      },
+      {
+        "key": "moreMultipleWorks",
+        "text": "Het werk heeft meerdere makers en bestaat uit meerdere losse componenten.",
+        "description": [
+          "Er kunnen meerdere op zichzelf staande auteursrechten op een werk rusten wanneer er sprake is van een combinatie van losse werken die worden samengebracht. Door het samenbrengen van de losse componenten kan ook een nieuw werk zijn ontstaan, maar als ieder component afzonderlijk herkenbaar is, dan heeft de maker van dat component een apart auteursrecht daarop. Een gebruiker dient per component te bepalen of het werk nog beschermd is en bij wie de rechten liggen.",
+          "Voorbeelden hiervan zijn: films, waarbij de film en de filmmuziek meestal worden gezien als twee deelbare componenten (waarbij ieder component een gemeenschappelijk werk is). Een samengesteld (foto)boek, waarbij de in het boek verzamelde componenten ook buiten deze context gebruikt kunnen worden en dus eigen auteursrecht hebben. Een televisieprogramma waarbij fragmenten uit andere films, programma’s of beeldende kunst getoond worden.",
+          "Erfgoedinstellingen fotograferen de werken in hun collectie. Ook dan kan sprake zijn van meerdere componenten: Het auteursrecht op het gefotografeerde kunstwerk en het auteursrecht van de fotograaf. De vuistregel hierin is er bij een nauwkeurige reproductie van een 2D-werk geen nieuwe auteursrechten ontstaan. Dat is anders bij een 3D-werk, dan maakt de fotograaf namelijk eigen keuzes in hoek en belichting. Als de werken zijn gefotografeerd in opdracht kan de instelling rechthebbende zijn op basis van de arbeidsovereenkomst."
+        ],
+        "result": "Dit onderdeel wordt nog uitgewerkt."
+      }]
+    },
+
+    "makerIsPerson": {
+      "question": "Is de maker nog in leven, of wat is anders de overlijdensdatum van de maker?",
+      "theme": "Is het werk beschermd?",
+      "options": [{
+        "key": "personOver70",
+        "text": "De maker is meer dan 70 jaar geleden overleden",
+        "result": "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein en kan vrij worden gebruikt."
+      },
+      {
+        "key": "personAliveLess70",
+        "text": "De maker leeft nog, of is minder dan 70 jaar geleden overleden.",
+        "next": "work"
+      },
+      {
+        "key": "personUnknown",
+        "text": "Onbekend",
         "next": "work"
       }]
     },
+
+    "makerIsOrganisation": {
+      "question": "Wanneer is het werk gepubliceerd?",
+      "theme": "Is het werk beschermd?",
+      "options": [{
+        "key": "legalMore70",
+        "text": "Het werk is meer dan 70 jaar geleden gepubliceerd",
+        "result": "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein en kan vrij worden gebruikt."
+      },
+      {
+        "key": "legalLess70",
+        "text": "Het werk is minder dan 70 jaar geleden gepubliceerd.",
+        "next": "work"
+      },
+      {
+        "key": "legalUnknown",
+        "text": "Onbekend",
+        "next": "work"
+      }]
+    },
+
+    "makerIsMoreOneWork": {
+      "question": "Is de langstlevende maker nog in leven, of wat is anders de overlijdensdatum van de maker?",
+      "description": "Het bepalen van de rechten status van een werk begint altijd bij kennis over de vervaardigers. Indien je deze informatie al paraat hebt, dan kan je direct bepalen of een werk nog auteursrechtelijk beschermd is.",
+      "theme": "Is het werk beschermd?",
+      "options": [{
+        "key": "moreOneWorkOver70",
+        "text": "De langstlevende maker is meer dan 70 jaar geleden overleden",
+        "result": "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein en kan vrij worden gebruikt."
+      },
+      {
+        "key": "moreOneWorkLess70",
+        "text": "De langstlevende maker leeft nog, of is minder dan 70 jaar geleden overleden.",
+        "next": "work"
+      },
+      {
+        "key": "moreOneWorkUnknown",
+        "text": "Onbekend",
+        "next": "work"
+      }]
+    },
+
     "work": {
       "question": "Wat voor een type werk is het?",
-      "description": "Auteursrechten zijn per soort werk verschillend geregeld. Om de juiste stappen in het beslismodel te doorlopen vragen wij u een keuze te maken tussen de volgende soorten werken.",
+      "description": "Auteursrechten zijn per type werk verschillend geregeld. Om de juiste stappen in het beslismodel te doorlopen vragen wij u een keuze te maken tussen de volgende soorten werken.",
+      "theme": "Waar liggen de rechten?",
       "options": [{
         "key": "photo",
-        "text": "Foto",
+        "text": "Fotografische werken",
         "description": "Onder Fotowerken worden fotografische kunstwerken verstaan, maar ook amateurfotografie.",
-        "next": "maker"
+        "next": "owner"
       },
       {
         "key": "art",
-        "text": "Kunstwerken",
-        "description": "Onder Kunstwerken wordt beeldende- en toegepaste kunst verstaan",
-        "next": "maker"
+        "text": "Teken- en schilderwerken",
+        "description": "Onder teken- en schilderwerken worden tekeningen, schilderwerken, beeldhouwwerken, lithografieën, graveer- en andere plaatwerken verstaan.",
+        "next": "owner"
       },
       {
         "key": "text",
-        "text": "Boeken/Tekstpublicaties",
+        "text": "Boeken en Tekstpublicaties",
         "description": "Onder boeken en tekstpublicaties wordt verstaan: literatuurwerken, wetenschappelijke teksten, artistieke boeken, brochures, kranten, tijdschriften en ander geschreven werk.",
         "next": "sale"
       },
-     {
-        "key": "film",
+      {
+        "key": "text",
         "text": "Filmwerken",
-        "next": "maker"
+        "description": "Onder Films worden niet alleen traditionele films en televisieprogramma’s verstaan, maar ook (via het internet) verkrijgbare audiovisuele werken, zoals videoclips, computerspellen en multimediaproducties.",
+        "next": "owner"
       }]
     },
+
     "sale": {
       "question": "Is het werk nog in de handel?",
       "description": "",
+      "theme": "Waar liggen de rechten?",
       "options": [{
         "key": "no",
         "text": "Nee",
-        "result": "publicdomain"
+        "result": "Dit onderdeel wordt nog uitgewerkt."
       },
       {
         "key": "yes",
         "text": "Ja",
-        "next": "maker"
+        "next": "owner"
       }]
     },
-    "component": {
-      "question": "Bestaat het werk uit een of meer componenten?",
-      "description": "Toelichting",
+
+    "owner": {
+      "question": "Bij wie liggen de rechten?",
+      "description": "Om een regeling te kunnen treffen met de rechthebbende(n), is het nodig om te weten wie dat is/zijn. De maker(s) van een werk is vaak de rechthebbende, maar dat hoeft niet. Rechten kunnen na overlijden van de maker bij een of meer erfgenamen liggen of de rechten kunnen zijn overgedragen aan een stichting of een collectieve beheerorganisatie.",
+      "theme": "Waar liggen de rechten?",
       "options": [{
-        "key": "one",
-        "text": "Een component",
-        "next": "maker"
-      },
-      {
-        "key": "more",
-        "text": "Meerdere componenten",
-        "result": "morecomponents"
-      }]
-    },
-    "maker": {
-      "question": "Zijn er bij de totstandkoming van het werk meerdere makers betrokken?",
-      "description": [
-        "Aan de totstandkoming van een werk leveren soms meerdere makers een bijdrage. Het meest uitgesproken voorbeeld hiervan is een film, waarbij het eindproduct het resultaat is van vele creatieve bijdragen. Juist vanwege die veelheid, komen de rechten (behalve van de filmmuziek) vaak bij de producent te liggen, zodat er één aanspreekpunt is als rechthebbende.",
-        "Andere typen werken kunnen ook meerdere makers hebben. Denk aan een kunstenaarsduo, waarbij ieder de helft van het auteursrecht op het gemaakte werk heeft. Of aan een boek, waarin naast de geschreven tekst van de auteur ook ander werk in voorkomt, bijvoorbeeld als illustratie.",
-        "Collectie beherende instellingen fotograferen de werken in hun collectie. Ook dan kan sprake van een stapeling van auteursrechten: Het auteursrecht op het gefotografeerde kunstwerk en het auteursrecht van de fotograaf. De vuistregel hierin is er bij een nauwkeurige reproductie van een 2D-werk geen nieuwe auteursrechten ontstaan. Dat is anders bij een 3D-werk, dan maakt de fotograaf namelijk eigen keuzes in hoek en belichting. Kijk in dit geval of er afspraken zijn gemaakt met de fotograaf."
-      ],
-      "options": [{
-        "key": "no",
-        "text": "Nee",
-        "next": "who"
-      },
-      {
-        "key": "yes",
-        "text": "Ja",
-        "result": "publicdomain"
-      }]
-    },
-    "who": {
-      "question": "Waar liggen de rechten?",
-      "description": "Om een regeling te kunnen treffen met de rechthebbende(n), is het nodig om te weten wie dat is/zijn. De maker(s) van een werk is vaak de rechthebbende, maar dat hoeft niet. Rechten kunnen na overlijden van de maker bij een of meer erfgenamen liggen of de rechten kunnen zijn overgedragen aan een stichting of een collectieve beheerorganisatie. In het geval van films is er een vermoeden van overdracht aan de producent (behalve de filmmuziek), omdat de exploitatie van het werk anders zeer lastig wordt.",
-      "options": [{
-        "key": "naturalperson",
+        "key": "person",
         "text": "Natuurlijk persoon",
-        "description": "Een natuurlijk persoon kan de maker van het werk zijn, of de erfgenamen wanneer de maker is overleden. Bij films is er een vermoeden van overdracht aan de producent.",
-        "result": "publicdomain"
+        "description": [
+          "Wanneer de maker van het werk een persoon is en hij of zij heeft de rechten nooit overgedragen aan een ander, dan is de maker zelf de rechthebbende. Je kan de maker benaderen voor afspraken over gebruik.",
+          "Wanneer de maker is overleden, zijn de auteursrechten overgegaan op zijn of haar erfgenamen. Raadpleeg het collectie informatiesysteem of het internet om erachter te komen wie de erven zijn om afspraken over gebruik te maken.",
+          "Omdat auteursrechten blijven bestaan tot 70 jaar na de dood van de maker, kan na verloop van tijd niet altijd achterhaald worden wie de erven zijn. Maak altijd een afweging tussen het te behalen resultaat en de tijd die het kost om hier te komen. Als de auteursrechten op een werk komen te vervallen over enkele jaren, dan kan je ervoor kiezen om nog even te wachten op dit moment."
+        ],
+        "result": "Maak afspraken met de maker, of wanneer deze is overleden met zijn erven."
+      },
+      {
+        "key": "legal",
+        "text": "Rechtspersoon",
+        "description": [ 
+          "Wanneer de maker van het werk een rechtspersoon dat de rechten nooit heeft overgedragen aan een ander, dan is de rechtspersoon zelf de rechthebbende. Je kan de rechtspersoon benaderen voor afspraken over gebruik.",
+          "Omdat het werk van een rechtspersoon beschermd blijft tot 70 jaar na publicatie, bestaat de rechtspersoon na verloop van tijd niet altijd nog in de oorspronkelijk vorm. Een bedrijf kan zijn opgeheven of doorverkocht."
+        ],
+        "result": "Maak afspraken met de organisatie."
       },
       {
         "key": "otherorganisation",
         "text": "Andere organisatie",
-        "description": "Een andere organisatie kan een stichting zijn die in het leven is geroepen om de belangen van een kunstenaar te behartigen. Het komt voor dat de auteursrechten van deze kunstenaar dan ook bij de stichting zijn ondergebracht.",
-        "result": "publicdomain"
+        "description": [
+          "Een andere organisatie kan een stichting zijn die in het leven is geroepen om de belangen van een kunstenaar te behartigen. Het komt voor dat de auteursrechten van deze kunstenaar dan ook bij de stichting zijn ondergebracht. Raadpleeg hiervoor het internet en kijk of er een stichting om afspraken te maken over gebruik.",
+          "In het geval van films is er een vermoeden van overdracht aan de producent (behalve de filmmuziek), omdat de exploitatie van het werk anders zeer lastig wordt."
+        ],
+        "result": "Maak afspraken met de stichting."
       },
       {
-        "key": "ownorganisation",
-        "text": "Eigen organisatie",
-        "description": "Kunstenaar of hun erven kiezen er soms voor om de gehele eigen collectie onder te brengen bij een instelling, door schenking of legaat. Het komt voor dat hierbij ook de auteursrechten worden overgedragen. Dit kan worden geraadpleegd in het eigen archief van de instelling in een schenkings- of notariële akte.",
-        "result": "publicdomain"
+        "key": "chi",
+        "text": "Erfgoedinstelling",
+        "description": [
+          "Makers, of hun erven, kiezen er soms voor om de gehele eigen collectie onder te brengen bij een instelling waar ze een goede relatie mee hebben, door schenking of legaat. Het komt voor dat hierbij ook de auteursrechten worden overgedragen. Als je eigen instelling deze relatie heeft, kan  dit worden geraadpleegd in het eigen archief in een schenkings- of notariële akte. Als je weet dat een andere instelling deze relatie heeft (wanneer er bijvoorbeeld veel werken van de maker in die collectie zitten) kan je die instelling benaderen."
+        ],
+        "result": "Als je eigen instelling auteursrechthebbende is op de werken van deze maker kan je de werken vrij gebruiken. Wij adviseren de werken te delen onder de volgende Creative Commons licentie: CC-BY-SA. Als een andere erfgoedinstelling auteursrechthebbende is op de werken van deze kunstenaar, dan kan je contact opnemen met deze instelling."
       },
       {
         "key": "collective",
         "text": "Collectieve Beheerorganisatie",
-        "description": "Sommige rechthebbenden kiezen ervoor om hun rechten te laten beheren door een externe organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk.",
-        "result": "publicdomain"
+        "description": [
+          "Sommige rechthebbenden kiezen ervoor om hun rechten te laten beheren door een externe organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie voor het betreffende type werk."
+        ],
+        "result": "Maak afspraken met de betreffende collectieve beheerorganisatie."
       },
       {
         "key": "unknown",
         "text": "Onbekend of onvindbaar",
-        "result": "publicdomain"
+        "result": "Dit onderdeel wordt nog uitgewerkt."
       }]
     }
   }
