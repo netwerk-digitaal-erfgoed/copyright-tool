@@ -3,7 +3,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store/store';
 import VModal from 'vue-js-modal';
-import Hotjar from 'vue-hotjar';
+// import Hotjar from 'vue-hotjar';
 
 Vue.config.productionTip = false;
 
@@ -14,8 +14,8 @@ new Vue({
 }).$mount('#app');
 
 Vue.use(VModal);
-Vue.use(Hotjar, {
+/* Vue.use(Hotjar, {
   id: '1813134',
   snippetVersion: 6,
   isProduction: true
-});
+}); */

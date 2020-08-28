@@ -8,7 +8,9 @@
     >
       {{ description }}
     </p>
-    <div v-else-if="typeof description === 'object'">
+    <div
+      v-else-if="typeof description === 'object'"
+    >
       <div v-for="(paragraph, index) in description" :key="index">
         <p v-if="index === 0">{{ paragraph }}</p>
       </div>
