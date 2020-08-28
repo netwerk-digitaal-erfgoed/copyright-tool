@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Intro from '../views/Intro.vue';
 import Step from '../views/Step.vue';
 import Result from '../views/Result.vue';
+import NotFound from '../views/NotFound.vue';
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,12 @@ const routes = [
     name: 'step',
     component: Step,
     meta: { title: 'Stap | Beslismodel auteursrechten' }
+  },
+  { // catch all 404 - define at the very end
+    path: '*',
+    name: 'notfound',
+    component: NotFound,
+    meta: { title: '404 | Beslismodel auteursrechten' }
   }
 ];
 
