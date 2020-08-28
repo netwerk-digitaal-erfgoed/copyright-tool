@@ -2,8 +2,19 @@
 
 body {
 	background-color: #54c5f0;
+  color: #000;
   font-family: 'Rubik', sans-serif;
   line-height: 1.5;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    background-color: #fff;
+    text-decoration: none;
+  }
 }
 
 h1, p {
@@ -23,8 +34,26 @@ h1 {
   }
 
   @media only screen and (min-width: 768px) {
+    &.columns-2 {
+      display: flex;
+
+      > div {
+        padding-right: 1rem;
+
+        &.column-questions,
+        &.column-result {
+          padding-left: 1rem;
+          flex: 1;
+        }
+      }
+    }
+
     &.container-small {
       max-width: 60vw;
+    }
+
+    &.padding-top-null {
+      padding-top: 0;
     }
 
     .intro {
@@ -33,9 +62,64 @@ h1 {
   }  
 }
 
+.readmore {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  text-transform: none;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-decoration: none;
+
+  &:after {
+    content: '>';
+    padding-left: 0.25rem;
+  }
+}
+
+.more-info {
+  border-radius: 50%;
+  border: 1px solid black;
+  font-weight: bold;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
 fieldset {
 	border: 0;
   padding: 0;
+}
+
+.progress {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.875rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+
+  li {
+    padding: 0.5rem 1rem;
+    position: relative;
+
+    &.active {
+      background: #000;
+      color: #fff;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 0; 
+        height: 0; 
+        border-top: 0.5rem solid transparent;
+        border-bottom: 0.5rem solid transparent;        
+        border-left: 0.5rem solid #54c5f0;
+      }
+    }
+  }
 }
 
 .steps {
@@ -50,11 +134,20 @@ fieldset {
     flex-direction: row;
   }
 
-	label {
+	div {
     flex: 1;
 		flex-grow: 1;
-		padding: 2rem;
+    font-size: 0.875rem;
+		padding: 1rem;
 		border: 1px solid black;
+
+    label {
+      display: block;
+    }
+
+    strong {
+      font-size: 1rem;
+    }
 	}
 }
 
@@ -63,10 +156,26 @@ fieldset {
   flex-direction: row;
   justify-content: flex-end;
 
+  .button-link {
+    background: none;
+    box-shadow: none;
+    text-transform: none;
+    line-height: 1.5;
+    padding: 0.5rem 0;
+    margin-right: 1rem;
+    text-decoration: none;
+
+    &:hover {
+      background: none;
+      text-decoration: underline;
+    }
+  }
+
   button {
     background-color: white;
     border: 0;
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.5);
+    line-height: 1.5;
     padding: 0.5rem;
     text-transform: uppercase;
 
@@ -74,4 +183,8 @@ fieldset {
       box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.1);
     }
   }
+}
+
+.modal-content {
+  padding: 1rem;
 }
