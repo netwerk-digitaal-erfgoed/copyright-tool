@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="showMultiple">
     <label class="radio">
       <input
         type="radio"
@@ -15,6 +15,8 @@
 </template>
 
 <script>
+  import { mapState } from 'vuex';
+
   export default {
     name: 'StepOption',
 
@@ -24,6 +26,7 @@
     },
 
     computed: {
+      ...mapState(['isMultiple']),
       selected: {
         get() {
           return this.option;
@@ -31,6 +34,11 @@
         set() {
           this.$emit('change', this.option);
         }
+      },
+      showMultiple() {
+        if (this.option.key !== 'moreMultipleWorks') return true;
+        if (!this.isMultiple) return true;
+        return false;
       },
       explanation() {
         if (this.option.description && typeof this.option.description === 'string') {

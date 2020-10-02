@@ -20,7 +20,7 @@
 
     data() {
       return {
-        themes: ['Is het werk beschermd?', 'Waar liggen de rechten?', 'Resultaat']
+        themes: ['Is het werk beschermd?', 'Wie is rechthebbende?', 'Waar liggen de rechten?', 'Resultaat']
       };
     }
   };

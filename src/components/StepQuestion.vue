@@ -45,9 +45,7 @@
     methods: {
       showExplanation() {
         this.$modal.show(
-          { template: `<div class="modal-content" v-html="explanation">
-            </div>
-          `,
+          { template: '<div class="modal-content" v-html="explanation"></div>',
             props: ['explanation']
           },
           { explanation: this.explanation },
