@@ -46,6 +46,13 @@ export default new Vuex.Store({
     removeStep(state) {
       state.allSelected.splice(-1, 1);
     },
+    removeComponent(state) {
+      state.multipleComponents.splice(-1, 1);
+      state.multipleComponentNo--;
+    },
+    removeStepComponent(state) {
+      state.multipleComponents[state.multipleComponents.length - 1].steps.splice(-1, 1);
+    },
     clearSelectedSteps(state) {
       state.result = null;
       state.isMultiple = false;
@@ -81,6 +88,12 @@ export default new Vuex.Store({
     },
     removeStep(context) {
       context.commit('removeStep');
+    },
+    removeComponent(context) {
+      context.commit('removeComponent');
+    },
+    removeStepComponent(context) {
+      context.commit('removeStepComponent');
     },
     clearSelectedSteps(context) {
       context.commit('clearSelectedSteps');

@@ -17,7 +17,7 @@ a {
   }
 }
 
-h1, p {
+h1, p, ul {
   margin: 0;
   margin-bottom: 1rem;
 }
@@ -40,8 +40,12 @@ h1 {
       > div {
         padding-right: 1rem;
 
+        &.column-sidebar {
+          flex-basis: 12rem;
+        }
+
         &.column-questions,
-        &.column-result {
+        &.column-text {
           padding-left: 1rem;
           flex: 1;
         }
@@ -54,6 +58,10 @@ h1 {
 
     &.padding-top-null {
       padding-top: 0;
+    }
+
+    &.padding-null {
+      padding: 0;
     }
 
     .intro {
@@ -194,4 +202,16 @@ fieldset {
 
 .modal-content {
   padding: 1rem;
+}
+
+.accordion {
+  margin-bottom: 2rem;
+
+  > div > a {
+    display: block;
+    padding: 0.5rem;
+    background: #aee4f8;
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
 }

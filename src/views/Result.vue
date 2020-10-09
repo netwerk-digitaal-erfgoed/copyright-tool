@@ -2,13 +2,13 @@
   <div
     class="container columns-2"
   >
-    <div>
+    <div class="column-sidebar">
       <StepsProgress
         current-theme="Resultaat"
       />
     </div>
-    <div class="column-result">
-      <div class="container container-small padding-top-null">
+    <div class="column-text">
+      <div class="container container-small padding-null">
         <h1>Resultaat</h1>
         <ul>
           <li
@@ -20,12 +20,13 @@
         </ul>
         <template v-if="multipleComponents.length > 0">
           <h2>Componenten</h2>
-          <ul>
-            <li
+          <div class="accordion">
+            <div
               v-for="(component, index) in multipleComponents"
               :key="index"
             >
-                {{ index + 1 }} {{ component.name }}
+              <a>{{ index + 1 }} {{ component.name }}</a>
+              <div class="panel">
                 <ul v-if="component.steps.length > 0">
                   <li
                     v-for="(step, index) in component.steps"
@@ -46,8 +47,9 @@
                     <p v-html="paragraph" />
                   </div>
                 </div>
-            </li>
-          </ul>
+              </div>
+            </div>
+          </div>
         </template>
         <template v-if="!isMultiple">
           <p

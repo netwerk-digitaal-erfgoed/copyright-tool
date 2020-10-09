@@ -13,6 +13,7 @@
     "core-js": "^3.6.4",
     "normalize.css": "^8.0.1",
     "vue": "^2.6.11",
+    "vue-faq-accordion": "^1.6.2",
     "vue-hotjar": "^1.1.2",
     "vue-js-modal": "^2.0.0-rc.6",
     "vue-router": "^3.1.5",

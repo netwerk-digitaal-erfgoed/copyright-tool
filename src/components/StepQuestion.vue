@@ -11,11 +11,16 @@
     <div
       v-else-if="typeof description === 'object'"
     >
-      <div v-for="(paragraph, index) in description" :key="index">
-        <p v-if="index === 0">{{ paragraph }}</p>
-      </div>
+      <template v-if="showDescription">
+        <p v-for="(paragraph, index) in description" :key="index" v-html="paragraph"/>
+      </template>
+      <template v-else>
+        <div v-for="(paragraph, index) in description" :key="index">
+          <p v-if="index === 0">{{ paragraph }}</p>
+        </div>
+      </template>
     </div>
-    <button class="readmore" v-if="typeof description === 'object' && description.length > 1" @click="showExplanation">
+    <button class="readmore" v-if="typeof description === 'object' && description.length > 1 && !showDescription" @click="showExplanation">
       Toelichting
     </button>
   </div>
@@ -27,7 +32,8 @@
 
     props: {
       question: String,
-      description: [String, Array]
+      description: [String, Array],
+      showDescription: Boolean
     },
 
     computed: {

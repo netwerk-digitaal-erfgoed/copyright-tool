@@ -3,7 +3,7 @@
     v-if="question"
     class="container columns-2"
   >
-    <div>
+    <div class="column-sidebar">
       <StepsProgress
         :current-theme="question.theme"
       />
@@ -11,11 +11,15 @@
     <div class="column-questions">
       <div>
         <p v-if="isMultiple && multipleComponentNo > 0 && !question.input">
-          Je doorloopt het beslismodel voor: {{ multipleComponentNo }} {{ componentName.name }}
+          Je doorloopt het beslismodel voor: {{ multipleComponentNo }}
+          <span v-if="componentName">
+            {{ componentName.name }}
+          </span>
         </p>
         <StepQuestion
           :question="question.question"
           :description="question.description"
+          :show-description="question.showDescription"
         />
         <form
           v-if="question.options || question.input"
@@ -42,7 +46,7 @@
             </div>
           </fieldset>
           <div class="buttons">
-            <a v-if="allSelected.length > 0" @click="prevStep" class="button-link">&#60; Vorige stap</a>
+            <a v-if="allSelected.length > 0 && questionKey !== 'publicationdate'" @click="prevStep" class="button-link">&#60; Vorige stap</a>
             <button
               type="button"
               @click="nextStep"
@@ -112,7 +116,22 @@
 
     methods: {
       prevStep() {
-        this.$store.dispatch('removeStep');
+        if (this.isMultiple) {
+          // verwijder component uit multiplecomponents array
+          if (this.questionKey === 'maker') {
+            this.$store.dispatch('removeComponent');
+          } else if (this.questionKey === 'makerIsMoreMultipleWork') {
+            this.$store.dispatch('setMultipleMakersMultipleWorks', false);
+          } else {
+            this.$store.dispatch('removeStepComponent');
+          }
+        } else {
+          if (this.questionKey === 'makerIsMoreMultipleWork') {
+            this.$store.dispatch('setMultipleMakersMultipleWorks', false);
+          } else {
+            this.$store.dispatch('removeStep');
+          }
+        }
         this.$router.go(-1);
       },
       nextStep() {
