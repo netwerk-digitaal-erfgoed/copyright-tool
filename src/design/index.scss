@@ -169,6 +169,7 @@ fieldset {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  cursor: pointer;
 
   .button-link {
     background: none;
@@ -213,5 +214,49 @@ fieldset {
     background: #aee4f8;
     text-decoration: none;
     margin-bottom: 1rem;
+  }
+}
+
+.faq-accordion {
+  margin-bottom: 2rem;
+
+  > div {
+    margin-bottom: 0.5rem;
+  }
+
+  .faq-accordion-heading {
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem;
+    position: relative;
+    background: #aee4f8;
+    text-decoration: none;
+
+    &:after {
+      content: '+';
+      position: absolute;
+      right: 1rem;
+    }
+  }
+
+  .faq-accordion-content {
+    padding: 1rem;
+    display: none;
+  }
+
+  .faq-active {
+    .faq-accordion-heading {
+      background: #fff;
+
+      &:after {
+        content: '-';
+        position: absolute;
+        right: 1rem;
+      }
+    }
+
+    .faq-accordion-content {
+      display: block;
+    }
   }
 }

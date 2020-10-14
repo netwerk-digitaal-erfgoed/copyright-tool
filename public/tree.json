@@ -30,8 +30,11 @@
           "Dit geldt niet per definitie voor alle amateurwerken, want nieuwere foto’s en filmpjes die op internet of social media hebben gestaan vallen altijd onder werken die wél zijn gepubliceerd."
         ],
         "result": [
-          "De beschermingsduur van niet gepubliceerde werken wordt berekend op basis van de maker.  De auteursrechten vervallen 70 jaar na de dood van de natuurlijke maker, op 1 januari van het opvolgende jaar.",
-          "Wanneer de maker van het werk niet bekend is, dan vervallen de auteursrechten van niet gepubliceerde werken 70 jaar na totstandkoming van het werk."
+          "De beschermingsduur van niet gepubliceerde werken wordt berekend op basis van de maker. De auteursrechten vervallen 70 jaar na de dood van de natuurlijke maker, op 1 januari van het opvolgende jaar.",
+          "Wanneer de maker van het werk niet bekend is, dan vervallen de auteursrechten van niet gepubliceerde werken 70 jaar na totstandkoming van het werk.",
+          "Als de auteursrechten zijn vervallen op basis van een van deze situaties, dan is het werk niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.",
+          "<strong>Verweesde werken</strong><br>Wanneer het werk nog wel valt onder de bescherming van het auteursrecht, kunnen ingeval van films en boek- of tekstpublicaties werken als verweesd worden verklaard wanneer de rechthebbende onbekend of onvindbaar is. Je kan het werk als verweesd registreren na uitgebreid onderzoek ('diligent search'), waarna je de film of de tekst onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je de film of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij publicatie: <ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houdt rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
         ]
       }]
     },
@@ -177,7 +180,8 @@
           "Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
           "NB: Niet voor elke soort publicatie hoef je toe stemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is. (hier verwijzen naar document met uitleg van de excepties)"
-        ]
+        ], 
+        "showActionPerspective": true
       },
       {
         "key": "otherHasRights",
@@ -188,7 +192,8 @@
           "Stichtingen schrijven de maker van wie zij de rechten beheren vaak in bij een Collectieve Beheerorganisatie (CBO). De rechten worden dan beheerd door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
           "NB: Niet voor elke soort publicatie hoef je toestemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is. (hier verwijzen naar document met uitleg van de excepties)"
-        ]
+        ], 
+        "showActionPerspective": true
       },
       {
         "key": "printerProducer",
@@ -232,7 +237,9 @@
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of tekstpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
-      ]},
+        ], 
+        "showActionPerspective": true
+      },
       {
         "key": "printerProducerHandover",
         "text": "Er heeft een overdracht van auteursrechten plaatsgevonden aan de uitgever/producent.",
@@ -246,7 +253,8 @@
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of de tesktpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
-        ]
+        ], 
+        "showActionPerspective": true
       },
       {
         "key": "printerProducerHasRights",
@@ -263,7 +271,8 @@
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of de tesktpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
-        ]
+        ], 
+        "showActionPerspective": true
       }]
     },
 
@@ -287,7 +296,8 @@
         "result": [
           "Wanneer alle makers van de film (of hun erfopvolgers) bekend en vindbaar zijn kan je met hen afspraken maken over gebruik van de film. Hoe ouder de opnames zijn, hoe lastiger het is om de identiteit van de maker of van de rechthebbenden te achterhalen.  Als rechthebbenden niet meer te achterhalen zijn, kan het zijn dat een amateuropname verweesd kan worden verklaard.",
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
-        ]
+        ], 
+        "showActionPerspective": true
       }]
     },
 
@@ -317,7 +327,8 @@
           "Wanneer alle makers van de film (of hun erfopvolgers) bekend en vindbaar zijn kan je met hen afspraken maken over gebruik van de film.",
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
           "Wanneer slechts enkele makers van de film (of hun erfopvolgers) bekend en vindbaar zijn maak je afspraken over gebruik met deze rechthebbenden, verklaar het overige deel van de film als verweesd."
-        ]
+        ], 
+        "showActionPerspective": true
       }]
     },
 
@@ -333,7 +344,8 @@
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
-        ]
+        ], 
+        "showActionPerspective": true
       },
       {
         "key": "beforeAugust1985",
@@ -345,7 +357,8 @@
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
-        ]
+        ], 
+        "showActionPerspective": true
       }]
     }
 

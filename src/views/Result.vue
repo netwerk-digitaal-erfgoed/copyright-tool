@@ -72,6 +72,7 @@
           >
             Voeg nog een component toe
           </button>
+          <router-link v-if="showActionPerspective" to="/perspective" tag="button">Handelingsperspectief</router-link>
           <button type="button" v-on:click="resetTree">
             Start opnieuw
           </button>
@@ -91,7 +92,7 @@
     },
 
     computed: {
-      ...mapState(['allSelected', 'treeCopyright', 'result', 'isMultiple', 'multipleComponents'])
+      ...mapState(['allSelected', 'treeCopyright', 'result', 'isMultiple', 'multipleComponents', 'showActionPerspective'])
     },
 
     created() {

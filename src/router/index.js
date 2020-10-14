@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Intro from '../views/Intro.vue';
 import Step from '../views/Step.vue';
 import Result from '../views/Result.vue';
+import ActionPerspective from '../views/ActionPerspective.vue';
 import NotFound from '../views/NotFound.vue';
 
 Vue.use(VueRouter);
@@ -19,6 +20,12 @@ const routes = [
     name: 'result',
     component: Result,
     meta: { title: 'Resultaat | Beslismodel auteursrechten' }
+  },
+  {
+    path: '/perspective',
+    name: 'perspective',
+    component: ActionPerspective,
+    meta: { title: 'Handelingsperspectief | Beslismodel auteursrechten' }
   },
   {
     path: '/step/:step?',

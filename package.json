@@ -13,7 +13,6 @@
     "core-js": "^3.6.4",
     "normalize.css": "^8.0.1",
     "vue": "^2.6.11",
-    "vue-faq-accordion": "^1.6.2",
     "vue-hotjar": "^1.1.2",
     "vue-js-modal": "^2.0.0-rc.6",
     "vue-router": "^3.1.5",
@@ -30,7 +29,7 @@
     "chai": "^4.1.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   }
