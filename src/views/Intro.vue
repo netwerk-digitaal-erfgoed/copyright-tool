@@ -1,16 +1,23 @@
 <template>
-  <div class="container container-small">
-    <h1>Beslismodel auteursrechten</h1>
-    <p>Erfgoedcollecties zijn vaak omvangrijk en divers. Het is niet altijd duidelijk of een werk nog auteursrechtelijk beschermd is en bij wie vervolgens de auteursrechten liggen, ten behoeve het maken van afspraken met rechthebbenden. Dit beslismodel helpt je de juiste stappen in je onderzoek te nemen voor verschillende typen werken. Het model is een handvat voor het in kaart brengen van de situatie, welke keuzes je vervolgens maakt kan per instelling verschillen.
-    </p>
+<div
+    class="container columns-2"
+  >
+    <div class="column-sidebar" />
+    <div class="column-text">
+      <div class="container container-small padding-null">
+        <h1>Beslismodel auteursrechten</h1>
+        <p>Erfgoedcollecties zijn vaak omvangrijk en divers. Het is niet altijd duidelijk of een werk nog auteursrechtelijk beschermd is en bij wie vervolgens de auteursrechten liggen, ten behoeve het maken van afspraken met rechthebbenden. Dit beslismodel helpt je de juiste stappen in je onderzoek te nemen voor verschillende typen werken. Het model is een handvat voor het in kaart brengen van de situatie, welke keuzes je vervolgens maakt kan per instelling verschillen.
+        </p>
 
-    <p>Om de vragen in het beslismodel te kunnen beantwoorden, is informatie over het werk nodig. Soms kan je met minimale informatie al snel een sluitend antwoord krijgen op de auteursrechtenstatus van het werk. Bij meer complexe situaties zal het model je vragen om nader onderzoek te doen en hier handvatten voor geven.
-    </p>
+        <p>Om de vragen in het beslismodel te kunnen beantwoorden, is informatie over het werk nodig. Soms kan je met minimale informatie al snel een sluitend antwoord krijgen op de auteursrechtenstatus van het werk. Bij meer complexe situaties zal het model je vragen om nader onderzoek te doen en hier handvatten voor geven.
+        </p>
 
-    <button @click="showExplanation" class="readmore">Toelichting</button>
+        <button @click="showExplanation" class="readmore">Toelichting</button>
 
-    <div class="buttons">
-      <router-link to="/step" tag="button">Begin</router-link>
+        <div class="buttons">
+          <router-link to="/step" tag="button">Begin</router-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
