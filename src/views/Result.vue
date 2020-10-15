@@ -10,7 +10,7 @@
     <div class="column-text">
       <div class="container container-small padding-null">
         <h1>Resultaat</h1>
-        <ul>
+        <ul class="result-list">
           <li
             v-for="(step, index) in allSelected"
             :key="index">
@@ -65,16 +65,14 @@
           </div>
         </template>
         <div class="buttons">
+          <a @click="resetTree" class="button-link">&#60; Start opnieuw</a>
+          <router-link v-if="showActionPerspective" to="/perspective" tag="button">Lees over het handelingsperspectief</router-link>
           <button
             v-if="isMultiple"
             type="button"
             v-on:click="addAnotherComponent"
           >
             Voeg nog een component toe
-          </button>
-          <router-link v-if="showActionPerspective" to="/perspective" tag="button">Handelingsperspectief</router-link>
-          <button type="button" v-on:click="resetTree">
-            Start opnieuw
           </button>
         </div>
       </div>
