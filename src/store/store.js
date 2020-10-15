@@ -13,7 +13,8 @@ export default new Vuex.Store({
     theme: null,
     isMultiple: false,
     multipleComponentNo: 0,
-    multipleComponents: []
+    multipleComponents: [],
+    showActionPerspective: false
   },
 
   getters: {},
@@ -67,6 +68,9 @@ export default new Vuex.Store({
       }
       state.result = result;
     },
+    setActionPerspective(state, result) {
+      state.showActionPerspective = result;
+    },
     isMultipleMakersMultipleWorks(state, result) {
       state.isMultiple = result;
     },
@@ -85,6 +89,9 @@ export default new Vuex.Store({
     },
     setResult(context, result) {
       context.commit('setResultText', result);
+    },
+    setPerspective(context, result) {
+      context.commit('setActionPerspective', result);
     },
     removeStep(context) {
       context.commit('removeStep');
