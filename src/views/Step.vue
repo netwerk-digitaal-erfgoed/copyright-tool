@@ -143,7 +143,7 @@
             selected: this.selected.key
           });
           this.$store.dispatch('setResult', this.selected.result);
-          this.$store.dispatch('setPerspective', this.selected.showActionPerspective);
+          this.$store.dispatch('setPerspective', this.selected.showNextSteps);
           return this.$router.push({ path: '/result' });
         }
 
