@@ -5,7 +5,7 @@
     <div class="column-sidebar" />
     <div class="column-text">
       <div class="container container-small padding-null">
-        <h1>Beslismodel auteursrechten</h1>
+        <h1>Introductie</h1>
         <p>Erfgoedcollecties zijn vaak omvangrijk en divers. Het is niet altijd duidelijk of een werk nog auteursrechtelijk beschermd is en bij wie vervolgens de auteursrechten liggen, ten behoeve het maken van afspraken met rechthebbenden. Dit beslismodel helpt je de juiste stappen in je onderzoek te nemen voor verschillende typen werken. Het model is een handvat voor het in kaart brengen van de situatie, welke keuzes je vervolgens maakt kan per instelling verschillen.
         </p>
 

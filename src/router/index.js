@@ -3,7 +3,8 @@ import VueRouter from 'vue-router';
 import Intro from '../views/Intro.vue';
 import Step from '../views/Step.vue';
 import Result from '../views/Result.vue';
-import ActionPerspective from '../views/ActionPerspective.vue';
+import NextSteps from '../views/NextSteps.vue';
+import Colofon from '../views/Colofon.vue';
 import NotFound from '../views/NotFound.vue';
 
 Vue.use(VueRouter);
@@ -16,15 +17,21 @@ const routes = [
     meta: { title: 'Intro | Beslismodel auteursrechten' }
   },
   {
+    path: '/colofon',
+    name: 'colofon',
+    component: Colofon,
+    meta: { title: 'Colofon | Beslismodel auteursrechten' }
+  },
+  {
     path: '/result',
     name: 'result',
     component: Result,
     meta: { title: 'Resultaat | Beslismodel auteursrechten' }
   },
   {
-    path: '/perspective',
-    name: 'perspective',
-    component: ActionPerspective,
+    path: '/next-steps',
+    name: 'next-steps',
+    component: NextSteps,
     meta: { title: 'Handelingsperspectief | Beslismodel auteursrechten' }
   },
   {

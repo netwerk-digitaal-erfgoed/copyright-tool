@@ -14,7 +14,7 @@ export default new Vuex.Store({
     isMultiple: false,
     multipleComponentNo: 0,
     multipleComponents: [],
-    showActionPerspective: false
+    showNextSteps: false
   },
 
   getters: {},
@@ -68,8 +68,8 @@ export default new Vuex.Store({
       }
       state.result = result;
     },
-    setActionPerspective(state, result) {
-      state.showActionPerspective = result;
+    setNextSteps(state, result) {
+      state.setNextSteps = result;
     },
     isMultipleMakersMultipleWorks(state, result) {
       state.isMultiple = result;
