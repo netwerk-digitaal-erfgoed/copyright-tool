@@ -181,7 +181,7 @@
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
           "NB: Niet voor elke soort publicatie hoef je toe stemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is. (hier verwijzen naar document met uitleg van de excepties)"
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       },
       {
         "key": "otherHasRights",
@@ -193,7 +193,7 @@
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
           "NB: Niet voor elke soort publicatie hoef je toestemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is. (hier verwijzen naar document met uitleg van de excepties)"
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       },
       {
         "key": "printerProducer",
@@ -238,7 +238,7 @@
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       },
       {
         "key": "printerProducerHandover",
@@ -254,7 +254,7 @@
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       },
       {
         "key": "printerProducerHasRights",
@@ -272,7 +272,7 @@
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       }]
     },
 
@@ -297,7 +297,7 @@
           "Wanneer alle makers van de film (of hun erfopvolgers) bekend en vindbaar zijn kan je met hen afspraken maken over gebruik van de film. Hoe ouder de opnames zijn, hoe lastiger het is om de identiteit van de maker of van de rechthebbenden te achterhalen.  Als rechthebbenden niet meer te achterhalen zijn, kan het zijn dat een amateuropname verweesd kan worden verklaard.",
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       }]
     },
 
@@ -328,7 +328,7 @@
           "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
           "Wanneer slechts enkele makers van de film (of hun erfopvolgers) bekend en vindbaar zijn maak je afspraken over gebruik met deze rechthebbenden, verklaar het overige deel van de film als verweesd."
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       }]
     },
 
@@ -345,7 +345,7 @@
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       },
       {
         "key": "beforeAugust1985",
@@ -358,7 +358,7 @@
           "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
         ], 
-        "showActionPerspective": true
+        "showNextSteps": true
       }]
     }
 

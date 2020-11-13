@@ -66,7 +66,7 @@
         </template>
         <div class="buttons">
           <a @click="resetTree" class="button-link">&#60; Start opnieuw</a>
-          <router-link v-if="showNextSteps" to="/perspective" tag="button">Lees over het handelingsperspectief</router-link>
+          <router-link v-if="showNextSteps" to="/next-steps" tag="button">Lees over het handelingsperspectief</router-link>
           <button
             v-if="isMultiple"
             type="button"
