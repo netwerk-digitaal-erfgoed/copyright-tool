@@ -20,7 +20,7 @@ npm run serve
 npm run build
 
 # run unit tests
-npm run test
+npm run test:unit
 
 ```
 
