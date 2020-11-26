@@ -1,12 +1,12 @@
 {
   "tree": { 
     "publicationdate": {
-      "question": "Wanneer is het werk  gepubliceerd?",
+      "question": "Wanneer is het werk gepubliceerd?",
       "description": [
         "Om te bepalen of een werk nog beschermd wordt door auteursrecht, kijk je als eerste naar het moment dat het werk is gepubliceerd, of met andere woorden openbaar gemaakt. Gepubliceerd betekent hier het moment dat het op zodanige wijze beschikbaar is gesteld dat het publiek er op enige wijze toegang tot heeft.",
         "Wanneer je deze vraag niet kan beantwoorden of het antwoord onbekend is, is het een goed idee om zo min mogelijk risico te nemen en van de langste beschermingsduur uit te gaan. Veronderstel in dit geval dat het werk minder dan 150 jaar geleden is gepubliceerd."
       ],
-      "theme": "Wanneer is het werk  gepubliceerd?",
+      "theme": "Wanneer is het werk gepubliceerd?",
       "options": [{
         "key": "before150",
         "text": "Publicatie heeft meer dan 150 jaar geleden plaatsgevonden",
