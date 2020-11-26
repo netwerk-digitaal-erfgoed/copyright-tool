@@ -3,8 +3,8 @@ import VueRouter from 'vue-router';
 import Intro from '../views/Intro.vue';
 import Step from '../views/Step.vue';
 import Result from '../views/Result.vue';
-import NextSteps from '../views/NextSteps.vue';
 import Colofon from '../views/Colofon.vue';
+import AboutCopyright from '../views/AboutCopyright.vue';
 import NotFound from '../views/NotFound.vue';
 
 Vue.use(VueRouter);
@@ -23,16 +23,16 @@ const routes = [
     meta: { title: 'Colofon | Beslismodel auteursrechten' }
   },
   {
+    path: '/copyright',
+    name: 'copyright',
+    component: AboutCopyright,
+    meta: { title: 'Wat zijn auteursrechten ook alweer? | Beslismodel auteursrechten' }
+  },
+  {
     path: '/result',
     name: 'result',
     component: Result,
-    meta: { title: 'Resultaat | Beslismodel auteursrechten' }
-  },
-  {
-    path: '/next-steps',
-    name: 'next-steps',
-    component: NextSteps,
-    meta: { title: 'Handelingsperspectief | Beslismodel auteursrechten' }
+    meta: { title: 'Advies | Beslismodel auteursrechten' }
   },
   {
     path: '/step/:step?',

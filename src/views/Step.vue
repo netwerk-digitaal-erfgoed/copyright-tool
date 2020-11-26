@@ -3,12 +3,11 @@
     v-if="question"
     class="container columns-2"
   >
-    <div class="column-sidebar">
+    <div class="column-sidebar" />
+    <div class="column-questions">
       <StepsProgress
         :current-theme="question.theme"
       />
-    </div>
-    <div class="column-questions">
       <div>
         <p v-if="isMultiple && multipleComponentNo > 0 && !question.input">
           Je doorloopt het beslismodel voor: {{ multipleComponentNo }}
@@ -46,7 +45,6 @@
             </div>
           </fieldset>
           <div class="buttons">
-            <a v-if="allSelected.length > 0 && questionKey !== 'publicationdate'" @click="prevStep" class="button-link">&#60; Vorige stap</a>
             <button
               type="button"
               @click="nextStep"
@@ -54,6 +52,7 @@
             >
               Ga verder
             </button>
+            <a v-if="allSelected.length > 0 && questionKey !== 'publicationdate'" @click="prevStep" class="button-link">Vorige stap</a>
           </div>
         </form>
       </div>
@@ -65,7 +64,6 @@
   import StepOption from '../components/StepOption.vue';
   import StepsProgress from '../components/StepsProgress.vue';
   import StepQuestion from '../components/StepQuestion.vue';
-
   import { mapState } from 'vuex';
 
   export default {
@@ -80,7 +78,8 @@
         questionKey: 'publicationdate',
         input: null,
         selected: Object,
-        allSelected: []
+        allSelected: [],
+        open: false
       };
     },
 
@@ -96,7 +95,6 @@
     },
 
     created() {
-
       this.allSelected = this.$store.state.allSelected;
 
       if (this.$route.params.step) {
@@ -108,7 +106,7 @@
         this.questionKey !== 'publicationdate' &&
         !this.isMultiple
       ) {
-        this.$router.push({ path: '/step' });
+        this.$router.push({ path: '/step' }).then(() => window.scrollTo(0, 0));
       }
 
       this.$store.dispatch('getTree');
@@ -142,9 +140,14 @@
             question: this.questionKey,
             selected: this.selected.key
           });
+
           this.$store.dispatch('setResult', this.selected.result);
-          this.$store.dispatch('setPerspective', this.selected.showNextSteps);
-          return this.$router.push({ path: '/result' });
+          this.$store.dispatch('setOrphaned', this.selected.orphaned);
+          this.$store.dispatch('setCBO', this.selected.cbo);
+          this.$store.dispatch('setNote', this.selected.note);
+
+          this.$store.dispatch('setNextSteps', this.selected.showNextSteps);
+          return this.$router.push({ path: '/result' }).then(() => window.scrollTo(0, 0));
         }
 
         // else set variable in case of mulitple makers and multiple components
@@ -158,39 +161,12 @@
           this.$store.dispatch('setNameMultipleMakersMultipleWorks', this.input);
         }
 
-        // is there a before next?
-        if (this.selected.beforenext) {
-          this.openModal();
-        } else {
-          // update selected steps and proceed to the next step
-          this.$store.dispatch('updateSelectedSteps', {
-            question: this.questionKey,
-            selected: this.selected.key
-          });
-          return this.$router.push({ path: `/step/${this.selected.next}` });
-        }
-      },
-      openModal() {
-        this.$modal.show(
-          {
-            template: '<div class="modal-content" v-html="beforenext"></div>',
-            props: ['beforenext']
-          },
-          {
-            beforenext: this.selected.beforenext
-          },
-          { name: 'beforenext', height: 'auto', width: '60%', scrollable: true },
-          {
-            'closed': this.goToNext
-          }
-        );
-      },
-      goToNext() {
+        // update selected steps and proceed to the next step
         this.$store.dispatch('updateSelectedSteps', {
           question: this.questionKey,
           selected: this.selected.key
         });
-        return this.$router.push({ path: `/step/${this.selected.next}` });
+        return this.$router.push({ path: `/step/${this.selected.next}` }).then(() => window.scrollTo(0, 0));
       },
       selectedOption(newValue) {
         this.selected = newValue;
