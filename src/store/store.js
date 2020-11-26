@@ -10,6 +10,9 @@ export default new Vuex.Store({
     allSelected: [],
     treeCopyright: [],
     result: null,
+    orphaned: null,
+    cbo: null,
+    note: null,
     theme: null,
     isMultiple: false,
     multipleComponentNo: 0,
@@ -45,12 +48,12 @@ export default new Vuex.Store({
       }
 
       // add steps to local storage for duration of this session
-      sessionStorage.setItem('copyright-steps-all', JSON.stringify(state.allSelected));
-      sessionStorage.setItem('copyright-steps-multiple', JSON.stringify(state.multipleComponents));
+      // sessionStorage.setItem('copyright-steps-all', JSON.stringify(state.allSelected));
+      // sessionStorage.setItem('copyright-steps-multiple', JSON.stringify(state.multipleComponents));
     },
     removeStep(state) {
       state.allSelected.splice(-1, 1);
-      sessionStorage.setItem('copyright-steps-all', JSON.stringify(state.allSelected));
+      // sessionStorage.setItem('copyright-steps-all', JSON.stringify(state.allSelected));
     },
     removeComponent(state) {
       state.multipleComponents.splice(-1, 1);
@@ -58,7 +61,7 @@ export default new Vuex.Store({
     },
     removeStepComponent(state) {
       state.multipleComponents[state.multipleComponents.length - 1].steps.splice(-1, 1);
-      sessionStorage.setItem('copyright-steps-multiple', JSON.stringify(state.multipleComponents));
+      // sessionStorage.setItem('copyright-steps-multiple', JSON.stringify(state.multipleComponents));
     },
     clearSelectedSteps(state) {
       state.result = null;
@@ -66,8 +69,8 @@ export default new Vuex.Store({
       state.multipleComponentNo = 0;
       state.multipleComponents = [];
       state.allSelected = [];
-      sessionStorage.removeItem('copyright-steps-all');
-      sessionStorage.removeItem('copyright-steps-multiple');
+      // sessionStorage.removeItem('copyright-steps-all');
+      // sessionStorage.removeItem('copyright-steps-multiple');
     },
     setResultText(state, result) {
       if (state.isMultiple && state.multipleComponentNo > 0) {
@@ -75,6 +78,15 @@ export default new Vuex.Store({
         currentMultiple.result = result;
       }
       state.result = result;
+    },
+    setOrphanedText(state, result) {
+      state.orphaned = result;
+    },
+    setCBOText(state, result) {
+      state.cbo = result;
+    },
+    setNoteText(state, result) {
+      state.note = result;
     },
     showNextSteps(state, result) {
       state.showNextSteps = result;
@@ -97,6 +109,15 @@ export default new Vuex.Store({
     },
     setResult(context, result) {
       context.commit('setResultText', result);
+    },
+    setOrphaned(context, result) {
+      context.commit('setOrphanedText', result);
+    },
+    setCBO(context, result) {
+      context.commit('setCBOText', result);
+    },
+    setNote(context, result) {
+      context.commit('setNoteText', result);
     },
     setNextSteps(context, result) {
       context.commit('showNextSteps', result);

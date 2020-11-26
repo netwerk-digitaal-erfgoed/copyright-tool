@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
 body {
-	background-color: #54c5f0;
+	background-color: #e6e4da;
   color: #000;
   font-family: 'Rubik', sans-serif;
   line-height: 1.5;
@@ -12,7 +12,6 @@ a {
   text-decoration: underline;
 
   &:hover {
-    background-color: #fff;
     text-decoration: none;
   }
 }
@@ -26,27 +25,92 @@ h1 {
   line-height: 1;
 }
 
+header,
+footer {
+  nav {
+    display: none;
+
+    a {
+      color: #000;
+      padding: 0 0.5rem;
+
+      &:hover {
+        background: none;
+        text-decoration: none;        
+      }
+    }
+  }
+}
+
 header {
   border-bottom: 1px solid #000;  
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
   flex-direction: row;
 
   .title {
-    font-size: 1.25rem;
-    font-weight: bold;
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        background: none;
+        text-decoration: none;
+      }
+    }
+
+    strong {
+      font-size: 1.25rem;
+      font-weight: bold;
+      display: block;
+      
+    }
+
+    .beta {
+      background-color: #000;
+      font-size: 0.75rem;
+      color: #fff;
+      padding: 0.2rem 0.5rem;
+    }
+
+    @media only screen and (min-width: 769px) {
+      a {
+        display: inline-flex;
+        align-items: center;
+      }
+
+      strong {
+        display: inline;
+      }
+
+      span {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+    nav {
+      display: block;
+    }
+  }  
+}
+
+footer {
+  border-top: 1px solid #000;
+  padding: 1rem 2rem;
+  display: block;
+  
+  @media only screen and (min-width: 769px) {
+    display: none;
   }
 
   nav {
-    a {
-      color: #000;
-      padding: 0 0.25rem;
+    display: block;
 
-      &:hover {
-        text-decoration: none;        
-      }
+    a:first-child {
+      padding-left: 0;
     }
   }
 }
@@ -70,7 +134,7 @@ header {
     display: none;
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     &.columns-2 {
       display: flex;
 
@@ -79,7 +143,7 @@ header {
 
         &.column-sidebar {
           display: inline-block;
-          flex-basis: 12rem;
+          flex-basis: 2rem;
         }
 
         &.column-questions,
@@ -108,12 +172,11 @@ header {
   text-transform: none;
   line-height: 1.5;
   margin-bottom: 1rem;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
 
   &:after {
     content: '>';
-    padding-left: 0.25rem;
   }
 }
 
@@ -136,62 +199,116 @@ fieldset {
   }
 }
 
+.progress-current {
+  padding-left: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
 .progress {
   color: rgba(0, 0, 0, 0.6);
   font-size: 0.875rem;
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 1rem;
-
+  margin-bottom: 3rem;
+  
   li {
-    padding: 0.5rem 1rem;
     position: relative;
+    display: inline-block;
+    width: 4.5rem;
+
+    @media only screen and (min-width: 769px) {
+      width: 5rem;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: calc(50% - 0.25rem);
+      height: 0.5rem;
+      width: 0.5rem;
+      z-index: 1;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      background: #fff;
+      height: 0.1rem;
+      position: absolute;
+      left: 0;
+      top: calc(50% - 0.05rem);
+      width: 5rem;
+    }
+
+    &:last-child:after {
+      display: none;
+    }
+
+    &.done {
+      &:before {
+        background: #000;
+      }
+
+      &:after {
+        background: #000;
+      }
+    }
 
     &.active {
-      background: #000;
-      color: #fff;
-
       &:before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 10px;
-        width: 0; 
-        height: 0; 
-        border-top: 0.5rem solid transparent;
-        border-bottom: 0.5rem solid transparent;        
-        border-left: 0.5rem solid #54c5f0;
+        border: 1px solid #000;
+        height: 1rem;
+        width: 1rem;
+        top: calc(50% - 0.5rem);
       }
     }
   }
 }
 
 .steps {
-  background: white;
-	border: 0;
-  box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.5);
-	display: flex;
+  border: 0;
+  display: flex;
 	flex-direction: column;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 
-  @media only screen and (min-width: 768px) {
-    flex-direction: row;
+  @media only screen and (min-width: 769px) {
+    max-width: 80%;
   }
 
-	div {
+	> div {
+    background: white;  
+    display: flex;
     flex: 1;
 		flex-grow: 1;
     font-size: 0.875rem;
 		padding: 1rem;
-		border: 1px solid black;
+    border-top: 0;
+    flex-direction: column;
+    justify-content: space-between;
 
     label {
       display: block;
+      font-size: 1rem;      
     }
 
-    strong {
-      font-size: 1rem;
+    @media only screen and (min-width: 769px) {
+      flex-direction: row;
+
+      label input[type="radio"] {
+        margin-right: 1rem;
+      }
+    }
+
+    &:nth-child(even)  {
+      background: rgba(255, 255, 255, 0.6);
+    }
+
+    .readmore {
+      margin-bottom: 0;
     }
 	}
 }
@@ -199,45 +316,30 @@ fieldset {
 .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  cursor: pointer;
 
   .button-link {
     background: none;
-    border: 1px solid #000;
     box-shadow: none;
     text-transform: none;
     line-height: 1.5;
     padding: 0.5rem;
     text-decoration: none;
-
-    &:hover {
-      background: none;
-      box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.5);
-    }
+    border: 1px solid transparent;
   }
 
   button {
     background-color: white;
     border: 1px solid transparent;
-    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.5);
     line-height: 1.5;
     padding: 0.5rem;
     text-transform: uppercase;
-    margin-left: 1rem;
-
-    &:disabled {
-      box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.1);
-    }
+    margin-right: 1rem;
+    cursor: pointer;
 
     &:hover {
       border: 1px solid #000;
     }
   }
-}
-
-.modal-content {
-  padding: 1rem;
 }
 
 .result-list {
@@ -250,7 +352,7 @@ fieldset {
   > div > a {
     display: block;
     padding: 0.5rem;
-    background: #aee4f8;
+    background: rgba(255, 255, 255, 0.4);
     text-decoration: none;
     margin-bottom: 1rem;
   }
@@ -269,7 +371,7 @@ fieldset {
     padding: 0.5rem;
     padding-right: 2rem;
     position: relative;
-    background: #aee4f8;
+    background: rgba(255, 255, 255, 0.4);
     text-decoration: none;
 
     &:after {
@@ -297,5 +399,73 @@ fieldset {
     .faq-accordion-content {
       display: block;
     }
+  }
+}
+
+.slidein {
+  background: transparent;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: -100%;  
+  height: 100%; 
+  display: flex;
+  justify-content: flex-end;
+  transition: 
+    right 0.5s ease-in-out,
+    background 0s;
+  
+
+  &.open {
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: 
+      right 0.5s ease-in-out,
+      background 0.2s 0.5s ease-in-out;
+  }
+
+  .click-area {
+    width: 30%;
+  }
+
+  .panel {
+    width: 70%;
+    padding: 2rem;
+    padding-top: 3rem;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    height: calc(100% - 5rem);
+    position: relative;
+
+    .title {
+      font-size: 1.15rem;
+      font-weight: bold;
+    }
+
+    div {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+    .click-area {
+      width: 70%;
+    }
+
+    .panel {
+      width: 30%;
+    }
+  }
+
+  .close-btn {
+    font-weight: bold;
+    font-size: 1.5em;
+    background: transparent;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.5rem;
+    text-decoration: none;
   }
 }

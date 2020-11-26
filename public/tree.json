@@ -1,22 +1,21 @@
 {
-	"tree": { 
+  "tree": { 
     "publicationdate": {
-      "question": "Wanneer is het werk gepubliceerd?",
+      "question": "Wanneer is het werk  gepubliceerd?",
       "description": [
         "Om te bepalen of een werk nog beschermd wordt door auteursrecht, kijk je als eerste naar het moment dat het werk is gepubliceerd, of met andere woorden openbaar gemaakt. Gepubliceerd betekent hier het moment dat het op zodanige wijze beschikbaar is gesteld dat het publiek er op enige wijze toegang tot heeft.",
-        "Als je weet dat een werk meer dan 150 jaar geleden gepubliceerd is, hoef je verder geen onderzoek meer te doen en mag je veronderstellen dat de auteursrechten op het werk zijn vervallen."
+        "Wanneer je deze vraag niet kan beantwoorden of het antwoord onbekend is, is het een goed idee om zo min mogelijk risico te nemen en van de langste beschermingsduur uit te gaan. Veronderstel in dit geval dat het werk minder dan 150 jaar geleden is gepubliceerd."
       ],
-      "theme": "Is het werk beschermd?",
+      "theme": "Wanneer is het werk  gepubliceerd?",
       "options": [{
         "key": "before150",
-        "text": "Publicatie is meer dan 150 jaar geleden",
+        "text": "Publicatie heeft meer dan 150 jaar geleden plaatsgevonden",
         "result": [
-          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.",
-          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij publicatie: <ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houdt rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
+          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.)"
       ]},
       {
         "key": "after150",
-        "text": "Publicatie heeft minder dan (of gelijk aan) 150 jaar geleden plaatsgevonden.",
+        "text": "Publicatie heeft minder dan (of gelijk aan) 150 jaar geleden plaatsgevonden",
         "description": [
           "Ook wanneer je niet weet wanneer een werk is gepubliceerd kies je voor dit antwoord."
         ],
@@ -26,15 +25,19 @@
         "key": "never",
         "text": "Het werk is nooit gepubliceerd",
         "description": [
-          "Als een werk nooit op zodanige wijze beschikbaar is gesteld dat het publiek er toegang tot had, dan is een werk nooit gepubliceerd. Denk hierbij aan amateurfilmpjes en amateurfotografie die altijd bij iemand op zolder hebben gelegen en later door een schenking in een collectie zijn gekomen. Ook brieven en  manuscripten zijn vaak nooit gepubliceerd.",
+          "Als een werk nooit op zodanige wijze beschikbaar is gesteld dat het publiek er toegang toe had, dan is een werk nooit gepubliceerd. Denk hierbij aan amateurfilms en amateurfotografie die altijd bij iemand op zolder hebben gelegen en later door een schenking in een collectie zijn gekomen. Ook brieven en  manuscripten zijn vaak nooit gepubliceerd.",
           "Dit geldt niet per definitie voor alle amateurwerken, want nieuwere foto’s en filmpjes die op internet of social media hebben gestaan vallen altijd onder werken die wél zijn gepubliceerd."
         ],
         "result": [
-          "De beschermingsduur van niet gepubliceerde werken wordt berekend op basis van de maker. De auteursrechten vervallen 70 jaar na de dood van de natuurlijke maker, op 1 januari van het opvolgende jaar.",
+          "De beschermingsduur van niet gepubliceerde werken wordt berekend op basis van de maker.  De auteursrechten vervallen 70 jaar na de dood van de natuurlijke maker, op 1 januari van het opvolgende jaar.",
           "Wanneer de maker van het werk niet bekend is, dan vervallen de auteursrechten van niet gepubliceerde werken 70 jaar na totstandkoming van het werk.",
-          "Als de auteursrechten zijn vervallen op basis van een van deze situaties, dan is het werk niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.",
-          "<strong>Verweesde werken</strong><br>Wanneer het werk nog wel valt onder de bescherming van het auteursrecht, kunnen ingeval van films en boek- of tekstpublicaties werken als verweesd worden verklaard wanneer de rechthebbende onbekend of onvindbaar is. Je kan het werk als verweesd registreren na uitgebreid onderzoek ('diligent search'), waarna je de film of de tekst onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je de film of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
-          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij publicatie: <ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houdt rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
+          "Als de auteursrechten zijn vervallen op basis van een van deze situaties, dan is het werk niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.)"
+        ],
+        "orphaned": [
+          "<strong>Verweesde werken</strong></br>Wanneer het werk nog wel valt onder de bescherming van het auteursrecht, kunnen ingeval van films en boek- of tekstpublicaties werken als verweesd worden verklaard wanneer de rechthebbende onbekend of onvindbaar is. Je kan het werk als verweesd registreren na uitgebreid onderzoek ('diligent search'), waarna je de film of de tekst onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je de film of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority"
+        ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
         ]
       }]
     },
@@ -42,119 +45,120 @@
     "maker": {
       "question": "Wie is de maker?",
       "description": [
-        "Aan de hand van de maker van een werk bepaal je de beschermingsduur. Op die manier kom je er achter of een werk nog steeds beschermd wordt door het auteursrecht.",
-        "<ul><li>Wanneer een persoon staat aangemerkt als de maker van het werk, dan vervallen de auteursrechten 70 jaar na zijn of haar overlijden, op 1 januari van het opvolgende jaar.</li><li>Wanneer een rechtspersoon staat aangemerkt als de maker van het werk, zoals een bedrijf, uitgeverij of producent, dan geldt een kortere beschermingsduur en vervallen de rechten 70 jaar na datum van publicatie, op 1 januari van het opvolgende jaar. NB: Werken gemaakt onder een pseudoniem of werken van een anonieme maker vallen ook onder deze regeling: Bij anonieme werken is de maker niet (duidelijk) aangeduid, denk hierbij aan affiches, catalogi en programma’s.</li><li>Wanneer er meerdere makers bij de totstandkoming van een gemeenschappelijk werk betrokken zijn, is de langstlevende maker leidend voor de beschermingsduur. De auteursrechten op het gehele werk vervallen 70 jaar na overlijden van de langstlevende maker, op 1 januari van het opvolgende jaar. NB:  filmwerken zijn ook gemeenschappelijke werken, maar de auteurswet kent een speciale regeling voor filmwerken om de beschermingsduur te bepalen. Bij films is niet het sterfjaar van ieder persoon dat heeft bijgedragen relevant, maar alleen het sterfjaar van de regisseur, de dialoogschrijver, de scenarioschrijver en de componist. Het gehele auteursrecht vervalt 70 jaar na het overlijden van de langstlevende van deze vier, op 1 januari van het opvolgende jaar.  Wie de makers zijn blijkt uit de aanduiding op of in het werk zelf, kijk bijvoorbeeld naar de begin- en aftiteling of de voorkant van een analoge drager, de schenkingsovereenkomsten of uit de bekendmaking bij publicatie van het werk.</li><li>Wanneer een werk uit meerdere componenten bestaat, moet per component worden bekeken of het werk nog beschermd wordt door auteursrechten, en moeten er per component afspraken over gebruik worden gemaakt.</li></ul>",
-        "<em>Verzamel de informatie over de maker(s) van een werk om de volgende vragen te kunnen beantwoorden.  Nuttige informatiebronnen hiervoor zijn: de informatiedatabase van je eigen instelling, de website van het RKD, VIAF, Wiki Commons, Beeld en Geluid, Eye, Koninklijke Bibliotheek, Google.</em>"
+        "Aan de hand van de maker(s) van een werk bepaal je de beschermingsduur. Op die manier kom je er achter of een werk nog steeds beschermd wordt door het auteursrecht.<br>Onderstaande vier ‘type’ makers kennen ieder een eigen beschermingsduur. Elk van de antwoorden heeft een uitgebreide toelichting om te onderzoeken onder welke beschermingsduur je werk valt.",
+        "Werken van een anonieme maker of werken gemaakt onder een pseudoniem, hebben dezelfde beschermingsduur als werken van een rechtspersoon. Bij anonieme werken is de maker bewust niet aangeduid, denk hierbij aan affiches, catalogi en programma’s. Let op, anoniem is niet hetzelfde als onbekend. Als je niet weet wie de maker is, dan is het een goed idee om zo min mogelijk risico te nemen en van de langste beschermingsduur uit te gaan. Veronderstel in dit geval dat het werk door een of meer personen is gemaakt.",
+        "Het bepalen van de rechten status van een werk begint altijd bij kennis over de vervaardigers. Vind hier een bronnenlijst om ontbrekende informatie te achterhalen."
       ],
       "showDescription": false,
-      "theme": "Is het werk beschermd?",
+      "theme": "Wie is de maker?",
       "options": [{
-        "key": "natural",
-        "text": "De maker is een natuurlijk persoon",
+        "key": "person",
+        "text": "Eén persoon maakt een werk",
         "description": [
-          "In de meeste gevallen wordt de persoon die het werk heeft gemaakt, gezien als ‘de maker’ van het werk om de duur van het auteursrecht te bepalen.",
-          "De maker is de natuurlijk persoon (mens) die het werk heeft gecreëerd. Dus diegene die het ontwerp voor het werk maakte en niet de personen die alleen de uitvoering realiseerden, zoals bij een architect.",
-          "De auteursrechten vervallen 70 jaar na de dood van de natuurlijke maker, op 1 januari van het opvolgende jaar.",
-          "<em>Let op: Wanneer een bestaand werk gefotografeerd is, zoals een object of een muurschildering, dan heeft de fotograaf waarschijnlijk ook een nieuw en eigen auteursrecht op de foto. Er is dan een stapeling van meerdere auteursrechten.  Lees voor die gevallen de toelichting bij het antwoord \"werken met meerdere maker die bestaan uit meerdere losse componenten\"</em>."
+          "Wanneer een (natuurlijk) persoon staat aangeduid als de maker van het werk, dan vervallen de auteursrechten 70 jaar na zijn of haar overlijden, op 1 januari van het opvolgende jaar.",
+          "De maker is de natuurlijk persoon (mens) die het werk heeft gecreëerd. Dus degene die het werk zelf of het ontwerp voor het werk maakte en niet de personen die alleen de uitvoering realiseerden, zoals bij een architect."
         ],
         "next": "makerIsPerson"
       },
       {
         "key": "legal",
-        "text": "De maker is een rechtspersoon",
+        "text": "Een bedrijf (rechtspersoon) maakt een werk",
         "description": [
-          "Bij uitzondering kan ook een rechtspersoon worden gezien als ‘de maker’ van een werk.",
-          "Een rechtspersoon kan natuurlijk niet fysiek iets maken, dus het gaat hier om een constructie in de auteurswet. Wanneer een rechtspersoon wordt gezien als maker, geldt er een kortere beschermingsduur dan normaal, namelijk 70 jaar na <u>publicatie</u> van het werk, op 1 januari van het opvolgende jaar.",
-          "Deze kortere beschermingsduur komt maar in een aantal situaties voor:",
-          "1. De rechtspersoon heeft het werk openbaar gemaakt  alsof het van haar afkomstig is, en de namen van de personen die het werk daadwerkelijk hebben gemaakt zijn nergens  vermeld.",
-          "Zodra de namen van de makers wel vermeld staan op het werk, dan zijn zij leidend voor de beschermingsduur (namelijk 70 jaar na de dood van de maker, zie hiervoor het antwoord \"de maker is een natuurlijk persoon\".)",
-          "2. Het werk in dienst van de rechtspersoon gecreëerd. Als er twijfels bestaan of er sprake was van een dienstverband (bijvoorbeeld doordat het werk is gecreëerd door een ZZP-er, houdt dan de regels aan voor “de maker is een natuurlijk persoon”).",
-          "De meest duidelijk voorbeelden waarbij de rechtspersoon als ‘de maker’ wordt gezien zijn computerprogramma’s en reclames. Maar ook bij kranten en films kan een rechtspersoon de maker zijn, mits de daadwerkelijke maker niet kan worden vastgesteld."
-        ],
+          "Wanneer een rechtspersoon de maker is van het werk, dan geldt een kortere beschermingsduur en vervallen de rechten 70 jaar na datum van <em>publicatie</em>, op 1 januari van het opvolgende jaar. <br> Een rechtspersoon kan natuurlijk niet fysiek iets maken, dus het gaat hier om een constructie in de Auteurswet. <br>Deze regel is een uitzondering en geldt beperkt:",
+          "<ol><li>De rechtspersoon heeft het werk openbaar gemaakt  alsof het van haar afkomstig is, en de namen van de personen die het werk daadwerkelijk hebben gemaakt zijn nergens  vermeld. <br><em>Zodra de namen van de makers wel vermeld staan op het werk, dan zijn zij leidend voor de beschermingsduur (namelijk 70 jaar na de dood van de maker, zie hiervoor het antwoord “ de maker is een natuurlijk persoon”. )</em></li><li><p>Het werk is in dienst van de rechtspersoon gecreëerd. <br><em>Als je niet volledig zeker bent over de opdrachtrelatie, (de kans zou kunnen bestaan dat het werk is gecreëerd door een ZZP-er, houd dan de regels aan voor “de maker is een natuurlijk persoon”).</em></p><p>Voorbeelden waarbij een rechtspersoon gezien kan worden als de maker (mits de daadwerkelijke maker niet kan worden vastgesteld): <br><ul><li>computerprogramma’s</li><li>reclames</li><li>kranten</li><li>films</li></ul></p></li></ol>"
+          ],
         "next": "makerIsOrganisation"
       },
       {
         "key": "moreOneWork",
-        "text": "Het werk heeft meerdere makers en is een gemeenschappelijk werk.",
+        "text": "Meerdere personen maken samen een (gemeenschappelijk) werk",
         "description": [
-          "Twee of meer personen kunnen het auteursrecht op een werk hebben: Er is sprake van een gemeenschappelijk werk wanneer er een nieuw en ondeelbaar werk tot stand is gekomen uit de creatieve bijdrage van meerdere personen en wanneer die afzonderlijke bijdragen niet meer te onderscheiden zijn in het uiteindelijke werk. <br> De makers hebben een gemeenschappelijk auteursrecht op het werk, een auteursrecht van iedere maker afzonderlijk bestaat niet.  De auteursrechten op een gemeenschappelijk werk vervallen 70 jaar na de dood van de langstlevende maker, op 1 januari van het opvolgende jaar.", 
-          "Voorbeelden hiervan beeldende kunstenaars die samen één object maken,  of artiesten die samen een nummer componeren."
+          "Wanneer meerdere makers samen een gemeenschappelijk werk maken, dan is de langstlevende maker leidend voor de beschermingsduur. De auteursrechten op het gehele werk vervallen 70 jaar na overlijden van de langstlevende maker, op 1 januari van het opvolgende jaar.", 
+          "<em>Voorbeelden: <br><ul><li>Beeldende kunstenaars die samen één object maken.</li><li>Muzikanten die samen een nummer componeren.</li><li>Films: De auteurswet kent een speciale regeling voor filmwerken om de beschermingsduur te bepalen. Bij films is niet het sterfjaar van ieder persoon dat heeft bijgedragen relevant, maar alleen het sterfjaar van de regisseur, de dialoogschrijver, de scenarioschrijver en de componist van de filmmuziek. Het gehele auteursrecht vervalt 70 jaar na het overlijden van de langstlevende van deze vier, op 1 januari van het opvolgende jaar.  Wie de makers zijn blijkt uit de aanduiding op of in het werk zelf, kijk bijvoorbeeld naar de begin- en aftiteling, de schenkingsovereenkomst, de voorkant van een analoge drager,  de bekendmaking bij publicatie van het werk of naar andere documentatie.</li></ul></em>"
         ],
         "next": "makerIsMoreOneWork"
       },
       {
         "key": "moreMultipleWorks",
-        "text": "Het werk heeft meerdere makers en bestaat uit meerdere losse componenten.",
+        "text": "Een werk bestaat uit meerdere losse componenten van verschillende makers",
         "description": [
           "Er kunnen meerdere op zichzelf staande auteursrechten op een werk rusten wanneer er sprake is van een combinatie van losse werken die worden samengebracht. Door het samenbrengen van de losse componenten kan ook een nieuw werk zijn ontstaan, maar als ieder component afzonderlijk herkenbaar is, dan heeft de maker van dat component een apart auteursrecht daarop. Je moet per component bepalen of het werk nog beschermd is en bij wie de rechten liggen.",
-          "<em>Voorbeelden hiervan zijn: <br> Een samengesteld (foto)boek, waarbij de in het boek verzamelde componenten ook buiten deze context gebruikt kunnen worden en dus eigen auteursrecht hebben. s<br>Een televisieprogramma waarbij fragmenten uit andere films, programma’s of beeldende kunst getoond worden. </em>",
-          "<em>Er kan ook sprake zijn van meerdere componenten wanneer een werk is gefotografeerd:</em>",
-          "<em>Het auteursrecht op het gefotografeerde kunstwerk en het auteursrecht van de fotograaf. De vuistregel hierin is er bij een nauwkeurige reproductie van een 2D-werk geen nieuwe auteursrechten ontstaan. Dat is anders bij een 3D-werk, dan maakt de fotograaf namelijk eigen keuzes in hoek en belichting.</em>"
+          "<em>Voorbeelden:<br><ul><li>Samengesteld (foto)boek, met een verzameling van bestaande afbeeldingen of teksten.</li><li>Televisieprogramma met fragmenten uit bestaande films, programma’s of beeldende kunst.</li><li>Foto van een bestaand kunstwerk: Er was al auteursrecht op het gefotografeerde kunstwerk en later ook het auteursrecht op de nieuwe foto van de fotograaf. De vuistregel hierin is dat er bij een nauwkeurige reproductie van een 2D-werk geen nieuwe auteursrechten ontstaan. Dat is anders bij een 3D-werk, dan maakt de fotograaf namelijk eigen keuzes in hoek en belichting en ontstaat er wel een nieuw auteursrecht. </li></ul></em>"
         ],
-        "beforenext": "<p>Door het samenbrengen van losse componenten kan er een nieuw werk zijn ontstaan, maar als ieder component afzonderlijk herkenbaar is, dan heeft de maker van dat component een apart auteursrecht daarop. Je moet per component bepalen of het werk nog beschermd is en bij wie de rechten liggen.</p><p>Op deze plek in de tool kan je de beslisboom doorlopen per component. Je kan zo veel componenten toevoegen als je wil. Je krijgt per onderdeel een uitkomst. De uitkomsten worden voor je bewaard.</p>",
         "next": "makerIsMoreMultipleWork"
       }]
     },
 
     "makerIsPerson": {
       "question": "Is de maker nog in leven, of wat is anders de overlijdensdatum van de maker?",
-      "theme": "Is het werk beschermd?",
+      "theme": "Wie is de maker?",
+      "description": [
+        "Wanneer je deze vraag niet kan beantwoorden of het antwoord onbekend is, is het een goed idee om zo min mogelijk risico te nemen en van de langste beschermingsduur uit te gaan. Veronderstel in dit geval dat de maker van het werk nog leeft, of minder dan geen 70 jaar geleden is overleden."
+      ],
       "options": [{
         "key": "personOver70",
         "text": "De maker is meer dan 70 jaar geleden overleden",
         "result": [
-          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.",
-          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij publicatie: <ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houdt rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
+          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.) ",
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
       ]},
       {
         "key": "personAliveLess70",
-        "text": "De maker leeft nog, of is minder dan 70 jaar geleden overleden.",
-        "beforenext": "Je hebt nu kunnen vaststellen dat het werk nog auteursrechtelijk beschermd is. In de volgende stappen kan je bepalen bij wie de auteursrechten liggen.",
+        "text": "De maker leeft nog, of is minder dan 70 jaar geleden overleden",
         "next": "whoRights"
       }]
     },
 
     "makerIsOrganisation": {
       "question": "Wanneer is het werk gepubliceerd?",
-      "theme": "Is het werk beschermd?",
+      "description": [
+        "Wanneer je deze vraag niet kan beantwoorden of het antwoord onbekend is, is het een goed idee om zo min mogelijk risico te nemen en van de langste beschermingsduur uit te gaan. Veronderstel in dit geval dat het werk minder dan 70 jaar geleden is gepubliceerd."
+      ],
+      "theme": "Wie is de maker?",
       "options": [{
         "key": "legalMore70",
         "text": "Het werk is meer dan 70 jaar geleden gepubliceerd",
         "result": [
-          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.",
-          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij publicatie: <ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houdt rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
+          "Het werk is niet langer auteursrechtelijk beschermd.",
+          "De regel dat de auteursrechten van een rechtspersoon 70 jaar na publicatie vervallen, is zeer strikt. Neem zo min mogelijk risico en biedt de afbeelding niet zomaar onder een Publiek Domein licentie aan aan derden.",
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
       ]},
       {
         "key": "legalLess70",
         "text": "Het werk is minder dan 70 jaar geleden gepubliceerd",
-        "beforenext": "Je hebt nu kunnen vaststellen dat het werk nog auteursrechtelijk beschermd is. In de volgende stappen kan je bepalen bij wie de auteursrechten liggen.",
         "next": "whoRights"
       }]
     },
 
     "makerIsMoreOneWork": {
-      "question": "Is de langstlevende maker nog in leven, of wat is anders de overlijdensdatum van de maker?",
-      "description": "Het bepalen van de rechten status van een werk begint altijd bij kennis over de vervaardigers. Indien je deze informatie al paraat hebt, dan kan je direct bepalen of een werk nog auteursrechtelijk beschermd is.",
-      "theme": "Is het werk beschermd?",
+      "question": "Zijn er nog makers in leven of wat is de overlijdensdatum van de langstlevende maker?",
+      "description": [
+        "Wanneer je deze vraag niet kan beantwoorden of het antwoord onbekend is, is het een goed idee om zo min mogelijk risico te nemen en van de langste beschermingsduur uit te gaan. Veronderstel in dit geval dat de langstlevende maker van het werk nog leeft, of minder dan geen 70 jaar geleden is overleden."
+      ],
+      "theme": "Wie is de maker?",
       "options": [{
         "key": "moreOneWorkOver70",
         "text": "De langstlevende maker is meer dan 70 jaar geleden overleden",
         "result": [
           "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.",
-          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij publicatie: <ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houdt rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
       ]},
       {
         "key": "moreOneWorkLess70",
-        "text": "De langstlevende maker leeft nog, of is minder dan 70 jaar geleden overleden.",
-        "beforenext": "Je hebt nu kunnen vaststellen dat het werk nog auteursrechtelijk beschermd is. In de volgende stappen kan je bepalen bij wie de auteursrechten liggen.",
+        "text": "De makers leven nog, of de langstlevende maker is minder dan 70 jaar geleden overleden",
         "next": "whoRights"
       }]
     },
 
     "makerIsMoreMultipleWork": {
       "question": "Kenmerk",
-      "description": "Geef het component een naam om het straks te herkennen.",
-      "theme": "Is het werk beschermd?",
+      "description": [
+        "Door het samenbrengen van losse componenten kan er een nieuw werk zijn ontstaan, maar als ieder component afzonderlijk herkenbaar is, dan heeft de maker van dat component een apart auteursrecht daarop. Je moet per component bepalen of het werk nog beschermd is en bij wie de rechten liggen.",
+        "Op deze plek in de tool kan je de beslisboom doorlopen per component. Je kan zo veel componenten toevoegen als je wil. Je krijgt per onderdeel een uitkomst. De uitkomsten worden voor je bewaard.",
+        "Geef het component een naam om het straks te herkennen."
+      ],
+      "showDescription": true,
+      "theme": "Wie is de maker?",
       "input": {
         "key": "nameWork",
         "next": "maker"
@@ -165,53 +169,104 @@
       "question": "Wie heeft het auteursrecht op het werk?",
       "description": [
         "Je hebt nu kunnen bepalen dát het werk nog beschermd wordt door auteursrechten. In de volgende stappen ga je bepalen bij wie die auteursrechten dan liggen.",
-        "Diegene die als maker(s) van een werk wordt gezien (een natuurlijk persoon of een rechtspersoon), is ook vaak de rechthebbende(n), maar dat hoeft niet. Auteursrechten kunnen na overlijden van een maker bij een of meer erfgenamen liggen of na overname van een rechtspersoon bij de rechtsopvolger. Een maker (of erfopvolger) kan er ook voor hebben gekozen de auteursrechten over te dragen aan bijvoorbeeld een stichting die zich inzet voor beheer van het oeuvre van de kunstenaar.  Andere voorbeelden zijn wanneer een maker de auteursrechten op een specifiek werk heeft overgedragen aan een producent of uitgeverij, zodat het werk door hen geëxploiteerd kan worden.",
+        "Degene die als maker(s) van een werk wordt gezien (een natuurlijk persoon of een rechtspersoon), is ook vaak de rechthebbende(n), maar dat hoeft niet. Auteursrechten kunnen na overlijden van een maker bij een of meer erfgenamen liggen of na overname van een rechtspersoon bij de rechtsopvolger. Een maker (of erfopvolger) kan er ook voor hebben gekozen de auteursrechten over te dragen aan bijvoorbeeld een stichting die zich inzet voor beheer van het oeuvre van de kunstenaar.  Andere voorbeelden zijn wanneer een maker de auteursrechten op een specifiek werk heeft overgedragen aan een producent of uitgeverij, zodat het werk door hen geëxploiteerd kan worden.",
         "Het mag uit deze voorbeelden duidelijk worden dat het zeker bij oudere werken vaak lastig, dan niet onmogelijk, is, om de auteursrechthebbende(n) op een werk nog te achterhalen. In sommige gevallen mag een werk dan verweesd worden verklaard en mag je het toch publiceren."
       ],
-      "theme": "Is het werk beschermd?",
+      "theme": "Wie heeft het auteursrecht op het werk?",
       "options": [{
-        "key": "makerHasRights",
-        "text": "De feitelijk maker is auteursrechthebbende gebleven",
-        "description": "De meest voorkomende situatie is dat de maker zelf (natuurlijk persoon of rechtspersoon) de auteursrechthebbende is gebleven op het werk.",
+        "key": "makerHasRightsPerson",
+        "text": "De oorspronkelijke rechthebbende op het werk is auteursrechthebbende gebleven",
+        "description": [
+          "Wanneer er geen andere afspraken zijn gemaakt, is de maker(s) van het werk zelf de auteursrechthebbende op het werk gebleven. Onder de feitelijk maker verstaan we een natuurlijk persoon (en zijn/haar erfgenamen) of een rechtspersoon."
+        ],
         "result": [
-          "Wanneer de maker een natuurlijk persoon is en hij of zij is nog in leven, dan kan je hem of haar rechtstreeks benaderen voor afspraken over gebruik. Wanneer de maker is overleden, zijn de auteursrechten overgegaan op zijn of haar erfgenamen. Raadpleeg het collectie informatiesysteem of het internet om erachter te komen wie de erven zijn om afspraken over gebruik te maken. Omdat auteursrechten blijven bestaan tot 70 jaar na de dood van de maker, kan na verloop van tijd niet altijd achterhaald worden wie de erven zijn. Maak altijd een afweging tussen het te behalen resultaat en de tijd die het kost om hier te komen. Als de auteursrechten op een werk bijvoorbeeld al over enkele jaren komen te vervallen, dan kan je ervoor kiezen om met publiceren nog even te wachten op dit moment.",
-          "Bij een gemeenschappelijk werk hebben alle makers een gemeenschappelijk auteursrecht op het werk en moet voor gebruik toestemming aan alle makers worden gevraagd.",
-          "Wanneer de maker een rechtspersoon is, kan je de rechtspersoon rechtstreeks benaderen voor afspraken over gebruik. Omdat het werk van een rechtspersoon beschermd blijft tot 70 jaar na publicatie, bestaat de rechtspersoon na verloop van tijd niet altijd nog in de oorspronkelijk vorm. Een bedrijf kan zijn doorverkocht, waarbij de auteursrechten zijn overgegaan op de rechtsopvolger.",
+          "Wanneer de maker een natuurlijk persoon is en hij of zij is nog in leven, dan kan je hem of haar rechtstreeks benaderen voor afspraken over gebruik. Wanneer de maker is overleden, zijn de auteursrechten overgegaan op zijn of haar erfgenamen. Raadpleeg het collectie informatiesysteem of het internet om erachter te komen wie de erven zijn om afspraken over gebruik te maken. Omdat auteursrechten blijven bestaan tot 70 jaar na de dood van de maker, kan na verloop van tijd niet altijd achterhaald worden wie de erven zijn. Maak altijd een afweging tussen het te behalen resultaat en de tijd die het kost om hier te komen. Als de auteursrechten op een werk bijvoorbeeld al over enkele jaren komen te vervallen, dan kan je ervoor kiezen om met publiceren nog even te wachten op dit moment."
+          ],
+        "cbo": [
           "Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
-          "NB: Niet voor elke soort publicatie hoef je toe stemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is. (hier verwijzen naar document met uitleg van de excepties)"
+          "Niet voor elke soort publicatie hoef je toestemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is."
+          ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ], 
+        "showNextSteps": true
+      },
+      {
+        "key": "makerHasRightsLegal",
+        "text": "De oorspronkelijke rechthebbende op het werk is auteursrechthebbende gebleven",
+        "description": [
+          "Wanneer er geen andere afspraken zijn gemaakt, is de maker(s) van het werk zelf de auteursrechthebbende op het werk gebleven. Onder de feitelijk maker verstaan we een natuurlijk persoon (en zijn/haar erfgenamen) of een rechtspersoon."
+        ],
+        "result": [
+          "Wanneer de maker een rechtspersoon is, kan je de rechtspersoon rechtstreeks benaderen voor afspraken over gebruik. Het kan zijn dat een rechtspersoon na verloop van tijd niet meer in de oorspronkelijk vorm bestaat. Een bedrijf kan zijn doorverkocht, waarbij de auteursrechten zijn overgegaan op de rechtsopvolger."
+          ],
+        "cbo": [
+          "Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
+          "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
+          "Niet voor elke soort publicatie hoef je toestemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is."
+          ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ], 
+        "showNextSteps": true
+      },
+      {
+        "key": "makerHasRightsMore",
+        "text": "De oorspronkelijke rechthebbende op het werk is auteursrechthebbende gebleven",
+        "description": [
+          "Wanneer er geen andere afspraken zijn gemaakt, is de maker(s) van het werk zelf de auteursrechthebbende op het werk gebleven. Onder de feitelijk maker verstaan we een natuurlijk persoon (en zijn/haar erfgenamen) of een rechtspersoon."
+        ],
+        "result": [
+          "Bij een gemeenschappelijk werk hebben alle makers een gemeenschappelijk auteursrecht op het werk en moet voor gebruik toestemming aan alle makers worden gevraagd."
+          ],
+        "cbo": [
+          "Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
+          "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
+          "Niet voor elke soort publicatie hoef je toestemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is."
+          ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
         ], 
         "showNextSteps": true
       },
       {
         "key": "otherHasRights",
         "text": "Een ander is auteursrechthebbende geworden door overdracht",
-        "description": "Een maker (of erfopvolger) kan er voor hebben gekozen de auteursrechten over te dragen aan een ander. In principe staat het een maker vrij om zijn auteursrechten aan wie dan ook over te dragen. In de praktijk zie je dat rechten vooral worden overgedragen aan een stichting die zich inzet voor beheer van het oeuvre van een maker, denk aan stichting Karel Appel.",
+        "description": [
+          "Een maker (of erfopvolger) kan er voor hebben gekozen de auteursrechten over te dragen aan een ander. Dat kan een ander natuurlijk persoon zijn, een stichting of een commerciële partij.",
+          "Voorbeeld: Stichting Karel Appel die zich inzet voor beheer van het oeuvre en de rechten beheerd."
+        ],
         "result": [
-          "Wanneer er een stichting in het leven is geroepen voor het werk van een maker, zijn de auteursrechten van deze maker vaak, maar niet altijd, ook bij de stichting ondergebracht. Raadpleeg hiervoor het internet en benader de stichting rechtstreeks om afspraken te maken over gebruik van het werk.",
-          "Stichtingen schrijven de maker van wie zij de rechten beheren vaak in bij een Collectieve Beheerorganisatie (CBO). De rechten worden dan beheerd door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
-          "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
-          "NB: Niet voor elke soort publicatie hoef je toestemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is. (hier verwijzen naar document met uitleg van de excepties)"
+          "Wanneer er een stichting in het leven is geroepen voor het werk van een maker, zijn de auteursrechten van deze maker vaak, maar niet altijd, ook bij de stichting ondergebracht. Raadpleeg hiervoor het internet en benader de stichting rechtstreeks om afspraken te maken over gebruik van het werk."
         ], 
+        "cbo": [
+          "Stichtingen kunnen de maker van wie zij de rechten beheren hebben ingeschreven bij een Collectieve Beheerorganisatie (CBO). De rechten worden dan beheerd door een externe (commerciële) organisatie. Deze organisatie kan alleen het aanspreekpunt zijn om afspraken mee te maken over gebruik van het werk, of zelfs rechthebbende zijn geworden. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
+          "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaalt dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
+          "Niet voor elke soort publicatie is het nodig om toestemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is."
+        ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ],
         "showNextSteps": true
       },
       {
         "key": "printerProducer",
-        "text": "Anders, er is een uitgeverij, drukkerij of producent betrokken geweest bij de publicatie van het werk.",
+        "text": "Anders, er is een uitgeverij, drukkerij of producent betrokken geweest bij realisatie van het werk",
         "description": [
-          "Er zijn veel soorten werken waarin er naast een maker van het werk, ook een uitgeverij, drukkerij of producent betrokken is bij het uitbrengen van het werk of bij de productie ervan. Denk aan tekstpublicaties (kranten en tijdschriften), prentbriefkaarten, kalenders, bladmuziek, designobjecten, meubels etc.",
-          "Deze soorten werken kunnen voortkomen uit een samenwerking, opdrachtgeverschap, dienstverband of zelfs onafhankelijk van enige relatie met de maker. De feitelijke relatie is leidend voor de vraag bij wie de auteursrechten liggen. En eventueel kunnen partijen ook andre afspraken hebben gemaakt, zoals een overdracht van auteursrechten. Zeker bij oudere werken zijn deze andere afspraken tussen partijen vaak niet meer te achterhalen, of is onduidelijk of een oude overdracht ook nieuwe digitale rechten kan omvatten.",
-          "Voorbeeld:<br>Hoe meer informatie je hebt over de relatie tussen maker enerzijds en uitgever/producent/drukkerij anderzijds, of over andere afspraken die zij onderling hebben gemaakt, hoe makkelijker de volgende vragen zijn te beantwoorden."
+          "Er zijn veel soorten werken waarin er naast een maker van het werk, ook een uitgeverij, drukkerij of producent betrokken is bij het uitbrengen van het werk of bij de productie ervan. Denk aan tekstpublicaties (kranten en tijdschriften), prentbriefkaarten, kalenders, designobjecten, meubels etc.",
+          "Deze soorten werken kunnen voortkomen uit een samenwerking, opdrachtgeverschap, dienstverband of zelfs onafhankelijk van enige relatie met de maker. De feitelijke relatie is leidend voor de vraag bij wie de auteursrechten liggen. En eventueel kunnen partijen ook andere afspraken hebben gemaakt, zoals een overdracht van auteursrechten. Zeker bij oudere werken zijn deze andere afspraken tussen partijen vaak niet meer te achterhalen, of is onduidelijk of een oude overdracht ook nieuwe digitale rechten kan omvatten.",
+          "Hoe meer informatie je hebt over de relatie tussen maker enerzijds en uitgever/producent/drukkerij anderzijds, of over andere afspraken die zij onderling hebben gemaakt, hoe makkelijker de volgende vragen zijn te beantwoorden."
         ],
         "next": "printerProducerWhoRights"
       },
       {
         "key": "movieAudio",
-        "text": "Anders, het betreft namelijk een film of audiovisueel werk.",
+        "text": "Anders, het betreft namelijk een film of audiovisueel werk",
         "description": [
-          "Onder filmwerken verstaan we alle vastgelegde reeks beelden: film, tv, documentaire, nieuws, spelshow, realityprogramma, etc.",
-          "Bij de meeste filmswerken is een producent betrokken, vanwege de complexe coördinatie die nodig is voor de totstandkoming.",
-          "Niet alle professionele films hebben ook een aparte producent. Veelal zijn dit documentaires die in eigen beheer van de maker worden ontwikkeld, of films van kunstenaars die het gehele proces in eigen beheer doen.",
+          "Onder filmwerken verstaan we alle vastgelegde reeks beelden: film, tv-programma’s,, documentaire, nieuws, filmpjes op YouTube, etc.",
+          "Bij de meeste filmwerken is een producent betrokken, vanwege de complexe coördinatie die nodig is voor de totstandkoming van een film.",
+          "Niet alle professionele films hebben ook een aparte producent. Dit betreft bijvoorbeeld documentaires die in eigen beheer van de maker worden ontwikkeld, of films van kunstenaars die het gehele proces in eigen beheer doen.",
           "Hetzelfde geldt voor amateurfilms, deze zijn nooit met inmenging van een producent tot stand gekomen."
         ],
         "next": "professionalAmateur"
@@ -219,41 +274,52 @@
     },
 
     "printerProducerWhoRights": {
-      "question": "Is op basis van de relatie tussen partijen bekend wie de rechthebbende is?",
-      "theme": "Wie is rechthebbende?",
+      "question": "Weet je wie de  rechthebbende is op basis van afspraken tussen de partijen?",
+      "theme": "Wie heeft het auteursrecht op het werk?",
       "options": [{
         "key": "printerProducerMakerHasRights",
-        "text": "De maker is rechthebbende gebleven.",
+        "text": "De maker is rechthebbende gebleven",
         "description": [
           "De hoofdregel is dat de maker van een werk tevens de rechthebbende is, alleen werken die zijn gemaakt in dienstverband of waarvan de auteursrechten later zijn overgedragen vormen hierop een uitzondering.",
-          "Voorbeelden: <br>",
-          "Van een roman die wordt uitgegeven blijft de schrijver auteursrechthebbende op de tekst, tenzij anders wordt overeengekomen.",
-          "Een uitgever verzamelt bestaande werken om een themaboek of kalender uit te brengen. De uitgever kan mogelijk een nieuw auteursrecht verkrijgen op de gemaakt compilatie (mits deze voldoet aan de vereisten om een nieuw werk in de zin van de auteurswet te zijn), maar nooit op het oorspronkelijke werk dat hij in de compilatie gebruikt. De uitgever moet toestemming van de maker krijgen voor gebruik van zijn werk. De maker is rechthebbende gebleven.",
-          "Alle makers die een werk in opdracht maken als ZZP’er, behouden in principe de auteursrechten op het werk, tenzij er andere afspraken worden gemaakt."
+          "Voorbeelden: <br><ul><li>Van een roman die wordt uitgegeven blijft de schrijver auteursrechthebbende op de tekst, tenzij anders wordt overeengekomen.</li><li>Een uitgever verzamelt bestaande werken om een themaboek of kalender uit te brengen. De uitgever kan mogelijk een nieuw auteursrecht verkrijgen op de gemaakt compilatie (mits deze voldoet aan de vereisten om een nieuw werk in de zin van de auteurswet te zijn), maar nooit op het oorspronkelijke werk dat hij in de compilatie gebruikt. De uitgever moet toestemming van de maker krijgen voor gebruik van zijn werk. De maker is rechthebbende gebleven.</li><li>Alle makers die een werk in opdracht maken als ZZP’er, behouden in principe de auteursrechten op het werk, tenzij er andere afspraken worden gemaakt.</li></ul>"
         ],
         "result": [
           "Wanneer de rechthebbende een natuurlijk persoon is en hij of zij is nog in leven, dan kan je hem of haar rechtstreeks benaderen voor afspraken over gebruik. Wanneer de maker is overleden, zijn de auteursrechten overgegaan op zijn of haar erfgenamen. Raadpleeg het collectie informatiesysteem of het internet om erachter te komen wie de erven zijn om afspraken over gebruik te maken. Omdat auteursrechten blijven bestaan tot 70 jaar na de dood van de maker, kan na verloop van tijd niet altijd achterhaald worden wie de erven zijn. Maak altijd een afweging tussen het te behalen resultaat en de tijd die het kost om hier te komen. Als de auteursrechten op een werk bijvoorbeeld al over enkele jaren komen te vervallen, dan kan je ervoor kiezen om met publiceren nog even te wachten op dit moment.",
-          "Bij een gemeenschappelijk werk hebben alle makers een gemeenschappelijk auteursrecht op het werk en moet voor gebruik toestemming aan alle makers worden gevraagd.",
-          "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of tekstpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
-          "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
-          "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
+          "Bij een gemeenschappelijk werk hebben alle makers een gemeenschappelijk auteursrecht op het werk en moet voor gebruik toestemming aan alle makers worden gevraagd."
+          ],
+          "orphaned": [
+            "Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of tekstpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
+          ],
+          "cbo": [
+            "Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
+            "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
+          ],
+          "note": [
+            "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
         ], 
         "showNextSteps": true
       },
       {
         "key": "printerProducerHandover",
-        "text": "Er heeft een overdracht van auteursrechten plaatsgevonden aan de uitgever/producent.",
+        "text": "Er heeft een overdracht van auteursrechten plaatsgevonden van de maker aan de uitgever/producent",
         "description": [
-          "Hoewel de hoofregel is dat de maker van een werk tevens de rechthebbende is, kunnen er andere afspraken worden gemaakt. Meestal is dit ten behoeve van exploitatie van het werk. Uitgevers/producenten maken kosten om een werk uit te brengen of te produceren, in ruil daarvoor vragen zij om een overdracht van auteursrechten.",
+          "Hoewel de hoofdregel is dat de maker van een werk tevens de rechthebbende is, kunnen er andere afspraken worden gemaakt. Meestal is dit ten behoeve van exploitatie van het werk. Uitgevers/producenten maken kosten om een werk uit te brengen of te produceren, in ruil daarvoor vragen zij om een overdracht van auteursrechten.",
           "Om de reikwijdte van de overdracht te weten heb je informatie over de afspraken nodig. Zeker bij oudere werken zijn deze afspraken tussen partijen vaak niet meer te achterhalen, of is onduidelijk of een oude overdracht ook nieuwe digitale rechten kan omvatten.",
-          "Alle makers die een werk in opdracht maken als ZZP’er, behouden in principe de auteursrechten op het werk, tenzij er andere afspraken worden gemaakt. In de praktijk worden deze afspraken veelvuldig gemaakt, omdat een opdrachtgever het werk nu en in de toekomst wil kunnen exploiteren. Denk aan kranten die hun journalistenbestand als ZZP’er inhuren, of musea die hun collectie laten fotograferen door externe fotografen, maar in de overeenkomst van opdracht om een overdracht van de auteursrechten vragen."
+          "Voorbeeld:<br><ul><li>Alle makers die een werk in opdracht maken als ZZP’er, behouden in principe de auteursrechten op het werk, tenzij er andere afspraken worden gemaakt. In de praktijk worden deze afspraken veelvuldig gemaakt, omdat een opdrachtgever het werk nu en in de toekomst wil kunnen exploiteren. Denk aan kranten die hun journalisten bestand als ZZP’er inhuren, of musea die hun collectie laten fotograferen door externe fotografen, maar in de overeenkomst van opdracht om een overdracht van de auteursrechten vragen.</li></ul>"
         ],
         "result": [
-          "Wanneer door overdacht de auteursrechthebbende is geworden, dan kan je de rechtspersoon rechtstreeks benaderen voor afspraken over gebruik. Omdat het werk van een rechtspersoon beschermd blijft tot 70 jaar na publicatie, bestaat de rechtspersoon na verloop van tijd niet altijd nog in de oorspronkelijk vorm. Een bedrijf kan zijn doorverkocht, waarbij de auteursrechten zijn overgegaan op de rechtsopvolger.",
-          "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of de tesktpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
-          "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
+          "Wanneer een rechtspersoon door overdracht Wanneer door overdracht de auteursrechthebbende is geworden, dan kan je de rechtspersoon rechtstreeks benaderen voor afspraken over gebruik. Omdat auteursrechten blijven bestaan tot 70 jaar na de dood van de maker, kan na verloop van tijd niet altijd achterhaald worden wie de erven zijn. Maak altijd een afweging tussen het te behalen resultaat en de tijd die het kost om hier te komen. Als de auteursrechten op een werk bijvoorbeeld al over enkele jaren komen te vervallen, dan kan je ervoor kiezen om met publiceren nog even te wachten op dit moment."
+        ],
+        "oprhaned": [
+          "Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of de tesktpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
+        ],
+        "cbo": [
+          "Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
-        ], 
+        ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ],
         "showNextSteps": true
       },
       {
@@ -261,103 +327,129 @@
         "text": "De uitgever/producent is van oorsprong rechthebbende (omdat het wordt gezien als de maker)",
         "description": [
           "De uitgever/producent wordt gezien als de maker van het werk wanneer er sprake is van een dienstverband met de daadwerkelijke maker. Doordat de maker in dienst was bij de uitgever/producent, is de uitgever/producent als werkgever automatisch auteursrechthebbende geworden op het werk dat onder diensttijd en als onderdeel van de reguliere werkzaamheden is gemaakt. Of de naam van de maker op het werk staat of niet, doet hier niets aan af.",
-          "Voorbeelden:",
-          "Een krant heeft journalisten en fotografen in dienst. De krant is auteursrechthebbende geworden op de artikelen en foto’s die zij voor de krant hebben gemaakt.",
-          "Een producent van designobjecten heeft ontwerpers in dienst. De producent is auteursrechthebbende geworden op de door hen ontworpen objecten tijdens diensttijd.",
-          "Een uitgever van bladmuziek krijgt een eigen auteursrecht op de uitgave. De rechten op de oude bladmuziek zelf kunnen al zijn vervallen, maar de uitgever is auteursrechthebbende op het gebundelde werk."  
+          "Voorbeelden:<br><ul><li>Een krant heeft journalisten en fotografen in dienst. De krant is auteursrechthebbende geworden op de artikelen en foto’s die zij voor de krant hebben gemaakt.</li><li>Een producent van designobjecten heeft ontwerpers in dienst. De producent is auteursrechthebbende geworden op de door hen ontworpen objecten tijdens diensttijd.</li></ul>"
         ],
         "result": [
-          "Wanneer de rechthebbende op het werk een rechtspersoon is, kan je de rechtspersoon rechtstreeks benaderen voor afspraken over gebruik. Omdat het werk van een rechtspersoon beschermd blijft tot 70 jaar na publicatie, bestaat de rechtspersoon na verloop van tijd niet altijd nog in de oorspronkelijk vorm. Een bedrijf kan zijn doorverkocht, waarbij de auteursrechten zijn overgegaan op de rechtsopvolger.",
-          "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of de tesktpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
-          "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
+          "Wanneer de rechthebbende op het werk een rechtspersoon is, kan je de rechtspersoon rechtstreeks benaderen voor afspraken over gebruik. Omdat het werk van een rechtspersoon beschermd blijft tot 70 jaar na publicatie, bestaat de rechtspersoon na verloop van tijd niet altijd nog in de oorspronkelijk vorm. Een bedrijf kan zijn doorverkocht, waarbij de auteursrechten zijn overgegaan op de rechtsopvolger."
+        ],
+        "orphaned": [
+          "Wanneer de rechthebbende onbekend is, kan een boek of tekstpublicatie als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je het boek of de tesktpublicatie onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat de rechtspersoon geen rechtsopvolger heeft. Lukt het je niet om de rechthebbenden te traceren, dan kun je een boek of tekstpublicatie <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
+        ],
+        "cbo": [
+          "Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
-        ], 
+        ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ],
         "showNextSteps": true
       }]
     },
 
     "professionalAmateur": {
       "question": "Gaat het om een amateurfilm of om een professionele film?",
-      "theme": "Waar liggen de rechten?",
+      "theme": "Wie heeft het auteursrecht op het werk?",
       "options": [{
-        "key": "professional",
-        "text": "Professionele film",
-        "description": "Onder professionele films worden alle opnames verstaan die buiten de privésfeer zijn gemaakt. Hieronder vallen filmproducties, korte films, tv-series en tv-programma’s, documentaires, reclames en professionele social media. Een professionele film kan ook audiovisuele kunst zijn van een kunstenaar.",
-        "next": "professionalProduced"
-      },
-      {
         "key": "amateur",
         "text": "Amateurfilm",
         "description": [
           "Onder amateurfilms worden (vaak oude) opnames verstaan die in privésfeer zijn gemaakt door één persoon (een natuurlijke maker) en die meestal geen muziek bevatten. Een ander kenmerk van oude amateuropnames is dat ze meestal niet zijn gepubliceerd.",
           "Erfgoedinstellingen en musea hebben vaak met deze oude amateuropnames te maken in hun collectie. Hoe ouder de opnames zijn, hoe lastiger het is om de maker of de rechthebbenden te achterhalen. Als rechthebbenden niet meer te achterhalen zijn, kan het zijn dat een amateuropname verweesd kan worden verklaard.  Openbaarmaking door de erfgoedinstelling is daarna toch mogelijk.",
-          "Hedendaagse voorbeelden van amateurfilms zijn filmpjes die verschijnen op diverse social media, zoals Instagram, Facebook of Youtube. Deze filmpjes zijn wel gepubliceerd doordat ze online zijn verschenen. Of de maker van deze filmpjes bekend is hangt er vanaf of iemand ze onder hun eigen naam heeft gepubliceerd of onder een anoniem account). Youtube kanalen van zogenoemd bekende vloggers  (die soms ook vertegenwoordigd worden door MCN’s) vallen vanwege het professionele karakter en verdienmodel vaak wel weer onder ‘professionele films’."
+          "Hedendaagse voorbeelden van amateurfilms zijn filmpjes die verschijnen op diverse social media, zoals Instagram, Facebook of Youtube. Deze filmpjes zijn wel gepubliceerd doordat ze online zijn verschenen. Of de maker van deze filmpjes bekend is hangt er vanaf of iemand ze onder hun eigen naam heeft gepubliceerd of onder een anoniem account). <br>Youtube kanalen van zogenoemd bekende vloggers (die soms ook vertegenwoordigd worden door MCN’s) vallen vanwege het professionele karakter en verdienmodel vaak wel weer onder 'professionele films'."
         ],
         "result": [
-          "Wanneer alle makers van de film (of hun erfopvolgers) bekend en vindbaar zijn kan je met hen afspraken maken over gebruik van de film. Hoe ouder de opnames zijn, hoe lastiger het is om de identiteit van de maker of van de rechthebbenden te achterhalen.  Als rechthebbenden niet meer te achterhalen zijn, kan het zijn dat een amateuropname verweesd kan worden verklaard.",
-          "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
-        ], 
+          "Wanneer alle makers van de film (of hun erfopvolgers) bekend en vindbaar zijn kan je met hen afspraken maken over gebruik van de film. Hoe ouder de opnames zijn, hoe lastiger het is om de identiteit van de maker of van de rechthebbenden te achterhalen. Als rechthebbenden niet meer te achterhalen zijn, kan het zijn dat een amateuropname verweesd kan worden verklaard."
+        ],
+        "orphaned": [
+          "Wanneer de rechthebbende onbekend is, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
+        ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ],
         "showNextSteps": true
+      },
+      {
+        "key": "professional",
+        "text": "Professionele film",
+        "description": [
+          "Onder professionele films worden alle opnames verstaan die buiten de privésfeer zijn gemaakt. Hieronder vallen filmproducties, korte films, tv-series en tv-programma’s, documentaires, reclames en professionele social media. Een professionele film kan ook audiovisuele kunst zijn van een kunstenaar."
+        ],
+        "next": "professionalProduced"
       }]
     },
 
     "professionalProduced": {
-      "question": "Is de film geproduceerd?",
+      "question": "Is bij de productie van de film een producent betrokken?",
       "description": [
         "Elke keer als je de rechten van een werk uitzoekt zijn twee vragen relevant. De eerste is of een werk nog wel wordt beschermd door het auteursrecht. Als het antwoord op deze vraag positief is, dan is de tweede vraag bij wie of waar de rechten dan liggen.",
         "Wanneer er een producent betrokken is bij de totstandkoming van een professionele film, dan zijn alle auteursrechten van de individuele makers in de meeste gevallen overgedragen aan de producent, om exploitatie van de film mogelijk te maken.",
         "Het is niet altijd duidelijk of er een producent betrokken was bij de totstandkoming, bijvoorbeeld doordat een deel van de filmrol ontbreekt. Er zijn diverse databases beschikbaar die je kan raadplegen voor informatie: De archieven van EYE en Beeld en Geluid, of de jaarboeken van het Nederlands Filmfonds."
       ],
-      "theme": "Waar liggen de rechten?",
+      "theme": "Wie heeft het auteursrecht op het werk?",
       "options": [{
         "key": "professionalIsProduced",
-        "text": "Geproduceerde film",
-        "description": "Bij de meeste films, programma’s  en documentaires is een producent betrokken, vanwege de complexe coördinatie die nodig is voor de totstandkoming.",
+        "text": "Film waar een producent bij betrokken is",
+        "description": [
+          "Bij de meeste films, programma’s  en documentaires is een producent betrokken, vanwege de complexe coördinatie die nodig is voor de totstandkoming."
+        ],
         "next": "professionalWhenProduced"
       },
       {
         "key": "professionalIsIndependent",
         "text": "Film van een onafhankelijke filmmaker",
         "description": [
-          "Niet alle professionele films hebben ook een aparte producent. Veelal zijn dit documentaires die in eigen beheer van de maker worden ontwikkeld, of films van kunstenaars die het gehele proces in eigen beheer doen.",
+          "Niet bij alle professionele films is ook een producent betrokken geweest. Veelal zijn dit documentaires die in eigen beheer van de maker worden ontwikkeld, of films van kunstenaars die het gehele proces in eigen beheer doen.",
           "De auteursrechten liggen in deze gevallen bij één of meer makers die bij de film zijn betrokken. Er wordt in deze gevallen gesproken van een gemeenschappelijk werk van de makers die een gezamenlijk auteursrecht hebben op het eindproduct."
         ],
         "result": [
           "Bij onafhankelijke films waar geen producent bij betrokken is, is de maker (of zijn de makers) zelf de auteursrechthebbende(n) op de film. Wanneer er meerdere makers van de film zijn, hebben zij een gemeenschappelijk auteursrecht. Om de film te kunnen gebruiken moet je van alle makers toestemming krijgen.",
-          "Wanneer alle makers van de film (of hun erfopvolgers) bekend en vindbaar zijn kan je met hen afspraken maken over gebruik van de film.",
-          "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
+          "Wanneer alle makers van de film (of hun erfopvolgers) bekend en vindbaar zijn kan je met hen afspraken maken over gebruik van de film."
+        ],
+        "orphaned": [
+          "Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
           "Wanneer slechts enkele makers van de film (of hun erfopvolgers) bekend en vindbaar zijn maak je afspraken over gebruik met deze rechthebbenden, verklaar het overige deel van de film als verweesd."
-        ], 
+        ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ],
         "showNextSteps": true
       }]
     },
 
     "professionalWhenProduced": {
-      "question": "Wanneer is de film geproduceerd?",
-      "description": "Om te bepalen wie de auteursrechthebbende op het werk is, is door te kijken naar de datum van aanvang van productie.",
-      "theme": "Waar liggen de rechten?",
+      "question": "Wanneer is de film tot stand gekomen?",
+      "description": [
+        "Om te bepalen wie de auteursrechthebbende op het werk is, is door te kijken naar de datum van aanvang van productie."
+      ],
+      "theme": "Wie heeft het auteursrecht op het werk?",
       "options": [{
         "key": "afterAugust1985",
-        "text": "De film is na 1 augustus 1985 geproduceerd ",
+        "text": "De film is na 1 augustus 1985 tot stand gekomen",
         "result": [
-          "Bij filmwerken vanaf 1985 geldt een wettelijk vermoeden van overdracht van de auteursrechten aan de producent, met uitzondering van muziek, waardoor de producent auteursrechthebbende is geworden m.b.t. de exploitatie van het filmwerk. Dat betekent dat de producent (mits die er is) het aanspreekpunt is om afspraken te maken over gebruik. Let wel, dit is de algemene regel maar er kunnen schriftelijke individuele overeenkomsten zijn met een maker, waarmee van deze regel wordt afgeweken.",
-          "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
-          "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
-          "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
+          "Bij filmwerken vanaf 1985 geldt een wettelijk vermoeden van overdracht van de auteursrechten aan de producent, met uitzondering van muziek, waardoor de producent auteursrechthebbende is geworden m.b.t. de exploitatie van het filmwerk. Dat betekent dat de producent (mits die er is) het aanspreekpunt is om afspraken te maken over gebruik. <br>Let wel, dit is de algemene regel maar er kunnen schriftelijke individuele overeenkomsten zijn met een maker, waarmee van deze regel wordt afgeweken."
+        ],
+        "orphaned": [
+          "Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
         ], 
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ],
         "showNextSteps": true
       },
       {
         "key": "beforeAugust1985",
-        "text": "De film is voor 1 augustus 1985 geproduceerd, of het is onbekend wanneer de film is geproduceerd.",
+        "text": "De film is voor 1 augustus 1985 tot stand gekomen of het is onbekend wanneer de film tot stand is gekomen",
         "result": [
-          "Bij filmwerken van voor 1985 gold het wettelijk vermoeden van overdracht van de auteursrechten aan de producent dat we nu kennen nog niet. Dat betekent dat de individuele makers van de film ieder rechthebbende zijn gebleven op hun eigen aandeel, tenzij zij hun rechten contractueel hebben overgedragen aan de producent. ",
+          "Bij filmwerken van voor 1985 gold het wettelijk <em>vermoeden van overdracht</em>, van de auteursrechten van de makers aan de producent, dat we nu kennen nog niet. Dat betekent dat de individuele makers van de film ieder rechthebbende zijn gebleven op hun eigen aandeel, tenzij zij hun rechten contractueel hebben overgedragen aan de producent.   ",
           "Het is vaak lastig te achterhalen of deze overdracht van auteursrechten aan de producent heeft plaatsgevonden. Wanneer de overdracht niet heeft plaatsgevonden hebben de makers van de film een gemeenschappelijk auteursrecht op de film. Voor gebruik heb je toestemming van alle makers nodig.",
-          "In de praktijk zal, ook bij films van voor 1985, de producent doorgaans rechthebbende zijn geworden om de film te kunnen exploiteren en dus aanspreekpunt zijn.  Het is ook altijd een optie om een licenties met de producent af te sluiten in combinatie met een vrijwaring.",
-          "<strong>Verweesde werken</strong><br>Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority.",
-          "<strong>CBO</strong><br>Sommige makers zijn lid van een Collectieve Beheerorganisatie (CBO): Soms kiezen makers of rechthebbenden ervoor om hun rechten te laten beheren door een externe (commerciële) organisatie. Deze organisatie is meestal niet de rechthebbende, maar wel het aanspreekpunt om afspraken mee te maken over gebruik van het werk. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
-          "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaald dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt."
-        ], 
+          "In de praktijk zal, ook bij films van voor 1985, de producent doorgaans rechthebbende zijn geworden om de film te kunnen exploiteren en dus aanspreekpunt zijn.  Het is ook altijd een optie om een licenties met de producent af te sluiten in combinatie met een vrijwaring."
+        ],
+        "orphaned": [
+          "Wanneer de rechthebbende onbekend is of niet gevonden kan worden, kan een film als verweesd werk worden geregistreerd na uitgebreid onderzoek ('diligent search'), waarna je de film onder voorwaarden mag <a href=\"http://diligentsearch.eu/\" target=\"blank\">publiceren</a>. Het gaat bij Verweesde Werken niet alleen om rechthebbenden die niet identificeerbaar zijn, maar ook om rechthebbenden die niet traceerbaar zijn of die niet (meer) bestaan omdat een rechthebbende is overleden zonder erfgenamen of omdat een rechthebbende failliet is gegaan, en het faillissement is gesloten zonder dat de rechten zijn doorverkocht door de curator. Lukt het je niet om de rechthebbenden te traceren, dan kun je een filmwerk <a href=\"https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken\" target=\"_blank\">verweesd laten verklaren</a> via het RCE als Competent Authority."
+        ],
+        "note": [
+          "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
+        ],
         "showNextSteps": true
       }]
     }

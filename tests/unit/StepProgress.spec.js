@@ -4,7 +4,7 @@ import StepsProgress from '@/components/StepsProgress.vue';
 
 describe('StepsProgress.vue', () => {
 
-  const currentTheme = 'Is het werk beschermd?';
+  const currentTheme = 'Wanneer is het werk gepubliceerd?';
 
   it('renders an answer option', () => {
     const wrapper = shallowMount(StepsProgress, {
