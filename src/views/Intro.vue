@@ -1,8 +1,7 @@
 <template>
 <div
-    class="container columns-2"
+    class="container"
   >
-    <div class="column-sidebar" />
     <div class="column-text">
       <div class="container container-small padding-null">
         <h1>Introductie</h1>
@@ -13,6 +12,8 @@
         </p>
 
         <p><a href="./assets/handleiding-beslismodel-auteursrechten.pdf" target="_blank">Hier vind je een handleiding voor gebruik van de tool</a>, en als je wilt weten <router-link to="/copyright">wat auteursrechten ook alweer zijn dan vind je dat hier.</router-link></p>
+
+        <br><br>
 
         <div class="buttons">
           <button @click="startTree">Start het beslismodel</button>

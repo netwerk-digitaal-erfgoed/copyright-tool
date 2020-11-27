@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
 	background-color: #e6e4da;
   color: #000;
@@ -89,34 +95,62 @@ header {
       }
     }
   }
-
-  @media only screen and (min-width: 769px) {
-    nav {
-      display: block;
-    }
-  }  
 }
 
 footer {
   border-top: 1px solid #000;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
+  font-size: 0.875rem;
   display: block;
-  
-  @media only screen and (min-width: 769px) {
-    display: none;
-  }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
   nav {
     display: block;
+    text-align: right;
 
-    a:first-child {
-      padding-left: 0;
+    div {
+      margin-bottom: 0.5rem;
+
+      a:last-child {
+        padding-right: 0;
+      }
     }
+
+    .logo-den {
+      padding: 0;
+      padding-top: 0.2rem;
+    }
+
+    @media only screen and (min-width: 769px) {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      div {
+        margin-bottom: 0;
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+
+  main {
+    padding-bottom: 7rem;
   }
 }
 
 .container {
   padding: 2rem;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 
   .intro {
     margin-bottom: 2rem;
@@ -130,30 +164,13 @@ footer {
     padding: 0;
   }
 
-  .column-sidebar {
-    display: none;
+  .container {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
-
+    
   @media only screen and (min-width: 769px) {
-    &.columns-2 {
-      display: flex;
-
-      > div {
-        padding-right: 1rem;
-
-        &.column-sidebar {
-          display: inline-block;
-          flex-basis: 2rem;
-        }
-
-        &.column-questions,
-        &.column-text {
-          padding-left: 1rem;
-          flex: 1;
-        }
-      }
-    }
-
     &.container-small {
       max-width: 50vw;
     }
@@ -274,10 +291,6 @@ fieldset {
   display: flex;
 	flex-direction: column;
   margin-bottom: 2rem;
-
-  @media only screen and (min-width: 769px) {
-    max-width: 80%;
-  }
 
 	> div {
     background: white;  
@@ -436,7 +449,7 @@ fieldset {
     background: #fff;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
     overflow-y: auto;
-    height: calc(100% - 5rem);
+    height: 100%;
     position: relative;
 
     .title {

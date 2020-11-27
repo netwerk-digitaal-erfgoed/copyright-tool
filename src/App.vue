@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="page-container">
     <header>
       <div class="title">
         <a
@@ -10,7 +10,6 @@
           <strong>Regel je rechten</strong> <span>Beslismodel auteursrechten</span> <span class="beta">BETA</span>
         </a>
       </div>
-      <MainNavigation />
     </header>
     <main>
       <RouterView :key="$route.fullPath" />

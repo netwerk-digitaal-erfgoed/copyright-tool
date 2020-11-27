@@ -1,8 +1,7 @@
 <template>
   <div
-    class="container columns-2"
+    class="container"
   >
-    <div class="column-sidebar" />
     <div class="column-text">
       <StepsProgress
         current-theme="Advies"

@@ -45,7 +45,7 @@
     "maker": {
       "question": "Wie is de maker?",
       "description": [
-        "Aan de hand van de maker(s) van een werk bepaal je de beschermingsduur. Op die manier kom je er achter of een werk nog steeds beschermd wordt door het auteursrecht.<br>Onderstaande vier ‘type’ makers kennen ieder een eigen beschermingsduur. Elk van de antwoorden heeft een uitgebreide toelichting om te onderzoeken onder welke beschermingsduur je werk valt.",
+        "Aan de hand van de maker(s) van een werk bepaal je de beschermingsduur. Op die manier kom je er achter of een werk nog steeds beschermd wordt door het auteursrecht. Onderstaande vier ‘type’ makers kennen ieder een eigen beschermingsduur. Elk van de antwoorden heeft een uitgebreide toelichting om te onderzoeken onder welke beschermingsduur je werk valt.",
         "Werken van een anonieme maker of werken gemaakt onder een pseudoniem, hebben dezelfde beschermingsduur als werken van een rechtspersoon. Bij anonieme werken is de maker bewust niet aangeduid, denk hierbij aan affiches, catalogi en programma’s. Let op, anoniem is niet hetzelfde als onbekend. Als je niet weet wie de maker is, dan is het een goed idee om zo min mogelijk risico te nemen en van de langste beschermingsduur uit te gaan. Veronderstel in dit geval dat het werk door een of meer personen is gemaakt.",
         "Het bepalen van de rechten status van een werk begint altijd bij kennis over de vervaardigers. Vind hier een bronnenlijst om ontbrekende informatie te achterhalen."
       ],
@@ -99,7 +99,9 @@
         "key": "personOver70",
         "text": "De maker is meer dan 70 jaar geleden overleden",
         "result": [
-          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.) ",
+          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.) "
+          ],
+        "note": [
           "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
       ]},
       {
@@ -120,7 +122,8 @@
         "text": "Het werk is meer dan 70 jaar geleden gepubliceerd",
         "result": [
           "Het werk is niet langer auteursrechtelijk beschermd.",
-          "De regel dat de auteursrechten van een rechtspersoon 70 jaar na publicatie vervallen, is zeer strikt. Neem zo min mogelijk risico en biedt de afbeelding niet zomaar onder een Publiek Domein licentie aan aan derden.",
+          "De regel dat de auteursrechten van een rechtspersoon 70 jaar na publicatie vervallen, is zeer strikt. Neem zo min mogelijk risico en biedt de afbeelding niet zomaar onder een Publiek Domein licentie aan aan derden."],
+        "note": [
           "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren. </li></ul>"
       ]},
       {
@@ -140,8 +143,11 @@
         "key": "moreOneWorkOver70",
         "text": "De langstlevende maker is meer dan 70 jaar geleden overleden",
         "result": [
-          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.",
+          "Het werk is niet langer auteursrechtelijk beschermd. Het werk bevindt zich in het publiek domein, dit betekent dat er geen rechthebbende meer is en je hoeft dus ook geen toestemming te verkrijgen om het werk te gebruiken. Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden."
+        ],
+        "note": [
           "Let op, niet alleen auteursrechten bepalen of je een werk mag tonen. Er zijn nog een aantal andere aspecten waarmee je rekening moet houden bij gebruik of hergebruik:<br><ul><li>Als iemand is geportretteerd, dan moet je misschien ook toestemming van de geportretteerde vragen.</li><li>Houd rekening met de AVG (Algemene verordening gegevensverwerking) in het geval een werk iemand persoonsgegevens bevat.</li><li>Er kunnen ethische bezwaren zijn om een werk te publiceren.</li></ul>"
+      
       ]},
       {
         "key": "moreOneWorkLess70",
