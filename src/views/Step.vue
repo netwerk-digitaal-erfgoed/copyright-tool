@@ -1,9 +1,8 @@
 <template>
   <div
     v-if="question"
-    class="container columns-2"
+    class="container"
   >
-    <div class="column-sidebar" />
     <div class="column-questions">
       <StepsProgress
         :current-theme="question.theme"

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container columns-2"
+    class="container"
   >
     <div />
     <div class="column-result">

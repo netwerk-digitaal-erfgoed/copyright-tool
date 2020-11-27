@@ -1,8 +1,7 @@
 <template>
   <div
-    class="container columns-2"
+    class="container"
   >
-    <div class="column-sidebar" />
     <div class="column-result">
       <div class="container container-small padding-top-null">
         <h1>Colofon &amp; disclaimer</h1>
