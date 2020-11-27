@@ -1,5 +1,7 @@
 # Copyright tool "Beslismodel auteursrechten"
-This is a Vue.js project. 
+The current version of the copyright tool has been developed in 2020 as a Netwerk Digitaal Erfgoed project in collaboration with legal experts of Koninklijke Bibliotheek, Utrechts Archief, Erfgoed Leiden en Omstreken, Rijksdienst voor Cultureel Erfgoed, Nederlands Instituut voor Beeld en Geluid, Eye Filmmuseum and DEN Kennisinstituut Cultuur & Digitalisering.
+
+This is a JavaScript project, using the Vue framework.
 
 ## Prerequisites
 
