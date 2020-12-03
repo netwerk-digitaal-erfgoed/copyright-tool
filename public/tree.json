@@ -183,7 +183,7 @@
         "key": "makerHasRightsPerson",
         "text": "De oorspronkelijke rechthebbende op het werk is auteursrechthebbende gebleven",
         "description": [
-          "Wanneer er geen andere afspraken zijn gemaakt, is de maker(s) van het werk zelf de auteursrechthebbende op het werk gebleven. Onder de feitelijk maker verstaan we een natuurlijk persoon (en zijn/haar erfgenamen) of een rechtspersoon."
+          "Wanneer er geen andere afspraken zijn gemaakt, is de maker van het werk zelf de auteursrechthebbende op het werk gebleven."
         ],
         "result": [
           "Wanneer de maker een natuurlijk persoon is en hij of zij is nog in leven, dan kan je hem of haar rechtstreeks benaderen voor afspraken over gebruik. Wanneer de maker is overleden, zijn de auteursrechten overgegaan op zijn of haar erfgenamen. Raadpleeg het collectie informatiesysteem of het internet om erachter te komen wie de erven zijn om afspraken over gebruik te maken. Omdat auteursrechten blijven bestaan tot 70 jaar na de dood van de maker, kan na verloop van tijd niet altijd achterhaald worden wie de erven zijn. Maak altijd een afweging tussen het te behalen resultaat en de tijd die het kost om hier te komen. Als de auteursrechten op een werk bijvoorbeeld al over enkele jaren komen te vervallen, dan kan je ervoor kiezen om met publiceren nog even te wachten op dit moment."
@@ -202,7 +202,7 @@
         "key": "makerHasRightsLegal",
         "text": "De oorspronkelijke rechthebbende op het werk is auteursrechthebbende gebleven",
         "description": [
-          "Wanneer er geen andere afspraken zijn gemaakt, is de maker(s) van het werk zelf de auteursrechthebbende op het werk gebleven. Onder de feitelijk maker verstaan we een natuurlijk persoon (en zijn/haar erfgenamen) of een rechtspersoon."
+          "Wanneer er geen andere afspraken zijn gemaakt, is het bedrijf dat wordt gezien als de maker van het werk zelf de auteursrechthebbende op het werk gebleven."
         ],
         "result": [
           "Wanneer de maker een rechtspersoon is, kan je de rechtspersoon rechtstreeks benaderen voor afspraken over gebruik. Het kan zijn dat een rechtspersoon na verloop van tijd niet meer in de oorspronkelijk vorm bestaat. Een bedrijf kan zijn doorverkocht, waarbij de auteursrechten zijn overgegaan op de rechtsopvolger."
@@ -221,7 +221,7 @@
         "key": "makerHasRightsMore",
         "text": "De oorspronkelijke rechthebbende op het werk is auteursrechthebbende gebleven",
         "description": [
-          "Wanneer er geen andere afspraken zijn gemaakt, is de maker(s) van het werk zelf de auteursrechthebbende op het werk gebleven. Onder de feitelijk maker verstaan we een natuurlijk persoon (en zijn/haar erfgenamen) of een rechtspersoon."
+          "Wanneer er geen andere afspraken zijn gemaakt, zijn de makers van het werk zelf de auteursrechthebbende op het werk gebleven."
         ],
         "result": [
           "Bij een gemeenschappelijk werk hebben alle makers een gemeenschappelijk auteursrecht op het werk en moet voor gebruik toestemming aan alle makers worden gevraagd."
@@ -240,14 +240,14 @@
         "key": "otherHasRights",
         "text": "Een ander is auteursrechthebbende geworden door overdracht",
         "description": [
-          "Een maker (of erfopvolger) kan er voor hebben gekozen de auteursrechten over te dragen aan een ander. Dat kan een ander natuurlijk persoon zijn, een stichting of een commerciële partij.",
+          "De oorspronkelijke rechthebbende kan er voor hebben gekozen de auteursrechten over te dragen aan een ander. Dat kan een natuurlijk persoon zijn, een stichting of een commerciële partij.",
           "Voorbeeld: Stichting Karel Appel die zich inzet voor beheer van het oeuvre en de rechten beheerd."
         ],
         "result": [
-          "Wanneer er een stichting in het leven is geroepen voor het werk van een maker, zijn de auteursrechten van deze maker vaak, maar niet altijd, ook bij de stichting ondergebracht. Raadpleeg hiervoor het internet en benader de stichting rechtstreeks om afspraken te maken over gebruik van het werk."
+          "Voor gebruik is toestemming nodig van de auteursrechthebbende. Benader de natuurlijk persoon, de stichting of de commerciële partij rechtstreeks."
         ], 
         "cbo": [
-          "Stichtingen kunnen de maker van wie zij de rechten beheren hebben ingeschreven bij een Collectieve Beheerorganisatie (CBO). De rechten worden dan beheerd door een externe (commerciële) organisatie. Deze organisatie kan alleen het aanspreekpunt zijn om afspraken mee te maken over gebruik van het werk, of zelfs rechthebbende zijn geworden. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
+          "De partij die door overdracht auteursrechthebbende is geworden kan ook zijn ingeschreven bij een Collectieve Beheerorganisatie (CBO). De rechten worden dan beheerd door een externe (commerciële) organisatie. Deze organisatie kan alleen het aanspreekpunt zijn om afspraken mee te maken over gebruik van het werk, of zelfs rechthebbende zijn geworden. Raadpleeg de website van de collectieve beheerorganisatie om erachter te komen of de maker van het werk bij hen staat ingeschreven. Wanneer dit het geval is moet je van de CBO toestemming krijgen voor gebruik en hen hiervoor betalen.",
           "Als je de rechthebbende op een werk niet kan achterhalen, maar je wil het werk wel publiceren, dan kan je ook bij een CBO terecht wanneer een maker niet bij hen is aangesloten. Je betaalt dan voor een vrijwaring. De CBO kan je vertellen wat deze vrijwaring precies inhoudt.",
           "Niet voor elke soort publicatie is het nodig om toestemming te vragen. De auteurswet kent een aantal uitzonderingen(excepties) die publicatie van een werk in sommige gevallen toelaat, zonder dat hier toestemming van de auteursrechthebbende voor nodig is."
         ],
