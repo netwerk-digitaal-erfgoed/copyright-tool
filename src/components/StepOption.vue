@@ -71,7 +71,9 @@
           ) return true;
         } else if (answer[0].selected === 'legal') {
           if (this.option.key !== 'makerHasRightsPerson' &&
-            this.option.key !== 'makerHasRightsMore'
+            this.option.key !== 'makerHasRightsMore' &&
+            this.option.key !== 'printerProducer' &&
+            this.option.key !== 'movieAudio'
           ) return true;
         } else if (answer[0].selected === 'moreOneWork') {
           if (this.option.key !== 'makerHasRightsPerson' &&

@@ -58,4 +58,16 @@ describe('StepQuestion.vue', () => {
 
     expect(wrapper.find('.readmore').exists()).to.be.false;
   });
+
+  it('does not render a read more button when there is no description', () => {
+    const wrapper = shallowMount(StepQuestion, {
+      propsData: {
+        question,
+        description: [],
+        showDescription
+      }
+    });
+
+    expect(wrapper.find('.readmore').exists()).to.be.false;
+  });
 });

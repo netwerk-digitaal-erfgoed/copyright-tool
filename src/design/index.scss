@@ -31,6 +31,12 @@ h1 {
   line-height: 1;
 }
 
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 header,
 footer {
   nav {
@@ -277,7 +283,7 @@ fieldset {
 
     &.active {
       &:before {
-        border: 1px solid #000;
+        background: #000;
         height: 1rem;
         width: 1rem;
         top: calc(50% - 0.5rem);
@@ -480,5 +486,14 @@ fieldset {
     top: 0.5rem;
     right: 1.5rem;
     text-decoration: none;
+  }
+}
+
+.card {
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  &.bg-white {
+    background: rgba(255, 255, 255, 0.4);
   }
 }

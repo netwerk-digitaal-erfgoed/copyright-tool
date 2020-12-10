@@ -2,7 +2,10 @@
   <div
     class="container"
   >
-    <div class="column-text">
+    <div
+      v-if="result"
+      class="column-text"
+    >
       <StepsProgress
         current-theme="Advies"
       />
@@ -170,6 +173,16 @@
 
       </div>
     </div>
+    <div
+      v-else
+      class="column-text"
+    >
+      <div class="buttons">
+        <router-link to="/" tag="button">
+          Terug naar de homepagina
+        </router-link>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -259,9 +272,9 @@
     },
 
     created() {
-      if (!this.result) {
-        return this.$router.push({ path: '/step' }).then(() => window.scrollTo(0, 0));
-      }
+      //if (!this.result) {
+      //  return this.$router.push({ path: '/step' }).then(() => window.scrollTo(0, 0));
+      //}
     },
 
     methods: {
