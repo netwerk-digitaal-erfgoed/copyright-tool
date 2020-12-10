@@ -8,7 +8,7 @@ module.exports = {
     plugins: [
       new PrerenderSPAPlugin({
         staticDir: path.join(__dirname, 'dist'),
-        routes: ['/', '/colofon', '/copyright'],
+        routes: ['/', '/colofon', '/copyright', '/result', '/notfound', '/step'],
         renderer: new Renderer({
           headless: true
         })

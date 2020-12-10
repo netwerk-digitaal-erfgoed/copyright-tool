@@ -6,7 +6,7 @@
       <div class="container container-small padding-null">
         <div class="card bg-white">
           <h2>Voorbehoud</h2>
-          <p>Dit de bètaversie van het beslismodel auteursrechten. Het projectteam heeft zich ingespannen om juridische overwegingen te verenigen met bedieningsgemak. Het is echter mogelijk dat dit beslismodel nog hiaten, onduidelijkheden of andere kinderziekten bevat. Aanbevolen wordt om hiermee rekening te houden bij het toepassen van de verstrekte adviezen.</p>
+          <p>Dit is de bètaversie van het beslismodel auteursrechten. Het projectteam heeft zich ingespannen om juridische overwegingen te verenigen met bedieningsgemak. Het is echter mogelijk dat dit beslismodel nog hiaten, onduidelijkheden of andere kinderziekten bevat. Aanbevolen wordt om hiermee rekening te houden bij het toepassen van de verstrekte adviezen.</p>
 
           <p>We nodigen je echter van harte uit om het beslismodel te gebruiken, en eventele vragen en suggesties te delen via het <a href="https://forms.gle/oyoHNmxcvG9hpCAD9" target="_blank">feedbackformulier</a>. Aan de hand van deze feedback zullen de komende tijd verbeterde versies worden gepubliceerd.</p>
         </div>

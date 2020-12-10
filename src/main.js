@@ -6,6 +6,10 @@ import store from './store/store';
 Vue.config.productionTip = false;
 
 new Vue({
+  created() {
+    const html = document.documentElement;
+    html.setAttribute('lang', 'nl');
+  },
   router,
   store,
   render: h => h(App)
