@@ -1,10 +1,10 @@
-const path = require('path');
-const PrerenderSPAPlugin = require('prerender-spa-plugin');
-const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
+// const path = require('path');
+// const PrerenderSPAPlugin = require('prerender-spa-plugin');
+// const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 
 module.exports = {
-  runtimeCompiler: true,
-  configureWebpack: {
+  runtimeCompiler: true
+  /* configureWebpack: {
     plugins: [
       new PrerenderSPAPlugin({
         staticDir: path.join(__dirname, 'dist'),
@@ -14,5 +14,5 @@ module.exports = {
         })
       })
     ]
-  }
+  }*/
 };
