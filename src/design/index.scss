@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$blue: #00326e;
 
 *,
 *::before,
@@ -495,5 +498,61 @@ fieldset {
 
   &.bg-white {
     background: rgba(255, 255, 255, 0.4);
+  }
+}
+
+.cookie-banner {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  line-height: 1.42857;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: $blue;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  padding: 1rem 2rem;
+
+  .cookie-banner-text {
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .cookie-banner-buttons {
+    white-space: nowrap;
+
+    .btn {
+      background: #fff;
+      color: $blue;
+      cursor: pointer;
+      border-radius: 0;
+      margin: 0;
+      margin-left: 0.5rem;
+      line-height: 1.5;
+      font-size: 0.9375rem;
+      font-weight: bold;
+      padding: 0.8rem 1.25rem;
+      border: 1px solid transparent;
+      text-align: center;
+      text-decoration: none;
+      transition: all .2s cubic-bezier(0.13, 0.8, 0.31, 0.91);
+
+      &:hover {
+        background: #fff;
+        color: inherit;
+        text-decoration: underline;
+      }
+
+      &.btn-link {
+        background: $blue;
+        color: #fff;
+        margin-left: 2rem;
+      }
+    }
   }
 }

@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="page-container">
+    <CookieBanner />
     <header>
       <div class="title">
         <a
@@ -22,10 +23,12 @@
 
 <script>
   import MainNavigation from './components/MainNavigation.vue';
+  import CookieBanner from './components/CookieBanner.vue';
 
   export default {
     components: {
-      MainNavigation
+      MainNavigation,
+      CookieBanner
     },
 
     methods: {
