@@ -297,6 +297,12 @@
       setActiveTab(index) {
         this.activeTab = index;
       }
+    },
+
+    metaInfo() {
+      return {
+        title: 'Advies'
+      };
     }
   };
 </script>

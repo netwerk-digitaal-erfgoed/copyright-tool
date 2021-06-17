@@ -26,3 +26,14 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+    metaInfo() {
+      return {
+        title: 'Wat zijn auteursrechten ook alweer?'
+      };
+    }
+  };
+</script>
+

@@ -3,8 +3,11 @@ import App from './App.vue';
 import router from './router';
 import store from './store/store';
 import VueGtag from 'vue-gtag';
+import VueMeta from 'vue-meta';
 
 Vue.config.productionTip = false;
+
+Vue.use(VueMeta);
 
 const cookie = document.cookie.split('; ').find(row => row.startsWith('DEN-regeljerechten='));
 let optIn = false;
@@ -16,7 +19,7 @@ if (cookie) {
 }
 
 Vue.use(VueGtag, {
-  config: { id: process.env.VUE_APP_GOOGLE_ANALYTICS },
+  config: { id: 'G-DWYJWT4BRD' },
   enabled: optIn
 }, router);
 
