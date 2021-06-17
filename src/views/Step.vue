@@ -45,13 +45,19 @@
           </fieldset>
           <div class="buttons">
             <button
+              v-if="allSelected.length > 0 && questionKey !== 'publicationdate'"
+              @click="prevStep"
+              class="button-link"
+            >
+              Vorige stap
+            </button>
+            <button
               type="button"
               @click="nextStep"
               :disabled="!selected.key && !input"
             >
               Ga verder
             </button>
-            <a v-if="allSelected.length > 0 && questionKey !== 'publicationdate'" @click="prevStep" class="button-link">Vorige stap</a>
           </div>
         </form>
       </div>
@@ -170,6 +176,12 @@
       selectedOption(newValue) {
         this.selected = newValue;
       }
+    },
+
+    metaInfo() {
+      return {
+        title: 'Stap'
+      };
     }
   };
 </script>

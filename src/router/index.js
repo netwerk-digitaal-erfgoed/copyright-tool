@@ -13,38 +13,32 @@ const routes = [
   {
     path: '/',
     name: 'intro',
-    component: Intro,
-    meta: { title: 'Intro | Beslismodel auteursrechten' }
+    component: Intro
   },
   {
     path: '/colofon',
     name: 'colofon',
-    component: Colofon,
-    meta: { title: 'Colofon | Beslismodel auteursrechten' }
+    component: Colofon
   },
   {
     path: '/copyright',
     name: 'copyright',
-    component: AboutCopyright,
-    meta: { title: 'Wat zijn auteursrechten ook alweer? | Beslismodel auteursrechten' }
+    component: AboutCopyright
   },
   {
     path: '/result',
     name: 'result',
-    component: Result,
-    meta: { title: 'Advies | Beslismodel auteursrechten' }
+    component: Result
   },
   {
     path: '/step/:step?',
     name: 'step',
-    component: Step,
-    meta: { title: 'Stap | Beslismodel auteursrechten' }
+    component: Step
   },
   { // catch all 404 - define at the very end
     path: '*',
     name: 'notfound',
-    component: NotFound,
-    meta: { title: '404 | Beslismodel auteursrechten' }
+    component: NotFound
   }
 ];
 
@@ -52,11 +46,6 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
-});
-
-router.beforeEach((to, from, next) => {
-  document.title = to.meta.title;
-  next();
 });
 
 export default router;

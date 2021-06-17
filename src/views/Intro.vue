@@ -37,8 +37,12 @@
         this.$store.dispatch('clearSelectedSteps');
         return this.$router.push({ path: '/step' }).then(() => window.scrollTo(0, 0));
       }
+    },
+
+    metaInfo() {
+      return {
+        title: 'Intro'
+      };
     }
   };
 </script>
-
-
