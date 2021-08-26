@@ -5,7 +5,7 @@
     <div class="column-result">
       <div class="container container-small padding-top-null">
         <h1>Colofon &amp; disclaimer</h1>
-        <p>Deze beta versie van het beslismodel auteursrechten is in 2020 ontwikkeld binnen het Netwerk Digitaal Erfgoed in samenwerking met juridische deskundigen van de Koninklijke Bibliotheek, Utrechts Archief, Erfgoed Leiden en Omstreken, Rijksdienst voor Cultureel Erfgoed, Nederlands Instituut voor Beeld en Geluid, Eye Filmmuseum en DEN Kennisinstituut Cultuur &amp; Digitale Transformatie.</p>
+        <p>Deze beta versie van het beslismodel auteursrechten is in 2020 ontwikkeld binnen het Netwerk Digitaal Erfgoed in samenwerking met juridische deskundigen van de Koninklijke Bibliotheek, Utrechts Archief, Erfgoed Leiden en Omstreken, Rijksdienst voor Cultureel Erfgoed, Nederlands Instituut voor Beeld en Geluid, Eye Filmmuseum en DEN Kennisinstituut Cultuur &amp; Digitale Transformatie. Sezen Kapan heeft meegewerkt als auteursrecht jurist en projectmedewerker.</p>
 
         <p>Het beslismodel is een hulpmiddel bij het uitzoeken en clearen van auteursrechten op werken in collecties. Aan de uitkomsten kunnen geen rechten ontleend worden en we willen de gebruikers er dan ook op wijzen dat ze zelf verantwoordelijk blijven voor het op een juiste manier regelen van de rechten.</p>
 
@@ -41,6 +41,12 @@
       return {
         title: 'Colofon'
       };
+    },
+
+    methods: {
+      scrollToTop() {
+        window.scrollTo(0, 0);
+      }
     }
   };
 </script>
