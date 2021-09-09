@@ -6,12 +6,12 @@
       <div class="container container-small padding-null">
         <div class="card bg-white">
           <h2>Voorbehoud</h2>
-          <p>Dit is de bètaversie van het beslismodel auteursrechten. Het projectteam heeft zich ingespannen om juridische overwegingen te verenigen met bedieningsgemak. Het is echter mogelijk dat dit beslismodel nog hiaten, onduidelijkheden of andere kinderziekten bevat. </p>
+          <p>Dit is de bètaversie van het beslismodel auteursrechten. Het projectteam heeft zich ingespannen om juridische overwegingen te verenigen met bedieningsgemak. Het is echter mogelijk dat dit beslismodel nog hiaten, onduidelijkheden of andere kinderziekten bevat.</p>
 
           <p>We nodigen je van harte uit om dit beslismodel te gebruiken, onder het voorbehoud dat aan de uitkomsten geen rechten kunnen worden ontleend.
           <router-link to="/colofon">Lees meer over dit voorbehoud en de gebruiksvoorwaarden in het colofon en disclaimer</router-link>.</p>
 
-          <p>Eventuele vragen en suggesties kunnen worden gedeeld via het <a href="https://forms.gle/oyoHNmxcvG9hpCAD9" target="_blank">feedbackformulier</a>. Aan de hand van deze feedback zullen de komende tijd verbeterde versies worden gepubliceerd.</p>
+          <p>Help jij ons met het verbeteren van dit beslismodel? Wij zijn benieuwd hoe je het gebruik van dit beslismodel ervaart. Wij nodigen je, nu of na het doorlopen van het beslismodel, uit om deel te nemen aan een kort anoniem <a href="https://forms.gle/oyoHNmxcvG9hpCAD9" target="_blank">onderzoek</a>.</p>
         </div>
 
         <h1>Introductie</h1>
