@@ -167,6 +167,12 @@
           </div>
         </template>
 
+        <div class="card border-black">
+          <strong>Help jij ons met het verbeteren van dit beslismodel?</strong>
+          <p>Wij zijn benieuwd hoe je het gebruik van dit beslismodel ervaren hebt. Wij nodigen je uit om deel te nemen aan een kort anoniem <a href="https://forms.gle/oyoHNmxcvG9hpCAD9" target="_blank">onderzoek</a>. Met behulp van jouw ervaring kunnen we het beslismodel verbeteren. Het invullen van het onderzoek kost maximaal 5 minuten.</p>
+          <p>Dank je wel!</p>
+        </div>
+
         <div class="buttons">
           <button @click="resetTree">Start opnieuw</button>
         </div>
