@@ -9,7 +9,7 @@ describe('MainNavigation.vue', () => {
       stubs: ['router-link']
     });
 
-    expect(wrapper.find('nav a').text()).to.contain('Handleiding');
+    expect(wrapper.find('nav a').text()).to.contain('nieuwsbrief DEN');
     expect(wrapper.find('nav router-link-stub').text()).to.contain('Colofon');
   });
 });

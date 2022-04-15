@@ -18,7 +18,7 @@
               v-for="(component, index) in multipleComponents"
               :key="index"
             >
-              <a>{{ index + 1 }} {{ component.name }}</a>
+              <div class="panel-heading">{{ index + 1 }}. {{ component.name }}</div>
               <div class="panel">
                 <div v-for="(paragraph, index) in component.result" :key="index">
                   <p v-html="paragraph" />
@@ -40,6 +40,7 @@
               v-if="isMultiple"
               type="button"
               v-on:click="addAnotherComponent"
+              class="btn btn-small btn-secondary"
             >
               Voeg nog een component toe
             </button>
@@ -167,26 +168,26 @@
           </div>
         </template>
 
-        <div class="card border-black">
-          <strong>Help jij ons met het verbeteren van dit beslismodel?</strong>
-          <p>Wij zijn benieuwd hoe je het gebruik van dit beslismodel ervaren hebt. Wij nodigen je uit om deel te nemen aan een kort anoniem <a href="https://forms.gle/oyoHNmxcvG9hpCAD9" target="_blank">onderzoek</a>. Met behulp van jouw ervaring kunnen we het beslismodel verbeteren. Het invullen van het onderzoek kost maximaal 5 minuten.</p>
-          <p>Dank je wel!</p>
-        </div>
-
         <div class="buttons">
-          <button @click="resetTree">Start opnieuw</button>
+          <button @click="resetTree" class="btn btn-outline">Start opnieuw</button>
+          <button @click="printResult" class="btn">Afdrukken</button>
         </div>
 
+        <div class="card border-black">
+          <p><strong>Help jij ons met het verbeteren van dit beslismodel?</strong><br/>Wij zijn benieuwd hoe je het gebruik van dit beslismodel ervaren hebt. Wij nodigen je uit om deel te nemen aan een kort anoniem <a href="https://forms.gle/oyoHNmxcvG9hpCAD9" target="_blank">onderzoek</a>. Met behulp van jouw ervaring kunnen we het beslismodel verbeteren. Het invullen van het onderzoek kost maximaal 5 minuten. Dank je wel!</p>
+        </div>
       </div>
     </div>
     <div
       v-else
       class="column-text"
     >
-      <div class="buttons">
-        <router-link to="/" tag="button">
-          Terug naar de homepagina
-        </router-link>
+      <div class="container container-small padding-null">
+        <div class="buttons">
+          <router-link to="/" tag="button" class="btn">
+            Terug naar de homepagina
+          </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -211,7 +212,7 @@
         faqItems: [
           {
             title: 'Hoe maak ik afspraken met rechthebbenden of Collectieve Beheerorganisaties?',
-            value: '<a href="https://www.den.nl/aan-de-slag/uitvoeren/hoe-regel-je-de-rechten/beheer-en-licenties" target="_blank">Beheer en licenties</a>'
+            value: '<a href="https://www.den.nl/aan-de-slag/hoe-regel-je-de-rechten/beheer-en-licenties" target="_blank">Beheer en licenties</a> <span class="print-only">https://www.den.nl/aan-de-slag/hoe-regel-je-de-rechten/beheer-en-licenties</span>'
           },
           {
             title: 'Hoe kan ik het materiaal zelf online publiceren? Welke licenties kan ik gebruiken als ik mijn materiaal online wil publiceren?',
@@ -219,16 +220,16 @@
               <li>
                 <a href="https://www.den.nl/publications/231/stimuleer-het-gebruik-van-je-werk-met-creative-commons" target="_blank">
                   Stimuleer het gebruik van je werk met Creative Commons
-                </a>
+                </a> <span class="print-only">https://www.den.nl/publications/231/stimuleer-het-gebruik-van-je-werk-met-creative-commons</span>
               </li>
               <li>
-                <a href="https://rightsstatements.org/en/" target="_blank">RightsStatements.org</a>
+                <a href="https://rightsstatements.org/en/" target="_blank">RightsStatements.org</a> <span class="print-only">https://rightsstatements.org/en/</span>
               </li>
             </ul>`
           },
           {
             title: 'Waar vind ik informatie over verweesde werken?',
-            value: '<a href="https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken" target="_blank">Verweesde werken</a>'
+            value: '<a href="https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken" target="_blank">Verweesde werken</a> <span class="print-only">https://www.cultureelerfgoed.nl/onderwerpen/verweesde-werken</span>'
           },
           {
             title: 'Algemene bronnenlijst',
@@ -236,39 +237,34 @@
             <p>Als je meer wilt weten over dit onderwerp, dan kan je de volgende bronnen raadplegen.</p>
             <ul>
               <li>
-                <a href="https://openaccess.leidenuniv.nl/bitstream/handle/1887/19552/JuridischeWegwijzer%20Archieven%20Musea%20online%202006.pdf?sequence=2 " target="_blank">
+                <a href="https://openaccess.leidenuniv.nl/bitstream/handle/1887/19552/JuridischeWegwijzer%20Archieven%20Musea%20online%202006.pdf?sequence=2" target="_blank">
                 Juridische wegwijzer door Annemarie Beunen
-                </a>
+                </a> <span class="print-only">https://openaccess.leidenuniv.nl/bitstream/handle/1887/19552/JuridischeWegwijzer%20Archieven%20Musea%20online%202006.pdf?sequence=2</span>
               </li>
               <li>
                 <a href="https://www.beeldengeluid.nl/kennis/kennisthemas/gebruikers/auteursrecht" target="_blank">
                   Beeld en geluid
-                </a>
+                </a> <span class="print-only">https://www.beeldengeluid.nl/kennis/kennisthemas/gebruikers/auteursrecht</span>
               </li>
               <li>
-                <a href="https://www.avanet.nl/kennisthemas/gebruikers/" target="_blank">
-                   AVA_Net
-                </a>
+                <a href="https://netwerkdigitaalerfgoed.nl/activiteiten/klantinzicht/" target="_blank">
+                  NDE: Klantinzicht
+                </a> <span class="print-only">https://netwerkdigitaalerfgoed.nl/activiteiten/klantinzicht//</span>
               </li>
               <li>
                 <a href="https://www.cultureelerfgoed.nl/onderwerpen/bruiklenen/auteursrecht" target="_blank">
                    RCE
-                </a>
+                </a> <span class="print-only">https://www.cultureelerfgoed.nl/onderwerpen/bruiklenen/auteursrecht</span>
               </li>
               <li>
                 <a href="https://www.den.nl/themas/rechten-juridisch" target="_blank">
-                   DEN
-                </a>
-              </li>
-              <li>
-                <a href="https://www.den.nl/themas/rechten-juridisch" target="_blank">
-                   DEN
-                </a>
+                   DEN: thema Rechten & Juridisch
+                </a> <span class="print-only">https://www.den.nl/themas/rechten-juridisch</span>
               </li>
               <li>
                 <a href="https://rightsstatements.org/en/" target="_blank">
                    RightsStatements
-                </a>
+                </a> <span class="print-only">https://rightsstatements.org/en/</span>
               </li>
             </ul>
             `
@@ -288,6 +284,7 @@
         this.$store.dispatch('clearSelectedSteps');
         return this.$router.push({ path: '/step' }).then(() => window.scrollTo(0, 0));
       },
+
       getQuestionAnswerValues(step) {
         const question = this.treeCopyright[step.question];
         const answer = question.options.filter(option => option.key === step.selected);
@@ -296,12 +293,18 @@
           'answer': answer[0].text
         };
       },
+
       addAnotherComponent() {
         this.$store.dispatch('setNameMultipleMakersMultipleWorks', '');
         return this.$router.push({ path: '/step/makerIsMoreMultipleWork' }).then(() => window.scrollTo(0, 0));
       },
+
       setActiveTab(index) {
         this.activeTab = index;
+      },
+
+      printResult() {
+        window.print();
       }
     },
 
@@ -312,3 +315,9 @@
     }
   };
 </script>
+
+<style lang="scss">
+  .buttons {
+    margin-bottom: 2rem;
+  }
+</style>
