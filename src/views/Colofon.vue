@@ -26,7 +26,7 @@
         <br><br>
 
         <div class="buttons">
-          <router-link to="/" tag="button">
+          <router-link to="/" @click.native="scrollToTop" tag="button" class="btn">
             Terug naar de homepagina
           </router-link>
         </div>

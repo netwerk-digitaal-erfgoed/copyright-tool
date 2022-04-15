@@ -8,7 +8,13 @@
         v-model="selected"
       /> {{ option.text }}
     </label>
-    <a tabindex="0" class="readmore" v-if="option.description" @click="showExplanation">
+    <a
+      v-if="option.description"
+      tabindex="0"
+      class="readmore"
+      @click="showExplanation"
+      @keyup.enter="showExplanation"
+    >
       Toelichting
     </a>
     <AdditionalInfo

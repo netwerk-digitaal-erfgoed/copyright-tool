@@ -18,7 +18,7 @@
           De Auteurswet beschermt de rechthebbende van een werk, maar daarin staan ook een aantal uitzonderingen opgenomen om tegemoet te komen aan het algemeen belang. Zo behoeven er geen afspraken gemaakt te worden met de rechthebbende voor gebruik van een citaat in een krant wanneer er een recensie over het werk wordt geschreven.
         </p>
         <div class="buttons">
-          <router-link to="/" tag="button">
+          <router-link to="/" tag="button" class="btn">
             Terug naar de homepagina
           </router-link>
         </div>

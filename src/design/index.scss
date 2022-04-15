@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+$black: #333;
 $blue: #00326e;
+$lightblue: #337ab7;
+$blueA: rgba(0, 50, 110, 0.1);
+$blueAA: rgba(0, 50, 110, 0.05);
+$grey: #8cb0cc;
+$yellow: #fcdd00;
+$kaki: #e6e4da;
+$green: #2cac7f;
+$greenA: rgba(44, 172, 127, 0.2);
 
 *,
 *::before,
@@ -10,34 +18,92 @@ $blue: #00326e;
 }
 
 body {
-	background-color: #e6e4da;
-  color: #000;
-  font-family: 'Rubik', sans-serif;
-  line-height: 1.5;
+	font-family: 'Karla', sans-serif;
+  background: #fff;
+  color: $black;
+  font-size: 16px;
+  line-height: 1.42857;
+  height: 100%;
 }
 
-a {
-  cursor: pointer;
-  text-decoration: underline;
-
-  &:hover {
-    text-decoration: none;
-  }
-}
-
-h1, p, ul {
-  margin: 0;
+h1, h2, h3 {
+  line-height: 1.1;
+  margin-top: 0;
   margin-bottom: 1rem;
 }
 
 h1 {
-  line-height: 1;
+  color: $blue;
+  font-size: 2rem;
 }
 
-
 h2 {
+  color: $blue;
+  font-size: 1.75rem;  
+}
+
+h3 {
+  color: $blue;
+  font-size: 1.5rem;  
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.44;
+  margin-bottom: 2rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+}
+
+q {
+  position: relative;
+  color: $green;
+  font-weight: bold;
+  border-left: 5px solid $green;
+  display: inline-block;
+  padding-left: 2rem;
+
+  @media (min-width: 768px) {
+    margin-left: -1rem;
+  }
+
+  &:before,
+  &:after {
+    content: '';
+  }  
+}
+
+a {
+  color: $lightblue;
+  
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+}
+
+ul,
+ol {
+  padding-left: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  form { 
+    width: 55vw;
+  }
 }
 
 header,
@@ -58,16 +124,28 @@ footer {
 }
 
 header {
-  border-bottom: 1px solid #000;  
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  align-items: flex-end;
+  height: 80px;
+
+  @media only screen and (min-width: 768px) {
+    padding: 0.5rem 0;
+  }
+
+  .logo {
+    line-height: 1;
+  }
 
   .title {
+    line-height: 1;
+    margin-left: 1rem;
+    color: $blue;
+
     a {
       color: inherit;
       text-decoration: none;
+      line-height: 1;
 
       &:hover {
         background: none;
@@ -83,16 +161,18 @@ header {
     }
 
     .beta {
-      background-color: #000;
+      background-color: $blue;
       font-size: 0.75rem;
       color: #fff;
       padding: 0.2rem 0.5rem;
+      margin-top: 0.25rem;
+      display: inline-block;
     }
 
-    @media only screen and (min-width: 769px) {
+    @media only screen and (min-width: 768px) {
       a {
         display: inline-flex;
-        align-items: center;
+        align-items: flex-end;
       }
 
       strong {
@@ -102,22 +182,39 @@ header {
       span {
         margin-left: 0.5rem;
       }
+
+      .beta {
+        margin-top: 0;
+      }
     }
   }
 }
 
 footer {
-  border-top: 1px solid #000;
-  padding: 0.5rem 2rem;
-  font-size: 0.875rem;
-  display: block;
-  position: absolute;
-  bottom: 0;
+  border-top: 1px solid $blue;
+  padding: 1rem;
   width: 100%;
+  color: $blue;
+
+  @media only screen and (min-width: 768px) {
+    padding: 1rem 0;
+  }
 
   nav {
     display: block;
     text-align: right;
+
+    a {
+      color: $blue;
+      text-decoration: none;
+      position: relative;
+      padding: 0 0.5rem;
+
+      &:hover {
+        color: $blue;
+        text-decoration: underline;
+      }
+    }
 
     div {
       margin-bottom: 0.5rem;
@@ -132,7 +229,7 @@ footer {
       padding-top: 0.2rem;
     }
 
-    @media only screen and (min-width: 769px) {
+    @media only screen and (min-width: 768px) {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -145,21 +242,34 @@ footer {
   }
 }
 
-.page-container {
-  position: relative;
-  min-height: 100vh;
-
-  main {
-    padding-bottom: 7rem;
-  }
+#app main {
+  padding: 4rem 0;
+  flex: 1;
 }
 
 .container {
-  padding: 2rem;
-  max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
+  margin: 0 auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  &.container-fluid {
+    max-width: unset;
+  }
 
   .intro {
     margin-bottom: 2rem;
@@ -178,8 +288,30 @@ footer {
     margin-left: 0;
     margin-right: 0;
   }
+
+  .column-questions,
+  .column-text,
+  .column-result {
+    padding: 0 1.5rem;
+  }
     
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 768px) {
+    &.container-small {
+      max-width: 75vw;
+    }
+
+    .intro {
+      max-width: 75vw;
+    }
+
+    .column-questions,
+    .column-text,
+    .column-result {
+      padding: 0;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
     &.container-small {
       max-width: 50vw;
     }
@@ -187,7 +319,7 @@ footer {
     .intro {
       max-width: 50vw;
     }
-  }  
+  }
 }
 
 .readmore {
@@ -219,8 +351,9 @@ fieldset {
   padding: 0;
 
   input[type="text"] {
-    border: 0;
-    height: 2rem;
+    border: 1px solid #8cb0cc;
+    border-radius: 0.5rem;
+    padding: 1rem;
     width: 100%;
   }
 }
@@ -243,14 +376,14 @@ fieldset {
     display: inline-block;
     width: 4.5rem;
 
-    @media only screen and (min-width: 769px) {
+    @media only screen and (min-width: 768px) {
       width: 5rem;
     }
 
     &:before {
       content: '';
       display: block;
-      background: #fff;
+      background: #e5eaf0;
       border-radius: 50%;
       position: absolute;
       top: calc(50% - 0.25rem);
@@ -262,7 +395,7 @@ fieldset {
     &:after {
       content: '';
       display: block;
-      background: #fff;
+      background: #e5eaf0;
       height: 0.1rem;
       position: absolute;
       left: 0;
@@ -276,17 +409,17 @@ fieldset {
 
     &.done {
       &:before {
-        background: #000;
+        background: $blue;
       }
 
       &:after {
-        background: #000;
+        background: $blue;
       }
     }
 
     &.active {
       &:before {
-        background: #000;
+        background: $blue;
         height: 1rem;
         width: 1rem;
         top: calc(50% - 0.5rem);
@@ -302,7 +435,7 @@ fieldset {
   margin-bottom: 2rem;
 
 	> div {
-    background: white;  
+    background: $blueAA;
     display: flex;
     flex: 1;
 		flex-grow: 1;
@@ -317,7 +450,7 @@ fieldset {
       font-size: 1rem;      
     }
 
-    @media only screen and (min-width: 769px) {
+    @media only screen and (min-width: 768px) {
       flex-direction: row;
 
       label input[type="radio"] {
@@ -325,12 +458,13 @@ fieldset {
       }
     }
 
-    &:nth-child(even)  {
-      background: rgba(255, 255, 255, 0.6);
+    &:nth-child(even) {
+      background: $blueA;
     }
 
     .readmore {
       margin-bottom: 0;
+      color: $blue;
     }
 	}
 }
@@ -338,6 +472,7 @@ fieldset {
 .buttons {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 
   .button-link {
     background: none;
@@ -349,17 +484,66 @@ fieldset {
     border: 1px solid transparent;
   }
 
-  button {
-    background-color: white;
-    border: 1px solid transparent;
-    line-height: 1.5;
-    padding: 0.5rem;
-    text-transform: uppercase;
-    margin-right: 1rem;
+  .btn {
+    background: $yellow;
+    color: $blue;
     cursor: pointer;
+    padding: 0.75rem 1.25rem;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 1.875rem;
+    font-size: 0.9375rem;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s cubic-bezier(0.13, 0.8, 0.31, 0.91);
+    display: inline-flex;
+    align-items: center;
 
     &:hover {
-      border: 1px solid #000;
+      background: $blue;
+      color: #fff;
+    }
+
+    &.btn-outline {
+      background: transparent;
+      border: 1px solid $blue;
+
+      &:hover {
+        background: $blue;
+      }
+    }
+
+    &.btn-secondary {
+      background: $blue;
+      border: 1px solid $blue;
+      color: #fff;
+
+      &:hover {
+        background: #fff;
+        color: $blue;
+      }
+    }
+
+    &.btn-small {
+      padding: 0.4rem 1rem;
+    }
+
+    &.btn-margin {
+      margin-bottom: 2rem;
+    }
+
+    &:disabled,
+    &.disabled,
+    &.disabled:hover,
+    &:disabled:hover {
+      background: $kaki;
+      color: #bbb;
+      border: 1px solid $kaki;
+    }
+
+    &+ .btn {
+      margin-left: 1rem;
     }
   }
 }
@@ -370,18 +554,26 @@ fieldset {
 
 .accordion {
   margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.44;
 
-  > div > a {
+  .panel-heading {
     display: block;
     padding: 0.5rem;
-    background: rgba(255, 255, 255, 0.4);
+    background: $blueAA;
     text-decoration: none;
     margin-bottom: 1rem;
+  }
+
+  .panel {
+    padding-bottom: 1rem;
   }
 }
 
 .faq-accordion {
   margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.44;
 
   > div {
     margin-bottom: 0.5rem;
@@ -393,8 +585,9 @@ fieldset {
     padding: 0.5rem;
     padding-right: 2rem;
     position: relative;
-    background: rgba(255, 255, 255, 0.4);
+    background: $blueAA;
     text-decoration: none;
+    color: $black;
 
     &:after {
       content: '+';
@@ -411,7 +604,8 @@ fieldset {
 
   .faq-active {
     .faq-accordion-heading {
-      background: #fff;
+      background: $blue;
+      color: #fff;
 
       &:after {
         content: '-';
@@ -471,7 +665,7 @@ fieldset {
     }
   }
 
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 768px) {
     .click-area {
       width: 70%;
     }
@@ -489,6 +683,8 @@ fieldset {
     top: 0.5rem;
     right: 1.5rem;
     text-decoration: none;
+    cursor: pointer;
+    border: 0;
   }
 }
 
@@ -497,7 +693,15 @@ fieldset {
   margin-bottom: 2rem;
 
   &.bg-white {
-    background: rgba(255, 255, 255, 0.4);
+    background: #fff;
+  }
+
+  &.bg-lightblue {
+    background: $blueAA;
+
+    a {
+      color: $blue;
+    }
   }
 
   &.border-black {
@@ -514,8 +718,8 @@ fieldset {
   font-size: 1rem;
   line-height: 1.42857;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
   background: $blue;
   width: 100%;
   position: fixed;
@@ -525,6 +729,7 @@ fieldset {
 
   .cookie-banner-text {
     color: #fff;
+    margin-bottom: 1rem;
 
     a {
       color: #fff;
@@ -562,5 +767,56 @@ fieldset {
         margin-left: 2rem;
       }
     }
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+
+    .cookie-banner-text {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  #app {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .print-only {
+    display: block;
+    overflow-wrap: break-word;
+  }
+
+  footer,
+  .progress-current,
+  .cookie-banner,
+  .progress,
+  .buttons,
+  .card.border-black {
+    display: none;
+  }
+
+  .accordion .panel-heading,
+  .faq-accordion .faq-accordion-heading {
+    padding: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    color: $black;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .faq-accordion .faq-accordion-content {
+    display: block;
   }
 }

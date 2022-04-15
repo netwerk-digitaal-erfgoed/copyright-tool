@@ -10,7 +10,7 @@
           Mogelijk bestaat de pagina niet meer of is de URL onjuist.
         </p>
         <div class="buttons">
-          <router-link to="/" tag="button">
+          <router-link to="/" tag="button" class="btn">
             Ga naar de homepagina
           </router-link>
         </div>

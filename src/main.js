@@ -20,6 +20,7 @@ if (cookie) {
 
 Vue.use(VueGtag, {
   config: { id: 'G-DWYJWT4BRD' },
+  // config: { id: process.env.VUE_APP_GOOGLE_ANALYTICS },
   enabled: optIn
 }, router);
 

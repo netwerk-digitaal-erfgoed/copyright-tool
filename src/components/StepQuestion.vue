@@ -11,7 +11,12 @@
         <p v-if="index === 0">{{ paragraph }}</p>
       </div>
     </template>
-    <button class="readmore" v-if="description && description.length > 1 && !showDescription" @click="showExplanation">
+    <button
+      v-if="description && description.length > 1 && !showDescription"
+      class="readmore"
+      @click="showExplanation"
+      @keyup.enter="showExplanation"
+    >
       Toelichting
     </button>
     <AdditionalInfo

@@ -47,7 +47,7 @@
             <button
               v-if="allSelected.length > 0 && questionKey !== 'publicationdate'"
               @click="prevStep"
-              class="button-link"
+              class="btn btn-outline"
             >
               Vorige stap
             </button>
@@ -55,6 +55,7 @@
               type="button"
               @click="nextStep"
               :disabled="!selected.key && !input"
+              class="btn"
             >
               Ga verder
             </button>

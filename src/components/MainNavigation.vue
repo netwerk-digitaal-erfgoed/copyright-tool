@@ -1,7 +1,8 @@
 <template>
-  <nav>
+  <nav class="container">
     <div>
-      <a href="./assets/handleiding-beslismodel-auteursrechten.pdf" target="_blank">Handleiding</a>
+      <a href=" https://mailchi.mp/den/aanmeldennieuwsbrief" target="_blank">nieuwsbrief DEN</a>
+      <a href="/assets/handleiding-beslismodel-auteursrechten.pdf" target="_blank">Handleiding</a>
       <router-link to="/colofon" @click.native="scrollToTop">Colofon &amp; disclaimer</router-link>
     </div>
     <a href="https://www.netwerkdigitaalerfgoed.nl/" target="_blank">
