@@ -206,10 +206,10 @@ header {
 }
 
 footer {
-  border-top: 1px solid $purple;
-  padding: 1rem;
   width: 100%;
-  color: $purple;
+  background: $purple;
+  color: #fff;
+  padding: 2rem 0;
 
   @media only screen and (min-width: 768px) {
     padding: 1rem 0;
@@ -220,13 +220,13 @@ footer {
     text-align: right;
 
     a {
-      color: $purple;
+      color: #fff;
       text-decoration: none;
       position: relative;
       padding: 0 0.5rem;
 
       &:hover {
-        color: $purple;
+        color: #fff;
         text-decoration: underline;
       }
     }
