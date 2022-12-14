@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'DMSans';
-  src: url('/fonts/DMSans-regular.55880da9.woff2') format('woff2');
+  src: url('@/design/fonts/DMSans-regular.55880da9.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'DMSans';
-  src: url('/fonts/DMSans-bold.da69bb00.woff2') format('woff2');
+  src: url('@/design/fonts/DMSans-bold.da69bb00.woff2') format('woff2');
   font-weight: bold;
 }
 
