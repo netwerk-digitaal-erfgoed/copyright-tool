@@ -9,7 +9,7 @@
 
         <p>Het beslismodel is een hulpmiddel bij het uitzoeken en clearen van auteursrechten op werken in collecties. Aan de uitkomsten kunnen geen rechten ontleend worden en we willen de gebruikers er dan ook op wijzen dat ze zelf verantwoordelijk blijven voor het op een juiste manier regelen van de rechten.</p>
 
-        <p>Wanneer je onze website gebruikt, ga je akkoord met de voorwaarden zoals in de <a href="https://www.den.nl/over-ons/gebruikersvoorwaarden" target="_blank">gebruikersvoorwaarden</a> beschreven. Wij hechten waarde aan jouw privacy en gaan zorgvuldig om met je gegevens. In onze <a href="https://www.den.nl/privacy" target="_blank">verklaring</a> lees je welke gegevens we verwerken en met welk doel.</p>
+        <p>Wanneer je onze website gebruikt, ga je akkoord met de voorwaarden zoals in de <a href="https://www.den.nl/gebruikersvoorwaarden-van-den" target="_blank">gebruikersvoorwaarden</a> beschreven. Wij hechten waarde aan jouw privacy en gaan zorgvuldig om met je gegevens. In onze <a href="https://www.den.nl/privacy-statement-van-den" target="_blank">verklaring</a> lees je welke gegevens we verwerken en met welk doel.</p>
 
         <h2>Feedback</h2>
 

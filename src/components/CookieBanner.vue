@@ -5,12 +5,12 @@
   >
     <div class="cookie-banner-text">
       <div>
-        Wanneer je de website van DEN gebruikt, ga je akkoord met de voorwaarden zoals in de <a href="https://www.den.nl/over-ons/gebruikersvoorwaarden"  target="_blank" rel="noopener">gebruikersvoorwaarden</a> beschreven. Deze website maakt gebruik van cookies voor het anoniem meten van het websitebezoek en het vergroten van het gebruiksgemak. Door op 'accepteren' te klikken, geef je toestemming voor het gebruik van deze cookies. Meer over <a href="https://www.den.nl/over-ons/cookies" target="_blank" rel="noopener">cookies</a> en <a href="https://www.den.nl/privacy" target="_blank" rel="noopener">privacy</a>.
+        Wij gebruiken cookies om ervoor te zorgen dat je onze site met plezier kunt gebruiken, jouw surfgedrag te meten en om je zo nu en dan relevante advertenties aan te bieden. Meer over <a href="https://www.den.nl/over-ons/cookies" target="_blank" rel="noopener">cookies</a> en <a href="https://www.den.nl/privacy" target="_blank" rel="noopener">privacy</a>.
       </div>
     </div>
     <div class="cookie-banner-buttons">
       <button
-        class="btn btn-link"
+        class="btn btn-outline"
         @click="declineCookies(false)"
         aria-label="Cookies afwijzen"
       >
