@@ -172,10 +172,6 @@
           <button @click="resetTree" class="btn btn-outline">Start opnieuw</button>
           <button @click="printResult" class="btn">Afdrukken</button>
         </div>
-
-        <div class="card border-black">
-          <p><strong>Help jij ons met het verbeteren van dit beslismodel?</strong><br/>Wij zijn benieuwd hoe je het gebruik van dit beslismodel ervaren hebt. Wij nodigen je uit om deel te nemen aan een kort anoniem <a href="https://forms.gle/oyoHNmxcvG9hpCAD9" target="_blank">onderzoek</a>. Met behulp van jouw ervaring kunnen we het beslismodel verbeteren. Het invullen van het onderzoek kost maximaal 5 minuten. Dank je wel!</p>
-        </div>
       </div>
     </div>
     <div
