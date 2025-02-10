@@ -238,11 +238,6 @@
                 </a> <span class="print-only">https://openaccess.leidenuniv.nl/bitstream/handle/1887/19552/JuridischeWegwijzer%20Archieven%20Musea%20online%202006.pdf?sequence=2</span>
               </li>
               <li>
-                <a href="https://www.beeldengeluid.nl/kennis/kennisthemas/gebruikers/auteursrecht" target="_blank">
-                  Beeld en geluid
-                </a> <span class="print-only">https://www.beeldengeluid.nl/kennis/kennisthemas/gebruikers/auteursrecht</span>
-              </li>
-              <li>
                 <a href="https://netwerkdigitaalerfgoed.nl/activiteiten/klantinzicht/" target="_blank">
                   NDE: Klantinzicht
                 </a> <span class="print-only">https://netwerkdigitaalerfgoed.nl/activiteiten/klantinzicht//</span>
