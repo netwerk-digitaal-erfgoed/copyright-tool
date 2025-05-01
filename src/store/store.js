@@ -11,6 +11,7 @@ export default new Vuex.Store({
     treeCopyright: [],
     result: null,
     orphaned: null,
+    outofcommerce: null,
     cbo: null,
     note: null,
     theme: null,
@@ -79,6 +80,9 @@ export default new Vuex.Store({
       }
       state.result = result;
     },
+    setOutofcommerceText(state, result) {
+      state.outofcommerce = result;
+    },
     setOrphanedText(state, result) {
       state.orphaned = result;
     },
@@ -109,6 +113,9 @@ export default new Vuex.Store({
     },
     setResult(context, result) {
       context.commit('setResultText', result);
+    },
+    setOutofcommerce(context, result) {
+      context.commit('setOutofcommerceText', result);
     },
     setOrphaned(context, result) {
       context.commit('setOrphanedText', result);

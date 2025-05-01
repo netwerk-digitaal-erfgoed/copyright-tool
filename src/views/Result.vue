@@ -100,6 +100,27 @@
               </div>
             </div>
 
+            <!-- outofcommerce werken -->
+            <div
+              v-if="outofcommerce"
+              :class="{ 'faq-active': activeTab === 'outofcommerce' }"
+            >
+              <a
+                class="faq-accordion-heading"
+                @click="setActiveTab('outofcommerce')"
+                @keyup.enter="setActiveTab('outofcommerce')"
+                @keyup.space="setActiveTab('outofcommerce')"
+                tabindex="0"
+              >
+                Niet langer in de handel
+              </a>
+              <div class="faq-accordion-content">
+                <div v-for="(paragraph, index) in outofcommerce" :key="index">
+                  <p v-html="paragraph" />
+                </div>
+              </div>
+            </div>
+
             <!-- CBO -->
             <div
               v-if="cbo"
