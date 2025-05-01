@@ -32,15 +32,14 @@
       </div>
     </div>
   </template>
-  
+
   <script>
-    export default {
-      metaInfo() {
-        return {
-          title: 'Out-of-commerce werken'
-        };
-      }
-    };
+  export default {
+    metaInfo() {
+      return {
+        title: 'Outofcommerce'
+      };
+    }
+  };
   </script>
-  
-  
+

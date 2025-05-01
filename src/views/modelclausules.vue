@@ -9,7 +9,7 @@
             <p>Kijk hiervoor naar de modelovereenkomsten van de organisatie. Is hierin sprake van een overdracht van rechten of alleen van toestemming voor gebruik (licentie)?
             </p>
             <h3>Overdracht van rechten</h3>
-            <p>In geval van overdracht van rechten wordt de erfgoedinstelling zelf de auteursrechthebbende van het werk. Hierdoor kan de instelling zelf bepalen of het werk gekopieerd en verspreid mag worden. Ook kan zij ervoor kiezen om een 
+            <p>In geval van overdracht van rechten wordt de erfgoedinstelling zelf de auteursrechthebbende van het werk. Hierdoor kan de instelling zelf bepalen of het werk gekopieerd en verspreid mag worden. Ook kan zij ervoor kiezen om een
                 <a target="_blank" href="https://creativecommons.nl/eerste-keer/">
                     <u>Creative Commons-licentie</u>
                 </a> toe te passen.
@@ -19,75 +19,60 @@
             <p>Let op:</p>
             <ul>
                 <li>
-                    <p>De instelling moet bij deze overeenkomsten zorgvuldig nagaan of de schenker daadwerkelijk de rechten heeft. Dit is nodig om deze rechten te kunnen overdragen of toestemming voor bepaald gebruik te kunnen verlenen. Bij complex samengestelde werken zoals AV-materiaal kan dat al snel ingewikkeld zijn, omdat zo’n werk meerdere rechthebbenden kan hebben.</p>
+                    De instelling moet bij deze overeenkomsten zorgvuldig nagaan of de schenker daadwerkelijk de rechten heeft. Dit is nodig om deze rechten te kunnen overdragen of toestemming voor bepaald gebruik te kunnen verlenen. Bij complex samengestelde werken zoals AV-materiaal kan dat al snel ingewikkeld zijn, omdat zo’n werk meerdere rechthebbenden kan hebben.
                 </li>
                 <li>
-                    <p>De woorden ‘Schenker’, ‘Ontvanger’ en ‘Geschonken Werk’ worden in een overeenkomst met hoofdletters geschreven en nader gedefinieerd.</p>
+                    De woorden ‘Schenker’, ‘Ontvanger’ en ‘Geschonken Werk’ worden in een overeenkomst met hoofdletters geschreven en nader gedefinieerd.
                 </li>
                 <li>
-                    <p>Neem een lijst met geschonken werken op om exact aan te duiden voor welke werken het auteursrecht overgedragen wordt.</p>
+                    Neem een lijst met geschonken werken op om exact aan te duiden voor welke werken het auteursrecht overgedragen wordt.
                 </li>
                 <li>
-                    <p>Zorg bij overname van onderstaande modelclausules dat het nummer en de interne definities (woorden met hoofdletters) overeenkomen met de rest van de overeenkomst.</p>
+                    Zorg bij overname van onderstaande modelclausules dat het nummer en de interne definities (woorden met hoofdletters) overeenkomen met de rest van de overeenkomst.
                 </li>
             </ul>
-            <p>
-                <strong>Definities</strong>
-            </p>
+
+                <h3>Definities</h3>
+
             <ul>
                 <li>
-                    <p>
                         <strong>Geschonken Werk – </strong>De gespecificeerde objecten die het onderwerp vormen van de schenking onder deze overeenkomst, zoals nader gespecificeerd en omschreven in de aangehechte lijst met werken.
-                    </p>
                 </li>
                 <li>
-                    <p>
-                        <strong>Persoonlijkheidsrechten – </strong>Rechten van de maker (auteur) van literaire of artistieke werken die onvervreemdbaar zijn en losstaan van de exploitatierechten. Deze rechten omvatten in het bijzonder:
-                    </p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p>Het recht op 
-                        <strong>naamsvermelding</strong>&nbsp;(het vaderschapsrecht) en het recht zich te verzetten tegen openbaarmaking van het werk onder een andere naam dan die van de maker.
-                    </p>
-                </li>
-                <li>
-                    <p>Het recht zich te verzetten tegen elke wijziging in het werk (het 
-                        <strong>integriteitsrecht</strong>), tenzij de wijziging van dien aard is dat verzet daartegen in strijd met de redelijkheid zou zijn, en het recht zich te verzetten tegen elke misvorming, verminking of andere aantasting van het werk, welke nadeel zou kunnen toebrengen aan de eer of de naam van de maker of aan zijn waarde in deze hoedanigheid.
-                    </p>
-                </li>
-            </ul>
-            <p>
-                <strong>Overdracht van rechten</strong>
-            </p>
-            <p>Om overdracht van rechten bij een schenking&nbsp;te regelen, kan het volgende artikel overgenomen worden in de (schenkings)overeenkomst:</p>
-            <p>
-                <strong>Definities</strong>
-            </p>
-            <p>
-                <strong>Artikel</strong>
-            </p>
+                        <strong>Persoonlijkheidsrechten – </strong>Rechten van de maker (auteur) van literaire of artistieke werken die onvervreemdbaar zijn en losstaan van de exploitatierechten. <br/>Deze rechten omvatten in het bijzonder:
+                <ul>
+                    <li>
+                        Het recht op <strong>naamsvermelding</strong>&nbsp;(het vaderschapsrecht) en het recht zich te verzetten tegen openbaarmaking van het werk onder een andere naam dan die van de maker.
+                    </li>
+                    <li>
+                        Het recht zich te verzetten tegen elke wijziging in het werk (het <strong>integriteitsrecht</strong>), tenzij de wijziging van dien aard is dat verzet daartegen in strijd met de redelijkheid zou zijn, en het recht zich te verzetten tegen elke misvorming, verminking of andere aantasting van het werk, welke nadeel zou kunnen toebrengen aan de eer of de naam van de maker of aan zijn waarde in deze hoedanigheid.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+                <h3>Artikel</h3>
+
             <ol>
                 <li>
-                    <p>De Schenker verklaart/garandeert dat hij/zij alle benodigde rechten bezit om de auteursrechten op het Geschonken Werk over te dragen aan Ontvanger;</p>
+                    De Schenker verklaart/garandeert dat hij/zij alle benodigde rechten bezit om de auteursrechten op het Geschonken Werk over te dragen aan Ontvanger;
                 </li>
                 <li>
-                    <p>De Schenker draagt alle rechten, inclusief het auteursrecht en eventuele andere rechten die hij/zij op het Geschonken Materiaal kan doen gelden, in hun meest volledige omvang over aan de Ontvanger; Ontvanger krijgt hierbij alle rechten om het Geschonken Werk te reproduceren en verder te verspreiden;
-                    </p>
+                    De Schenker draagt alle rechten, inclusief het auteursrecht en eventuele andere rechten die hij/zij op het Geschonken Materiaal kan doen gelden, in hun meest volledige omvang over aan de Ontvanger; Ontvanger krijgt hierbij alle rechten om het Geschonken Werk te reproduceren en verder te verspreiden;
+
                 </li>
                 <li>
-                    <p>De Schenker vrijwaart de Ontvanger tegen alle aanspraken van derden betreffende het Geschonken Werk
-                    </p>
+                    De Schenker vrijwaart de Ontvanger tegen alle aanspraken van derden betreffende het Geschonken Werk
+
                 </li>
                 <li>
-                    <p>De Ontvanger verplicht zich zorg te zullen dragen voor beheer en behoud van het Geschonken Werk;</p>
+                    De Ontvanger verplicht zich zorg te zullen dragen voor beheer en behoud van het Geschonken Werk;
                 </li>
                 <li>
-                    <p>De Schenker en Ontvanger erkennen dat hierbij geen Persoonlijkheidsrechten&nbsp;overgedragen worden;</p>
+                    De Schenker en Ontvanger erkennen dat hierbij geen Persoonlijkheidsrechten overgedragen worden;
                 </li>
                 <li>
-                    <p>De Ontvanger verplicht zich om de naam van de vervaardiger bij ieder gebruik te vermelden.</p>
+                    De Ontvanger verplicht zich om de naam van de vervaardiger bij ieder gebruik te vermelden.
                 </li>
             </ol>
             <h2>Licentie voor de erfgoedinstelling</h2>
@@ -95,30 +80,28 @@
             <p>
                 <strong>Bruikleenovereenkomsten</strong> – Bij bruikleenovereenkomsten is een licentie gangbaar. De erfgoedinstelling heeft het werk dan tijdelijk in beheer en krijgt toestemming om (reproducties van) het werk bijvoorbeeld online te plaatsen. Deze toestemming kan gekoppeld worden aan de duur van de bruikleen.
             </p>
-            <p>
-                <strong>Artikel</strong>
-            </p>
+            <h3>Artikel</h3>
             <ol>
                 <li>
-                    <p>De Licentiegever verklaart expliciet dat hij/zij alle benodigde rechten op het Geschonken Werk bezit om de hiernavolgende licentie te kunnen verlenen.</p>
+                    De Licentiegever verklaart expliciet dat hij/zij alle benodigde rechten op het Geschonken Werk bezit om de hiernavolgende licentie te kunnen verlenen.
                 </li>
                 <li>
-                    <p>De Licentiegever verleent hierbij aan de Ontvanger/Licentienemer een niet-exclusieve, wereldwijde licentie om het Geschonken Werk te gebruiken voor alle (toekomstige) vormen van niet-commercieel gebruik.</p>
+                    De Licentiegever verleent hierbij aan de Ontvanger/Licentienemer een niet-exclusieve, wereldwijde licentie om het Geschonken Werk te gebruiken voor alle (toekomstige) vormen van niet-commercieel gebruik.
                 </li>
                 <li>
-                    <p>De Licentiegever vrijwaart de Ontvanger tegen alle aanspraken van derden betreffende het Geschonken Werk;</p>
+                    De Licentiegever vrijwaart de Ontvanger tegen alle aanspraken van derden betreffende het Geschonken Werk;
                 </li>
                 <li>
-                    <p>De Licentienemer zal de naam van de maker van het Geschonken Werk bij elk gebruik vermelden, tenzij dit redelijkerwijs niet mogelijk is.</p>
+                    De Licentienemer zal de naam van de maker van het Geschonken Werk bij elk gebruik vermelden, tenzij dit redelijkerwijs niet mogelijk is.
                 </li>
                 <li>
-                    <p>De Licentiegever en Licentienemer erkennen dat hierbij geen persoonlijkheidsrechten worden overgedragen.</p>
+                    De Licentiegever en Licentienemer erkennen dat hierbij geen persoonlijkheidsrechten worden overgedragen.
                 </li>
                 <li>
-                    <p>Deze overeenkomst is van kracht vanaf de datum van ondertekening en blijft van kracht voor de gehele duur van de rechten die de Licentiegever op het Geschonken Werk kan doen gelden.</p>
+                    Deze overeenkomst is van kracht vanaf de datum van ondertekening en blijft van kracht voor de gehele duur van de rechten die de Licentiegever op het Geschonken Werk kan doen gelden.
                 </li>
             </ol>
-            <h3>Licentie voor iedereen (Creative Commons)</h3>
+            <h2>Licentie voor iedereen (Creative Commons)</h2>
             <p>
                 <strong>Creative Commons-licentie voor gebruik van Geschonken Werk</strong>
             </p>
@@ -126,44 +109,35 @@
             </p>
             <ol>
                 <li>
-                    <p>De Schenker/Licentiegever verklaart expliciet dat hij/zij alle benodigde rechten bezit om het Geschonken Werk onder de Creative Commons-Licentie te publiceren;</p>
+                    De Schenker/Licentiegever verklaart expliciet dat hij/zij alle benodigde rechten bezit om het Geschonken Werk onder de Creative Commons-Licentie te publiceren;
                 </li>
                 <li>
-                    <p>De Schenker/Licentiegever behoudt zich alle auteursrechten voor op het Geschonken Werk.</p>
+                    De Schenker/Licentiegever behoudt zich alle auteursrechten voor op het Geschonken Werk.
                 </li>
                 <li>
-                    <p>De Schenker/Licentiegever staat elke openbaarmaking of verveelvoudiging van het Geschonken Werk toe mits het Geschonken Werk beschikbaar wordt gemaakt onder de voorwaarden van de Creative Commons-Licentie …. [benoem de betreffende licentie, zie deze opties..…]</p>
+                    De Schenker/Licentiegever staat elke openbaarmaking of verveelvoudiging van het Geschonken Werk toe mits het Geschonken Werk beschikbaar wordt gemaakt onder de voorwaarden van de Creative Commons-Licentie [vermeld de gekozen licentie].
                 </li>
             </ol>
-            <p>Het komt ook voor dat een object al enige tijd geleden verkregen is, zonder dat daarbij een licentie afgesloten is. Dan kan gebruikgemaakt worden van Creative Commons-licentiebevestigingen. Creative Commons Nederland heeft twee van zulke documenten opgesteld:
-            </p>
+            <p>Het komt ook voor dat een object al enige tijd geleden verkregen is, zonder dat daarbij een licentie afgesloten is. Dan kan gebruikgemaakt worden van Creative Commons-licentiebevestigingen. Creative Commons Nederland heeft twee van zulke documenten opgesteld:</p>
             <ul>
                 <li>
-                    <p>
-                        <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/f/f6/CCBY-licentiebevestiging.pdf">
-                            <u>CC BY 4.0 Licentiebevestiging</u>
-                        </a>
-                    </p>
+                    <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/f/f6/CCBY-licentiebevestiging.pdf">CC BY 4.0 Licentiebevestiging</a>
                 </li>
                 <li>
-                    <p>
-                        <a target="_blank" href="https://commons.wikimedia.org/wiki/File:CCBY-SA-licentiebevestiging.pdf">
-                            <u>CC BY-SA 4.0 Licentiebevestiging</u>
-                        </a>
-                    </p>
+                    <a target="_blank" href="https://commons.wikimedia.org/wiki/File:CCBY-SA-licentiebevestiging.pdf">CC BY-SA 4.0 Licentiebevestiging</a>
                 </li>
             </ul>
             <h3>Wanneer de schenker niet de rechthebbende is</h3>
             <p>Overdracht van rechten en een licentie kan ook buiten de context van schenking worden geregeld. Bijvoorbeeld wanneer je het werk zelf gekocht hebt, via een andere manier hebt verkregen, of wanneer de schenker niet de rechthebbende is. In die gevallen kun je dezelfde modelteksten gebruiken. Vervang dan:</p>
             <ul>
                 <li>
-                    <p>'Schenker' door 'Rechthebbende'</p>
+                    'Schenker' door 'Rechthebbende'
                 </li>
                 <li>
-                    <p>'Ontvanger door 'Instelling'</p>
+                    'Ontvanger door 'Instelling'
                 </li>
                 <li>
-                    <p>'Geschonken Werk’ door 'Werk'.</p>
+                    'Geschonken Werk’ door 'Werk'.
                 </li>
             </ul>
             <div class="buttons">
@@ -175,14 +149,13 @@
       </div>
     </div>
   </template>
-  
+
   <script>
-    export default {
-      metaInfo() {
-        return {
-          title: 'Wanneer hoef ik geen toestemming te regelen?'
-        };
-      }
-    };
+  export default {
+    metaInfo() {
+      return {
+        title: 'model'
+      };
+    }
+  };
   </script>
-  

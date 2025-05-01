@@ -6,12 +6,12 @@
     "serve": "vue-cli-service serve --watch",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint --fix"
   },
   "dependencies": {
     "@vue/compiler-sfc": "^3.0.11",
     "axios": "^0.24.0",
-    "canvas": "^2.8.0",
+    "canvas": "^3.1.0",
     "core-js": "^3.19.0",
     "normalize.css": "^8.0.1",
     "vue": "^2.6.14",
