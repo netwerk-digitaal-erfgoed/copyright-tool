@@ -6,7 +6,6 @@
       <div class="container container-small padding-top-null">
         <h1>Colofon &amp; disclaimer</h1>
         <p>Regeljerechten.nl is een beslismodel auteursrechten en in 2020 ontwikkeld binnen het Netwerk Digitaal Erfgoed (NDE), in samenwerking met juridisch deskundigen van de KB, nationale bibliotheek, Het Utrechts Archief, Erfgoed Leiden en Omstreken, Rijksdienst voor het Cultureel Erfgoed, Beeld & Geluid, Eye Filmmuseum en DEN Kennisinstituut cultuur & digitale transformatie. Sezen Kapan heeft meegewerkt als auteursrecht jurist en projectmedewerker.</p>
-        <p>In 2025 is een update gepland, waardoor recente ontwikkelingen binnen het auteursrecht worden meegenomen in het beslismodel.</p>
         <p>Het beslismodel is een hulpmiddel bij het uitzoeken en clearen van auteursrechten op werken in collecties. Het is met de grootste zorg ontwikkeld. Aan de uitkomsten kunnen geen rechten worden ontleend; gebruikers worden er dan ook op gewezen dat ze zelf verantwoordelijk blijven voor het op een juiste manier regelen van de rechten.</p>
         <p>Het NDE kan niet aansprakelijk worden gesteld voor fouten, technische storingen, incidenten en problemen die het gevolg kunnen zijn van toegang en/of het gebruik van regeljerechten.nl en daaruit voortvloeiende schade.</p>
 
