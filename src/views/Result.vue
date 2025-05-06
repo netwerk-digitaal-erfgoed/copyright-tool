@@ -220,7 +220,7 @@
     },
 
     computed: {
-      ...mapState(['allSelected', 'treeCopyright', 'result', 'orphaned', 'cbo', 'note', 'isMultiple', 'multipleComponents', 'showNextSteps'])
+      ...mapState(['allSelected', 'treeCopyright', 'result', 'orphaned', 'outofcommerce', 'cbo', 'note', 'isMultiple', 'multipleComponents', 'showNextSteps'])
     },
 
     data() {
