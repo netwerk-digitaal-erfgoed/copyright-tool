@@ -58,7 +58,7 @@
                     De Schenker verklaart/garandeert dat hij/zij alle benodigde rechten bezit om de auteursrechten op het Geschonken Werk over te dragen aan Ontvanger;
                 </li>
                 <li>
-                    De Schenker draagt alle rechten, inclusief het auteursrecht en eventuele andere rechten die hij/zij op het Geschonken Materiaal kan doen gelden, in hun meest volledige omvang over aan de Ontvanger; Ontvanger krijgt hierbij alle rechten om het Geschonken Werk te reproduceren en verder te verspreiden;
+                    De Schenker draagt alle rechten, inclusief het auteursrecht en eventuele andere rechten die hij/zij op het Geschonken Werk kan doen gelden, in hun meest volledige omvang over aan de Ontvanger; Ontvanger krijgt hierbij alle rechten om het Geschonken Werk te reproduceren en verder te verspreiden;
 
                 </li>
                 <li>
@@ -76,7 +76,7 @@
                 </li>
             </ol>
             <h2>Licentie voor de erfgoedinstelling</h2>
-            <p>De schenker wil niet altijd afstand doen van exploitatierechten op het werk. Bij een schenking kan er dan ook gekozen worden voor een licentie. Een licentie geeft de erfgoedinstelling (licentienemer) toestemming voor het gebruik van het geschonken materiaal. Het onderstaande modelartikel kan hiervoor gebruikt worden.</p>
+            <p>De schenker wil niet altijd afstand doen van exploitatierechten op het werk. Bij een schenking kan er dan ook gekozen worden voor een licentie. Een licentie geeft de erfgoedinstelling (licentienemer) toestemming voor het gebruik van het geschonken werk. Het onderstaande modelartikel kan hiervoor gebruikt worden.</p>
             <p>
                 <strong>Bruikleenovereenkomsten</strong> – Bij bruikleenovereenkomsten is een licentie gangbaar. De erfgoedinstelling heeft het werk dan tijdelijk in beheer en krijgt toestemming om (reproducties van) het werk bijvoorbeeld online te plaatsen. Deze toestemming kan gekoppeld worden aan de duur van de bruikleen.
             </p>

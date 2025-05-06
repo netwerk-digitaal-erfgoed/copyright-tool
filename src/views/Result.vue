@@ -79,22 +79,22 @@
               </div>
             </div>
 
-            <!-- Verweesde werken -->
+            <!-- Modelovereenkomsten  -->
             <div
-              v-if="orphaned"
-              :class="{ 'faq-active': activeTab === 'orphaned' }"
+              v-if="modelovereenkomst"
+              :class="{ 'faq-active': activeTab === 'modelovereenkomst' }"
             >
               <a
                 class="faq-accordion-heading"
-                @click="setActiveTab('orphaned')"
-                @keyup.enter="setActiveTab('orphaned')"
-                @keyup.space="setActiveTab('orphaned')"
+                @click="setActiveTab('modelovereenkomst')"
+                @keyup.enter="setActiveTab('modelovereenkomst')"
+                @keyup.space="setActiveTab('modelovereenkomst')"
                 tabindex="0"
               >
-                Verweesde werken
+                Standaard contractclausules
               </a>
               <div class="faq-accordion-content">
-                <div v-for="(paragraph, index) in orphaned" :key="index">
+                <div v-for="(paragraph, index) in modelovereenkomst" :key="index">
                   <p v-html="paragraph" />
                 </div>
               </div>
@@ -220,7 +220,7 @@
     },
 
     computed: {
-      ...mapState(['allSelected', 'treeCopyright', 'result', 'orphaned', 'outofcommerce', 'cbo', 'note', 'isMultiple', 'multipleComponents', 'showNextSteps'])
+      ...mapState(['allSelected', 'treeCopyright', 'result', 'modelovereenkomst', 'outofcommerce', 'cbo', 'note', 'isMultiple', 'multipleComponents', 'showNextSteps'])
     },
 
     data() {
