@@ -148,7 +148,8 @@
           });
 
           this.$store.dispatch('setResult', this.selected.result);
-          this.$store.dispatch('setOrphaned', this.selected.orphaned);
+          this.$store.dispatch('setModelovereenkomst', this.selected.modelovereenkomst);
+          this.$store.dispatch('setOutofcommerce', this.selected.outofcommerce);
           this.$store.dispatch('setCBO', this.selected.cbo);
           this.$store.dispatch('setNote', this.selected.note);
 

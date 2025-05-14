@@ -7,6 +7,10 @@ import Colofon from '../views/Colofon.vue';
 import AboutCopyright from '../views/AboutCopyright.vue';
 import NotFound from '../views/NotFound.vue';
 
+import Outofcommerce from '../views/outofcommerce.vue';
+import Uitzonderingen from '../views/Uitzonderingen.vue';
+import Model from '../views/modelclausules.vue';
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -29,6 +33,21 @@ const routes = [
     path: '/result',
     name: 'result',
     component: Result
+  },
+  {
+    path: '/Outofcommerce',
+    name: 'Outofcommerce',
+    component: Outofcommerce
+  },
+  {
+    path: '/Uitzonderingen',
+    name: 'Uitzonderingen',
+    component: Uitzonderingen
+  },
+  {
+    path: '/Model',
+    name: 'Model',
+    component: Model
   },
   {
     path: '/step/:step?',

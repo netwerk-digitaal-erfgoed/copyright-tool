@@ -79,22 +79,43 @@
               </div>
             </div>
 
-            <!-- Verweesde werken -->
+            <!-- Modelovereenkomsten  -->
             <div
-              v-if="orphaned"
-              :class="{ 'faq-active': activeTab === 'orphaned' }"
+              v-if="modelovereenkomst"
+              :class="{ 'faq-active': activeTab === 'modelovereenkomst' }"
             >
               <a
                 class="faq-accordion-heading"
-                @click="setActiveTab('orphaned')"
-                @keyup.enter="setActiveTab('orphaned')"
-                @keyup.space="setActiveTab('orphaned')"
+                @click="setActiveTab('modelovereenkomst')"
+                @keyup.enter="setActiveTab('modelovereenkomst')"
+                @keyup.space="setActiveTab('modelovereenkomst')"
                 tabindex="0"
               >
-                Verweesde werken
+                Standaard contractclausules
               </a>
               <div class="faq-accordion-content">
-                <div v-for="(paragraph, index) in orphaned" :key="index">
+                <div v-for="(paragraph, index) in modelovereenkomst" :key="index">
+                  <p v-html="paragraph" />
+                </div>
+              </div>
+            </div>
+
+            <!-- outofcommerce werken -->
+            <div
+              v-if="outofcommerce"
+              :class="{ 'faq-active': activeTab === 'outofcommerce' }"
+            >
+              <a
+                class="faq-accordion-heading"
+                @click="setActiveTab('outofcommerce')"
+                @keyup.enter="setActiveTab('outofcommerce')"
+                @keyup.space="setActiveTab('outofcommerce')"
+                tabindex="0"
+              >
+                Niet langer in de handel
+              </a>
+              <div class="faq-accordion-content">
+                <div v-for="(paragraph, index) in outofcommerce" :key="index">
                   <p v-html="paragraph" />
                 </div>
               </div>
@@ -199,7 +220,7 @@
     },
 
     computed: {
-      ...mapState(['allSelected', 'treeCopyright', 'result', 'orphaned', 'cbo', 'note', 'isMultiple', 'multipleComponents', 'showNextSteps'])
+      ...mapState(['allSelected', 'treeCopyright', 'result', 'modelovereenkomst', 'outofcommerce', 'cbo', 'note', 'isMultiple', 'multipleComponents', 'showNextSteps'])
     },
 
     data() {
@@ -236,11 +257,6 @@
                 <a href="https://openaccess.leidenuniv.nl/bitstream/handle/1887/19552/JuridischeWegwijzer%20Archieven%20Musea%20online%202006.pdf?sequence=2" target="_blank">
                 Juridische wegwijzer door Annemarie Beunen
                 </a> <span class="print-only">https://openaccess.leidenuniv.nl/bitstream/handle/1887/19552/JuridischeWegwijzer%20Archieven%20Musea%20online%202006.pdf?sequence=2</span>
-              </li>
-              <li>
-                <a href="https://www.beeldengeluid.nl/kennis/kennisthemas/gebruikers/auteursrecht" target="_blank">
-                  Beeld en geluid
-                </a> <span class="print-only">https://www.beeldengeluid.nl/kennis/kennisthemas/gebruikers/auteursrecht</span>
               </li>
               <li>
                 <a href="https://netwerkdigitaalerfgoed.nl/activiteiten/klantinzicht/" target="_blank">

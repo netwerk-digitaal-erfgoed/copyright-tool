@@ -17,6 +17,12 @@
         <p>
           De Auteurswet beschermt de rechthebbende van een werk, maar daarin staan ook een aantal uitzonderingen opgenomen om tegemoet te komen aan het algemeen belang. Zo behoeven er geen afspraken gemaakt te worden met de rechthebbende voor gebruik van een citaat in een krant wanneer er een recensie over het werk wordt geschreven.
         </p>
+        <h2>Uitzonderingen</h2>
+        <p>Regeljerechten.nl belicht de uitzonderingen binnen het auteursrecht die erfgoedinstellingen in staat stellen om bepaald gebruik van collectiemateriaal te maken zonder voorafgaande toestemming van de rechthebbende. We bespreken het maken van preserveringskopieën voor duurzaam behoud, het tonen van materiaal op de studiezaal voor onderzoek, het citaatrecht in publicaties, en het recht van bezoekers om kopieën te maken voor privéstudie. Belangrijk is dat deze uitzonderingen doorgaans niet gelden voor online openbaarmaking, met uitzondering van specifieke gevallen zoals OOC-werken en verweesde werken.</p><p><a href="/uitzonderingen/" target="_blank">Lees verder op deze pagina voor een gedetailleerd overzicht van deze gebruiksrechten en de bijbehorende voorwaarden..</a></p>
+        <h2>Standaard clausules</h2>
+        <p>Regeljerechten.nl biedt inzicht in de essentiële aspecten van auteursrechten bij schenkingen en bruikleen voor erfgoedinstellingen. We geven inzicht in het verschil tussen de overdracht van rechten en het verkrijgen van gebruikslicenties, en de stappen die nodig zijn om de rechten op objecten correct te verwerven. Verken de praktische modelclausules en belangrijke aandachtspunten om juridische helderheid in uw collectiebeheer te waarborgen.&nbsp;</p><p><a href="/Model" target="_blank">Op deze pagina staan gedetailleerde modelclausules.</a></p>
+        <h2>Werken die niet in de handel zijn</h2>
+        <p>Regeljerechten.nl werpt licht op de EU-regeling die erfgoedinstellingen in staat stelt out-of-commerce (OOC) werken online te publiceren zonder dat toestemming van de rechthebbende nodig is. Door middel van een licentie van een collectieve beheersorganisaties (CBO's) of een uitzondering, en een EUIPO-registratie met wachttijd.</p><p><a href="/outofcommerce">Lees verder voor alle details over het toegankelijk maken van OOC-materiaal.</a></p>
         <div class="buttons">
           <router-link to="/" tag="button" class="btn">
             Terug naar de homepagina

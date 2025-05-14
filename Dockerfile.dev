@@ -1,0 +1,16 @@
+FROM node:lts-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+
+# Install Python, make, g++, pkgconf, pixman development files, Cairo development files, and Pango development files
+RUN apk add --no-cache python3 make g++ pkgconf pixman-dev cairo-dev pango-dev
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 8080
+
+CMD [ "npm", "run", "serve" ]

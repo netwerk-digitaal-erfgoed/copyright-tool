@@ -10,7 +10,8 @@ export default new Vuex.Store({
     allSelected: [],
     treeCopyright: [],
     result: null,
-    orphaned: null,
+    modelovereenkomst: null,
+    outofcommerce: null,
     cbo: null,
     note: null,
     theme: null,
@@ -79,8 +80,11 @@ export default new Vuex.Store({
       }
       state.result = result;
     },
-    setOrphanedText(state, result) {
-      state.orphaned = result;
+    setOutofcommerceText(state, result) {
+      state.outofcommerce = result;
+    },
+    setModelovereenkomstText(state, result) {
+      state.modelovereenkomst = result;
     },
     setCBOText(state, result) {
       state.cbo = result;
@@ -110,8 +114,11 @@ export default new Vuex.Store({
     setResult(context, result) {
       context.commit('setResultText', result);
     },
-    setOrphaned(context, result) {
-      context.commit('setOrphanedText', result);
+    setOutofcommerce(context, result) {
+      context.commit('setOutofcommerceText', result);
+    },
+    setModelovereenkomst(context, result) {
+      context.commit('setModelovereenkomstText', result);
     },
     setCBO(context, result) {
       context.commit('setCBOText', result);
