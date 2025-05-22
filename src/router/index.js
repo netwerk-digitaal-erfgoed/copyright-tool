@@ -5,6 +5,8 @@ import Step from '../views/Step.vue';
 import Result from '../views/Result.vue';
 import Colofon from '../views/Colofon.vue';
 import AboutCopyright from '../views/AboutCopyright.vue';
+import Licenties from '../views/Licenties.vue';
+import RechtszaakLeiden from '../views/RechtszaakLeiden.vue';
 import NotFound from '../views/NotFound.vue';
 
 import Outofcommerce from '../views/outofcommerce.vue';
@@ -48,6 +50,16 @@ const routes = [
     path: '/Model',
     name: 'Model',
     component: Model
+  },
+  {
+    path: '/Licenties',
+    name: 'Licenties',
+    component: Licenties
+  },
+  {
+    path: '/RechtszaakLeiden',
+    name: 'RechtszaakLeiden',
+    component: RechtszaakLeiden
   },
   {
     path: '/step/:step?',
