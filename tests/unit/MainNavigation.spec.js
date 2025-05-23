@@ -1,14 +1,21 @@
-import { expect } from 'chai';
-import { shallowMount } from '@vue/test-utils';
-import MainNavigation from '@/components/MainNavigation.vue';
+import { describe, it, expect } from 'vitest'
+import { shallowMount, RouterLinkStub } from '@vue/test-utils'
+import MainNavigation from '../../src/components/MainNavigation.vue'
 
 describe('MainNavigation.vue', () => {
-
   it('shows a navigation with two links', () => {
     const wrapper = shallowMount(MainNavigation, {
-      stubs: ['router-link']
-    });
+      global: {
+        stubs: {
+          RouterLink: RouterLinkStub
+        }
+      }
+    })
 
-    expect(wrapper.find('nav router-link-stub').text()).to.contain('Colofon');
-  });
-});
+    const links = wrapper.findAll('a')
+    const linkTexts = links.map(link => link.text())
+
+    expect(linkTexts[1]).toContain('Colofon')
+    expect(links.length).toBe(3)
+  })
+})

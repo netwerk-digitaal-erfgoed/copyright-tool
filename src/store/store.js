@@ -6,7 +6,7 @@ import axios from 'axios';
 export default createStore({
   state() {
     return {
-      baseUrl: process.env.BASE_URL,
+      baseUrl: import.meta.env.BASE_URL,
       allSelected: [],
       treeCopyright: [],
       result: null,

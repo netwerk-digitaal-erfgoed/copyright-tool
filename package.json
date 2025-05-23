@@ -3,37 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --watch",
-    "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint --fix",
-    "clean": "rimraf dist node_modules/.cache"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rimraf dist node_modules/.cache",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "@vue/compiler-sfc": "^3.3.4",
     "@vueuse/head": "^1.1.27",
     "axios": "^1.6.7",
     "canvas": "^3.1.0",
-    "core-js": "^3.34.1",
     "vue": "^3.3.4",
     "vue-gtag-next": "^1.14.0",
-    "vue-loader": "^15.11.1",
+    "vue-gtm": "^3.5.0",
     "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.22.15",
-    "@vue/cli-plugin-babel": "^5.0.8",
-    "@vue/cli-plugin-eslint": "^5.0.8",
-    "@vue/cli-plugin-router": "^5.0.8",
-    "@vue/cli-plugin-unit-mocha": "^5.0.8",
-    "@vue/cli-service": "^5.0.8",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vitest/ui": "^3.1.4",
     "@vue/test-utils": "^2.4.6",
     "chai": "^4.4.1",
     "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.20.0",
+    "jsdom": "^26.1.0",
     "rimraf": "^5.0.5",
     "sass": "^1.89.0",
-    "sass-loader": "^16.0.5"
+    "sass-loader": "^16.0.5",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
   }
 }
