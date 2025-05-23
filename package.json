@@ -11,13 +11,12 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
+    "@gtm-support/vue-gtm": "^3.1.0",
     "@vue/compiler-sfc": "^3.3.4",
     "@vueuse/head": "^1.1.27",
     "axios": "^1.6.7",
     "canvas": "^3.1.0",
     "vue": "^3.3.4",
-    "vue-gtag-next": "^1.14.0",
-    "vue-gtm": "^3.5.0",
     "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },

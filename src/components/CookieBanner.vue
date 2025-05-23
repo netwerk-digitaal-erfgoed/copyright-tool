@@ -28,8 +28,6 @@
 </template>
 
 <script>
-  //import { useGtag } from 'vue-gtag-next';
-
   export default {
     name: 'CookieBanner',
     data() {
@@ -45,7 +43,7 @@
       }
     },
     created() {
-      const cookie = document.cookie.split('; ').find(row => row.startsWith('DEN-regeljerechten='));
+      const cookie = document.cookie.split('; ').find(row => row.startsWith('NDE-regeljerechten='));
       if (cookie) {
         if (cookie.split('=')[1] === 'accepted') {
           this.acceptCookies(true);
@@ -58,19 +56,17 @@
     },
     methods: {
       declineCookies(cookieIsSet) {
-        //const gtag = useGtag();
-        //gtag.optOut();
+        this.$gtm.enable(true);
         this.showCookieBanner = false;
         if (!cookieIsSet) {
-          document.cookie = `DEN-regeljerechten=declined;${this.cookieExpirationDate}`;
+          document.cookie = `NDE-regeljerechten=declined;${this.cookieExpirationDate}`;
         }
       },
       acceptCookies(cookieIsSet) {
-        //const gtag = useGtag();
-        //gtag.optIn();
+        this.$gtm.enable(false);
         this.showCookieBanner = false;
         if (!cookieIsSet) {
-          document.cookie = `DEN-regeljerechten=accepted;${this.cookieExpirationDate}`;
+          document.cookie = `NDE-regeljerechten=accepted;${this.cookieExpirationDate}`;
         }
       }
     }
