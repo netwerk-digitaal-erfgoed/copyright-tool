@@ -1,24 +1,25 @@
-import Vuex from 'vuex';
-import Vue from 'vue';
+// store.js
+
+import { createStore } from 'vuex';
 import axios from 'axios';
 
-Vue.use(Vuex);
-
-export default new Vuex.Store({
-  state: {
-    baseUrl: process.env.BASE_URL,
-    allSelected: [],
-    treeCopyright: [],
-    result: null,
-    modelovereenkomst: null,
-    outofcommerce: null,
-    cbo: null,
-    note: null,
-    theme: null,
-    isMultiple: false,
-    multipleComponentNo: 0,
-    multipleComponents: [],
-    showNextSteps: false
+export default createStore({
+  state() {
+    return {
+      baseUrl: process.env.BASE_URL,
+      allSelected: [],
+      treeCopyright: [],
+      result: null,
+      modelovereenkomst: null,
+      outofcommerce: null,
+      cbo: null,
+      note: null,
+      theme: null,
+      isMultiple: false,
+      multipleComponentNo: 0,
+      multipleComponents: [],
+      showNextSteps: false
+    };
   },
 
   getters: {},
@@ -47,14 +48,9 @@ export default new Vuex.Store({
           state.allSelected[exists] = step;
         }
       }
-
-      // add steps to local storage for duration of this session
-      // sessionStorage.setItem('copyright-steps-all', JSON.stringify(state.allSelected));
-      // sessionStorage.setItem('copyright-steps-multiple', JSON.stringify(state.multipleComponents));
     },
     removeStep(state) {
       state.allSelected.splice(-1, 1);
-      // sessionStorage.setItem('copyright-steps-all', JSON.stringify(state.allSelected));
     },
     removeComponent(state) {
       state.multipleComponents.splice(-1, 1);
@@ -62,7 +58,6 @@ export default new Vuex.Store({
     },
     removeStepComponent(state) {
       state.multipleComponents[state.multipleComponents.length - 1].steps.splice(-1, 1);
-      // sessionStorage.setItem('copyright-steps-multiple', JSON.stringify(state.multipleComponents));
     },
     clearSelectedSteps(state) {
       state.result = null;
@@ -70,8 +65,6 @@ export default new Vuex.Store({
       state.multipleComponentNo = 0;
       state.multipleComponents = [];
       state.allSelected = [];
-      // sessionStorage.removeItem('copyright-steps-all');
-      // sessionStorage.removeItem('copyright-steps-multiple');
     },
     setResultText(state, result) {
       if (state.isMultiple && state.multipleComponentNo > 0) {
@@ -100,7 +93,7 @@ export default new Vuex.Store({
     },
     setNameMultipleMakersMultipleWorks(state, result) {
       state.multipleComponentNo++;
-      state.multipleComponents.push({ 'name': result, 'steps': [], 'result': null });
+      state.multipleComponents.push({ name: result, steps: [], result: null });
     },
     updateTree(state, data) {
       state.treeCopyright = data;
@@ -108,53 +101,53 @@ export default new Vuex.Store({
   },
 
   actions: {
-    updateSelectedSteps(context, step) {
-      context.commit('updateSelectedSteps', step);
+    updateSelectedSteps({ commit }, step) {
+      commit('updateSelectedSteps', step);
     },
-    setResult(context, result) {
-      context.commit('setResultText', result);
+    setResult({ commit }, result) {
+      commit('setResultText', result);
     },
-    setOutofcommerce(context, result) {
-      context.commit('setOutofcommerceText', result);
+    setOutofcommerce({ commit }, result) {
+      commit('setOutofcommerceText', result);
     },
-    setModelovereenkomst(context, result) {
-      context.commit('setModelovereenkomstText', result);
+    setModelovereenkomst({ commit }, result) {
+      commit('setModelovereenkomstText', result);
     },
-    setCBO(context, result) {
-      context.commit('setCBOText', result);
+    setCBO({ commit }, result) {
+      commit('setCBOText', result);
     },
-    setNote(context, result) {
-      context.commit('setNoteText', result);
+    setNote({ commit }, result) {
+      commit('setNoteText', result);
     },
-    setNextSteps(context, result) {
-      context.commit('showNextSteps', result);
+    setNextSteps({ commit }, result) {
+      commit('showNextSteps', result);
     },
-    removeStep(context) {
-      context.commit('removeStep');
+    removeStep({ commit }) {
+      commit('removeStep');
     },
-    removeComponent(context) {
-      context.commit('removeComponent');
+    removeComponent({ commit }) {
+      commit('removeComponent');
     },
-    removeStepComponent(context) {
-      context.commit('removeStepComponent');
+    removeStepComponent({ commit }) {
+      commit('removeStepComponent');
     },
-    clearSelectedSteps(context) {
-      context.commit('clearSelectedSteps');
+    clearSelectedSteps({ commit }) {
+      commit('clearSelectedSteps');
     },
-    setMultipleMakersMultipleWorks(context, result) {
-      context.commit('isMultipleMakersMultipleWorks', result);
+    setMultipleMakersMultipleWorks({ commit }, result) {
+      commit('isMultipleMakersMultipleWorks', result);
     },
-    setNameMultipleMakersMultipleWorks(context, result) {
+    setNameMultipleMakersMultipleWorks({ commit }, result) {
       if (result) {
-        context.commit('setNameMultipleMakersMultipleWorks', result);
+        commit('setNameMultipleMakersMultipleWorks', result);
       }
     },
-    getTree(context) {
-      if (Object.keys(context.state.treeCopyright).length !== 0) return;
+    getTree({ commit, state }) {
+      if (Object.keys(state.treeCopyright).length !== 0) return;
       return axios
-        .get(context.state.baseUrl + 'tree.json')
+        .get(state.baseUrl + 'tree.json')
         .then(response => {
-          context.commit('updateTree', response.data.tree);
+          commit('updateTree', response.data.tree);
         });
     }
   }

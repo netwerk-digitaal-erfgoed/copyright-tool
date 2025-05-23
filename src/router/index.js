@@ -1,5 +1,4 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 import Intro from '../views/Intro.vue';
 import Step from '../views/Step.vue';
 import Result from '../views/Result.vue';
@@ -10,8 +9,6 @@ import NotFound from '../views/NotFound.vue';
 import Outofcommerce from '../views/outofcommerce.vue';
 import Uitzonderingen from '../views/Uitzonderingen.vue';
 import Model from '../views/modelclausules.vue';
-
-Vue.use(VueRouter);
 
 const routes = [
   {
@@ -55,15 +52,14 @@ const routes = [
     component: Step
   },
   { // catch all 404 - define at the very end
-    path: '*',
+    path: '/:pathMatch(.*)*',
     name: 'notfound',
     component: NotFound
   }
 ];
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
+const router = createRouter({
+  history: createWebHistory(),
   routes
 });
 

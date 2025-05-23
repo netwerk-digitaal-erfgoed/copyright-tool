@@ -28,6 +28,8 @@
 </template>
 
 <script>
+  //import { useGtag } from 'vue-gtag-next';
+
   export default {
     name: 'CookieBanner',
     data() {
@@ -56,14 +58,16 @@
     },
     methods: {
       declineCookies(cookieIsSet) {
-        this.$gtag.optOut();
+        //const gtag = useGtag();
+        //gtag.optOut();
         this.showCookieBanner = false;
         if (!cookieIsSet) {
           document.cookie = `DEN-regeljerechten=declined;${this.cookieExpirationDate}`;
         }
       },
       acceptCookies(cookieIsSet) {
-        this.$gtag.optIn();
+        //const gtag = useGtag();
+        //gtag.optIn();
         this.showCookieBanner = false;
         if (!cookieIsSet) {
           document.cookie = `DEN-regeljerechten=accepted;${this.cookieExpirationDate}`;

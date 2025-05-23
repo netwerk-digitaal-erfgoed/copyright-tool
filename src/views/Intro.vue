@@ -31,6 +31,8 @@
 </template>
 
 <script>
+  import { useHead } from '@vueuse/head';
+
   export default {
     methods: {
       startTree() {
@@ -39,10 +41,10 @@
       }
     },
 
-    metaInfo() {
-      return {
+    created() {
+      useHead({
         title: 'Intro'
-      };
+      });
     }
   };
 </script>
