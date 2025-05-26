@@ -9,7 +9,7 @@
         <p>Het Netwerk Digitaal Erfgoed (NDE) kan niet aansprakelijk worden gesteld voor fouten, technische storingen, incidenten en problemen die het gevolg kunnen zijn van toegang en/of het gebruik van regeljerechten.nl en daaruit voortvloeiende schade.</p>
 
         <h2>Ontwikkeling</h2>
-        <p>Regeljerechten.nl is in 2020 ontwikkeld binnen het NDE, in samenwerking met juridisch deskundigen van de KB, nationale bibliotheek, Het Utrechts Archief, Erfgoed Leiden en Omstreken, Rijksdienst voor het Cultureel Erfgoed, Beeld & Geluid, Eye Filmmuseum en DEN Kennisinstituut cultuur & digitale transformatie. Sezen Kapan heeft meegewerkt als auteursrecht jurist en projectmedewerker. <a href="ip-squared.com">Maarten Zeinstra</a> heeft in 2025 de inhoud van het platform geüpdatet.</p>
+        <p>Regeljerechten.nl is in 2020 ontwikkeld binnen het NDE, in samenwerking met juridisch deskundigen van de KB, nationale bibliotheek, Het Utrechts Archief, Erfgoed Leiden en Omstreken, Rijksdienst voor het Cultureel Erfgoed, Beeld & Geluid, Eye Filmmuseum en DEN Kennisinstituut cultuur & digitale transformatie. Sezen Kapan heeft meegewerkt als auteursrecht jurist en projectmedewerker. <a href="https://ip-squared.com">Maarten Zeinstra</a> heeft in 2025 de inhoud van het platform geüpdatet.</p>
 
         <h2>Websites van derden</h2>
         <p>
