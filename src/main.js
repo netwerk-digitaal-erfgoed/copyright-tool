@@ -21,7 +21,7 @@ app.use(head);
 app.use(router);
 app.use(store);
 app.use(VueGtm, {
-  id: 'GTM-WRB5NT4',
+  id: 'GTM-K3HSV4KF',
   vueRouter: router,
   enabled: optIn && import.meta.env.MODE === 'production',
   debug: import.meta.env.MODE !== 'production'

@@ -56,13 +56,15 @@
     </div>
   </template>
 
-  <script>
+<script>
+  import { useHead } from '@vueuse/head';
+
   export default {
-    metaInfo() {
-      return {
-        title: 'Beheer en licenties'
-      };
+    created() {
+      useHead({
+        title: 'Beheer en Licenties'
+      });
     }
   };
-  </script>
+</script>
 

@@ -23,13 +23,15 @@
     </div>
   </template>
 
-  <script>
+<script>
+  import { useHead } from '@vueuse/head';
+
   export default {
-    metaInfo() {
-      return {
-        title: 'Wat zijn auteursrechten ook alweer?'
-      };
+    created() {
+      useHead({
+        title: 'Rechtszaak Leiden'
+      });
     }
   };
-  </script>
+</script>
 
