@@ -39,11 +39,13 @@
 </template>
 
 <script>
+  import { useHead } from '@vueuse/head';
+
   export default {
-    metaInfo() {
-      return {
+    created() {
+      useHead({
         title: 'Wat zijn auteursrechten ook alweer?'
-      };
+      });
     }
   };
 </script>

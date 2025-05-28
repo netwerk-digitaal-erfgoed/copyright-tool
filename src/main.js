@@ -1,16 +1,11 @@
-import Vue from 'vue';
+import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store/store';
-import VueGtag from 'vue-gtag';
-import VueMeta from 'vue-meta';
-//import 'normalize.css';
+import { createHead  } from '@vueuse/head';
+import VueGtm from '@gtm-support/vue-gtm'
 
-Vue.config.productionTip = false;
-
-Vue.use(VueMeta);
-
-const cookie = document.cookie.split('; ').find(row => row.startsWith('DEN-regeljerechten='));
+const cookie = document.cookie.split('; ').find(row => row.startsWith('NDE-regeljerechten='));
 let optIn = false;
 
 if (cookie) {
@@ -19,18 +14,17 @@ if (cookie) {
   }
 }
 
-Vue.use(VueGtag, {
-  config: { id: 'G-DWYJWT4BRD' },
-  // config: { id: process.env.VUE_APP_GOOGLE_ANALYTICS },
-  enabled: optIn
-}, router);
+const app = createApp(App);
 
-new Vue({
-  created() {
-    const html = document.documentElement;
-    html.setAttribute('lang', 'nl');
-  },
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app');
+const head = createHead();
+app.use(head);
+app.use(router);
+app.use(store);
+app.use(VueGtm, {
+  id: 'GTM-WRB5NT4',
+  vueRouter: router,
+  enabled: optIn && import.meta.env.MODE === 'production',
+  debug: import.meta.env.MODE !== 'production'
+});
+
+app.mount('#app');

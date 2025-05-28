@@ -34,11 +34,12 @@
   </template>
 
   <script>
+  import { useHead } from '@vueuse/head';
   export default {
-    metaInfo() {
-      return {
-        title: 'Outofcommerce'
-      };
+    created() {
+      useHead({
+        title: 'Out of Commerce'
+      });
     }
   };
   </script>

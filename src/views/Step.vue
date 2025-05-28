@@ -1,28 +1,18 @@
 <template>
-  <div
-    v-if="question"
-    class="container"
-  >
+  <div v-if="question" class="container">
     <div class="column-questions">
-      <StepsProgress
-        :current-theme="question.theme"
-      />
+      <StepsProgress :current-theme="question.theme" />
       <div>
         <p v-if="isMultiple && multipleComponentNo > 0 && !question.input">
           Je doorloopt het beslismodel voor: {{ multipleComponentNo }}
-          <span v-if="componentName">
-            {{ componentName.name }}
-          </span>
+          <span v-if="componentName">{{ componentName.name }}</span>
         </p>
         <StepQuestion
           :question="question.question"
           :description="question.description"
           :show-description="question.showDescription"
         />
-        <form
-          v-if="question.options || question.input"
-          @keydown.enter.prevent=""
-        >
+        <form v-if="question.options || question.input" @keydown.enter.prevent="">
           <fieldset v-if="question.options">
             <div class="steps">
               <StepOption
@@ -30,17 +20,13 @@
                 :key="index"
                 :question-key="questionKey"
                 :option="option"
-                @change="selectedOption"
+                v-model="selected"
               />
             </div>
           </fieldset>
           <fieldset v-if="question.input">
             <div class="steps">
-              <input
-                v-model="input"
-                type="text"
-                v-on:keyup.enter="nextStep"
-              />
+              <input v-model="input" type="text" @keyup.enter="nextStep" />
             </div>
           </fieldset>
           <div class="buttons">
@@ -54,7 +40,7 @@
             <button
               type="button"
               @click="nextStep"
-              :disabled="!selected.key && !input"
+              :disabled="!selected && !input"
               class="btn"
             >
               Ga verder
@@ -71,6 +57,7 @@
   import StepsProgress from '../components/StepsProgress.vue';
   import StepQuestion from '../components/StepQuestion.vue';
   import { mapState } from 'vuex';
+  import { useHead } from '@vueuse/head';
 
   export default {
     components: {
@@ -83,7 +70,7 @@
       return {
         questionKey: 'publicationdate',
         input: null,
-        selected: Object,
+        selected: null, // string, key van optie
         allSelected: [],
         open: false
       };
@@ -91,11 +78,15 @@
 
     computed: {
       question() {
-        if (!this.treeCopyright) return;
+        if (!this.treeCopyright) return null;
         return this.treeCopyright[this.questionKey];
       },
       componentName() {
         return this.multipleComponents[this.multipleComponentNo - 1];
+      },
+      selectedOptionObject() {
+        // Zoek het volledige optie-object op basis van geselecteerde key
+        return this.question?.options?.find((opt) => opt.key === this.selected) || null;
       },
       ...mapState(['treeCopyright', 'isMultiple', 'multipleComponentNo', 'multipleComponents'])
     },
@@ -116,12 +107,15 @@
       }
 
       this.$store.dispatch('getTree');
+
+      useHead({
+        title: 'Stap'
+      });
     },
 
     methods: {
       prevStep() {
         if (this.isMultiple) {
-          // verwijder component uit multiplecomponents array
           if (this.questionKey === 'maker') {
             this.$store.dispatch('removeComponent');
           } else if (this.questionKey === 'makerIsMoreMultipleWork') {
@@ -136,54 +130,64 @@
             this.$store.dispatch('removeStep');
           }
         }
-        this.$router.go(-1);
+
+        // Stap keys array, bijvoorbeeld
+        const stepsOrder = Object.keys(this.treeCopyright);
+
+        // Vind index huidige stap
+        const currentIndex = stepsOrder.indexOf(this.questionKey);
+
+        // Bepaal vorige index (minimaal 0)
+        const prevIndex = currentIndex > 0 ? currentIndex - 1 : 0;
+
+        // Haal vorige step key
+        const prevStepKey = stepsOrder[prevIndex];
+
+        // Navigeer naar die stap
+        this.$router.push({ path: `/step/${prevStepKey}` }).then(() => {
+          window.scrollTo(0, 0);
+        });
       },
+
       nextStep() {
-        // show result page when final step in tree
-        if (this.selected.result) {
-          // add selected before showing result
+        if (!this.selectedOptionObject && !this.input) {
+          return; // Niets geselecteerd en geen input, stop
+        }
+
+        // Gebruik het geselecteerde optie-object
+        const selected = this.selectedOptionObject;
+
+        if (selected && selected.result) {
           this.$store.dispatch('updateSelectedSteps', {
             question: this.questionKey,
-            selected: this.selected.key
+            selected: selected.key
           });
 
-          this.$store.dispatch('setResult', this.selected.result);
-          this.$store.dispatch('setModelovereenkomst', this.selected.modelovereenkomst);
-          this.$store.dispatch('setOutofcommerce', this.selected.outofcommerce);
-          this.$store.dispatch('setCBO', this.selected.cbo);
-          this.$store.dispatch('setNote', this.selected.note);
+          this.$store.dispatch('setResult', selected.result);
+          this.$store.dispatch('setModelovereenkomst', selected.modelovereenkomst);
+          this.$store.dispatch('setOutofcommerce', selected.outofcommerce);
+          this.$store.dispatch('setCBO', selected.cbo);
+          this.$store.dispatch('setNote', selected.note);
 
-          this.$store.dispatch('setNextSteps', this.selected.showNextSteps);
+          this.$store.dispatch('setNextSteps', selected.showNextSteps);
           return this.$router.push({ path: '/result' }).then(() => window.scrollTo(0, 0));
         }
 
-        // else set variable in case of mulitple makers and multiple components
-        if (this.selected.key === 'moreMultipleWorks') {
+        if (selected?.key === 'moreMultipleWorks') {
           this.$store.dispatch('setMultipleMakersMultipleWorks', true);
         }
 
-        // if input field, store value after adding a name for a specific component
         if (this.input) {
           this.selected = this.question.input;
           this.$store.dispatch('setNameMultipleMakersMultipleWorks', this.input);
         }
 
-        // update selected steps and proceed to the next step
         this.$store.dispatch('updateSelectedSteps', {
           question: this.questionKey,
-          selected: this.selected.key
+          selected: selected ? selected.key : null
         });
-        return this.$router.push({ path: `/step/${this.selected.next}` }).then(() => window.scrollTo(0, 0));
-      },
-      selectedOption(newValue) {
-        this.selected = newValue;
+        return this.$router.push({ path: `/step/${selected?.next || ''}` }).then(() => window.scrollTo(0, 0));
       }
-    },
-
-    metaInfo() {
-      return {
-        title: 'Stap'
-      };
     }
   };
 </script>

@@ -213,6 +213,7 @@
 <script>
   import { mapState } from 'vuex';
   import StepsProgress from '../components/StepsProgress.vue';
+  import { useHead } from '@vueuse/head';
 
   export default {
     components: {
@@ -286,9 +287,9 @@
     },
 
     created() {
-      //if (!this.result) {
-      //  return this.$router.push({ path: '/step' }).then(() => window.scrollTo(0, 0));
-      //}
+      useHead({
+        title: 'Advies'
+      });
     },
 
     methods: {
@@ -318,12 +319,6 @@
       printResult() {
         window.print();
       }
-    },
-
-    metaInfo() {
-      return {
-        title: 'Advies'
-      };
     }
   };
 </script>

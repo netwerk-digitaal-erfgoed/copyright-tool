@@ -151,11 +151,13 @@
   </template>
 
   <script>
+  import { useHead } from '@vueuse/head';
+
   export default {
-    metaInfo() {
-      return {
-        title: 'model'
-      };
+    created() {
+      useHead({
+        title: 'Modelclausules'
+      });
     }
   };
   </script>

@@ -4,8 +4,11 @@ module.exports = {
     node: true
   },
   extends: ['plugin:vue/essential', 'eslint:recommended'],
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser',
+    ecmaVersion: 2020,
+    sourceType: 'module'
   },
   rules: {
     'arrow-spacing': 'error',
@@ -20,8 +23,8 @@ module.exports = {
     indent: ['error', 2, { SwitchCase: 1 }],
     'keyword-spacing': ['error', { before: true, after: true }],
     'linebreak-style': ['error', 'unix'],
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': import.meta.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': import.meta.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-trailing-spaces': 'error',
     'no-var': 'error',
     'no-whitespace-before-property': 'error',
@@ -34,6 +37,7 @@ module.exports = {
     'space-before-blocks': ['error', 'always'],
     'space-before-function-paren': ['error', 'never'],
     'space-in-parens': ['error', 'never'],
+    'vue/multi-word-component-names': 'off',
     'vue/script-indent': ['error', 2, { baseIndent: 1 }]
   },
   overrides: [
