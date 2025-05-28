@@ -230,7 +230,7 @@
         faqItems: [
           {
             title: 'Hoe maak ik afspraken met rechthebbenden of Collectieve Beheerorganisaties?',
-            value: '<a href="https://www.den.nl/aan-de-slag/hoe-regel-je-de-rechten/beheer-en-licenties" target="_blank">Beheer en licenties</a> <span class="print-only">https://www.den.nl/aan-de-slag/hoe-regel-je-de-rechten/beheer-en-licenties</span>'
+            value: '<a href="https://www.regeljerechten.nl/Licenties" target="_blank">Beheer en licenties</a> <span class="print-only">https://www.regeljerechten.nl/Licenties</span>'
           },
           {
             title: 'Hoe kan ik het materiaal zelf online publiceren? Welke licenties kan ik gebruiken als ik mijn materiaal online wil publiceren?',
@@ -255,14 +255,14 @@
             <p>Als je meer wilt weten over dit onderwerp, dan kan je de volgende bronnen raadplegen.</p>
             <ul>
               <li>
-                <a href="https://openaccess.leidenuniv.nl/bitstream/handle/1887/19552/JuridischeWegwijzer%20Archieven%20Musea%20online%202006.pdf?sequence=2" target="_blank">
+                <a href="https://scholarlypublications.universiteitleiden.nl/access/item%3A2866293/view" target="_blank">
                 Juridische wegwijzer door Annemarie Beunen
-                </a> <span class="print-only">https://openaccess.leidenuniv.nl/bitstream/handle/1887/19552/JuridischeWegwijzer%20Archieven%20Musea%20online%202006.pdf?sequence=2</span>
+                </a> <span class="print-only">https://scholarlypublications.universiteitleiden.nl/access/item%3A2866293/view</span>
               </li>
               <li>
-                <a href="https://netwerkdigitaalerfgoed.nl/activiteiten/klantinzicht/" target="_blank">
+                <a href="https://zenodo.org/records/14938780" target="_blank">
                   NDE: Klantinzicht
-                </a> <span class="print-only">https://netwerkdigitaalerfgoed.nl/activiteiten/klantinzicht//</span>
+                </a> <span class="print-only">https://zenodo.org/records/14938780</span>
               </li>
               <li>
                 <a href="https://www.cultureelerfgoed.nl/onderwerpen/bruiklenen/auteursrecht" target="_blank">
@@ -270,14 +270,14 @@
                 </a> <span class="print-only">https://www.cultureelerfgoed.nl/onderwerpen/bruiklenen/auteursrecht</span>
               </li>
               <li>
-                <a href="https://www.den.nl/themas/rechten-juridisch" target="_blank">
-                   DEN: thema Rechten & Juridisch
-                </a> <span class="print-only">https://www.den.nl/themas/rechten-juridisch</span>
+                <a href="https://www.den.nl/auteursrechten" target="_blank">
+                   DEN: thema auteursrechten
+                </a> <span class="print-only">https://www.den.nl/auteursrechten</span>
               </li>
               <li>
-                <a href="https://rightsstatements.org/en/" target="_blank">
+                <a href="https://rightsstatements.org/nl/" target="_blank">
                    RightsStatements
-                </a> <span class="print-only">https://rightsstatements.org/en/</span>
+                </a> <span class="print-only">https://rightsstatements.org/nl/</span>
               </li>
             </ul>
             `
