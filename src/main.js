@@ -3,7 +3,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store/store';
 import { createHead  } from '@vueuse/head';
-import VueGtm from '@gtm-support/vue-gtm'
+import { createGtag } from "vue-gtag";
 
 const cookie = document.cookie.split('; ').find(row => row.startsWith('NDE-regeljerechten='));
 let optIn = false;
@@ -20,11 +20,12 @@ const head = createHead();
 app.use(head);
 app.use(router);
 app.use(store);
-app.use(VueGtm, {
-  id: 'GTM-K3HSV4KF',
-  vueRouter: router,
-  enabled: optIn && import.meta.env.MODE === 'production',
-  debug: import.meta.env.MODE !== 'production'
-});
 
+app.use(createGtag({
+  tagId: "G-9H0PBVNK9H",
+  pageTracker: {
+    router
+  }
+}));
+  
 app.mount('#app');

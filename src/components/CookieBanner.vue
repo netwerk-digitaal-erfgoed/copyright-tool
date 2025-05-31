@@ -28,6 +28,8 @@
 </template>
 
 <script>
+  import { consentGrantedAll, consentDeniedAll } from 'vue-gtag';
+
   export default {
     name: 'CookieBanner',
     data() {
@@ -56,14 +58,14 @@
     },
     methods: {
       declineCookies(cookieIsSet) {
-        this.$gtm.enable(true);
+        consentDeniedAll('update')
         this.showCookieBanner = false;
         if (!cookieIsSet) {
           document.cookie = `NDE-regeljerechten=declined;${this.cookieExpirationDate}`;
         }
       },
       acceptCookies(cookieIsSet) {
-        this.$gtm.enable(false);
+        consentGrantedAll('update');
         this.showCookieBanner = false;
         if (!cookieIsSet) {
           document.cookie = `NDE-regeljerechten=accepted;${this.cookieExpirationDate}`;
