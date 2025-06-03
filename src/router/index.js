@@ -6,6 +6,7 @@ import Colofon from '../views/Colofon.vue';
 import AboutCopyright from '../views/AboutCopyright.vue';
 import Licenties from '../views/Licenties.vue';
 import RechtszaakLeiden from '../views/RechtszaakLeiden.vue';
+import Handleiding from '../views/Handleiding.vue';
 import NotFound from '../views/NotFound.vue';
 
 import Outofcommerce from '../views/outofcommerce.vue';
@@ -57,6 +58,11 @@ const routes = [
     path: '/RechtszaakLeiden',
     name: 'RechtszaakLeiden',
     component: RechtszaakLeiden
+  },
+  {
+    path: '/handleiding',
+    name: 'Handleiding',
+    component: Handleiding
   },
   {
     path: '/step/:step?',
