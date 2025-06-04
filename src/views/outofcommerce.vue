@@ -38,7 +38,7 @@
   export default {
     created() {
       useHead({
-        title: 'Out of Commerce'
+        title: 'Out-of-Commerce'
       });
     }
   };
