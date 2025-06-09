@@ -15,11 +15,13 @@
         </div>-->
 
         <h1>Introductie</h1>
-        <p>Erfgoedcollecties zijn vaak omvangrijk en divers. Het is niet altijd duidelijk of een werk nog auteursrechtelijk beschermd is en bij wie de auteursrechten liggen. Dat moet je wel weten als je een collectie bijvoorbeeld online wil zetten, omdat je daarover afspraken met de rechthebbenden moet maken. Dit beslismodel helpt je de juiste stappen te nemen om de rechten situatie van een bepaald collectie onderdeel vast te stellen. Welke keuzes je vervolgens maakt kan per instelling verschillen.</p>
+        <p>Erfgoedcollecties zijn vaak omvangrijk en divers. Het is niet altijd meteen duidelijk of een werk nog auteursrechtelijk beschermd is. Of  bij wie de auteursrechten liggen. Toch moet je dat weten als je een collectie bijvoorbeeld online wilt zetten - je moet dan afspraken maken met de rechthebbenden.</p>
+        
+        <p>Met het beslismodel Regeljerechten.nl, ontwikkeld binnen het Netwerk Digitaal Erfgoed, bepaal je stap voor stap de rechtenstatus van een specifiek werk in de collectie. Welke keuzes je vervolgens maakt, kan per instelling verschillen.</p>
 
-        <p>Om de vragen in dit beslismodel te kunnen beantwoorden, is informatie over het werk nodig. Soms kun je met minimale informatie al snel de auteursrechtstatus vaststellen van het werk: is het nog beschermd of niet? Bij complexere situaties is het nodig om eerst verder onderzoek te doen om de vragen in dit beslismodel te kunnen beantwoorden.</p>
+        <p>Om de vragen in dit beslismodel te beantwoorden, heb je informatie over het werk nodig. Soms is een klein beetje informatie al genoeg om de auteursrechtelijke status te bepalen van een werk. In andere gevallen is eerst meer onderzoek nodig. Pas daarna kun je de vragen in dit beslismodel goed beantwoorden.</p>
 
-        <p><a href="./assets/handleiding-beslismodel-auteursrechten.pdf" target="_blank">Hier vind je een handleiding voor gebruik van het beslismodel</a>, en als je wilt weten <router-link to="/copyright">wat auteursrecht ook alweer is dan vind je dat hier.</router-link></p>
+        <p><a href="./handleiding" target="_blank">Hier vind je een handleiding voor gebruik van het beslismodel</a>, en als je wilt weten <router-link to="/copyright">wat auteursrecht ook alweer is dan vind je dat hier.</router-link></p>
         <br><br>
 
         <div class="buttons">
