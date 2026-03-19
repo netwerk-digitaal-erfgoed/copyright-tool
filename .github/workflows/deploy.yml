@@ -8,5 +8,4 @@ on:
 jobs:
   deploy:
     uses: netwerk-digitaal-erfgoed/workflows/.github/workflows/deploy.yml@main
-    secrets:
-      CONTAINER_REGISTRY_TOKEN: ${{ secrets.CONTAINER_REGISTRY_TOKEN }}
+    secrets: inherit
