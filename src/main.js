@@ -3,7 +3,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store/store';
 import { createHead  } from '@vueuse/head';
-import { createGtag } from "vue-gtag";
+import VueMatomo from 'vue-matomo'
 
 const cookie = document.cookie.split('; ').find(row => row.startsWith('NDE-regeljerechten='));
 let optIn = false;
@@ -21,11 +21,11 @@ app.use(head);
 app.use(router);
 app.use(store);
 
-app.use(createGtag({
-  tagId: "G-9H0PBVNK9H",
-  pageTracker: {
-    router
-  }
-}));
+app.use(VueMatomo, {
+  host: '//matomo.netwerkdigitaalerfgoed.nl/',
+  siteId: 5,
+  trackerUrl: '//matomo.netwerkdigitaalerfgoed.nl/matomo.php'
+});
   
 app.mount('#app');
+window._paq.push(['trackPageView']);
