@@ -25,6 +25,7 @@
         <br><br>
 
         <div class="buttons">
+          <a href="https://publiekdomeindag.nl/" class="btn">Kijk ook eens op Publiek Domeindag</a>
           <button @click="startTree" class="btn">Start het beslismodel</button>
         </div>
       </div>
