@@ -16,6 +16,7 @@ describe('MainNavigation.vue', () => {
     const linkTexts = links.map(link => link.text())
 
     expect(linkTexts[1]).toContain('Colofon')
-    expect(links.length).toBe(3)
+    expect(linkTexts[2]).toContain('Privacy')
+    expect(links.length).toBe(4)
   })
 })
