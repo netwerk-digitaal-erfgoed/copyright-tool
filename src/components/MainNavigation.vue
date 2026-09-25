@@ -3,6 +3,7 @@
     <div>
       <a href="/handleiding" target="_blank">Handleiding</a>
       <router-link to="/colofon" @click.native="scrollToTop">Colofon &amp; disclaimer</router-link>
+      <router-link to="/privacy" @click.native="scrollToTop">Privacyverklaring</router-link>
     </div>
     <a href="https://www.netwerkdigitaalerfgoed.nl/" target="_blank">
       <img src="../design/NDE-logo.png" alt="Netwerk Digitaal Erfgoed" width="62" height="35" style="background: #fff; padding: 3px; margin-right: 0.5rem;"/>

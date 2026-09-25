@@ -14,12 +14,7 @@
         <h2>Websites van derden</h2>
         <p>
           De websites van derden waarnaar op deze website hyperlinks zijn opgenomen, worden niet door het NDE gecontroleerd, gemaakt of onderhouden. Het NDE aanvaardt dan ook geen aansprakelijkheid voor de inhoud van die websites. Mocht een hyperlink niet meer werken, geef dit dan door via <a href="mailto:info@netwerkdigitaalerfgoed.nl">info@netwerkdigitaalerfgoed.nl</a>.
-        </p>
-
-        <h2>Persoonlijke gegevens</h2>
-        <p>
-          Regeljerechten.nl gebruikt cookies, maar deze bevatten alleen sessiegegevens, bijvoorbeeld hoe lang je een pagina bekijkt, geen persoonsgegevens.
-        </p>
+        </p>     
 
         <h2>Auteursrechten</h2>
         <p>

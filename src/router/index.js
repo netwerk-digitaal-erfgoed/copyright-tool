@@ -3,6 +3,7 @@ import Intro from '../views/Intro.vue';
 import Step from '../views/Step.vue';
 import Result from '../views/Result.vue';
 import Colofon from '../views/Colofon.vue';
+import Privacy from '../views/Privacy.vue';
 import AboutCopyright from '../views/AboutCopyright.vue';
 import Licenties from '../views/Licenties.vue';
 import RechtszaakLeiden from '../views/RechtszaakLeiden.vue';
@@ -23,6 +24,11 @@ const routes = [
     path: '/colofon',
     name: 'colofon',
     component: Colofon
+  },
+  {
+    path: '/privacy',
+    name: 'privacy',
+    component: Privacy
   },
   {
     path: '/copyright',
